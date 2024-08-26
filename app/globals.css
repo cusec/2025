@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+}
+
+/* FONTS */
+
+@font-face {
+  font-family: 'Bluescreens';
+  src: url('/fonts/TT-Bluescreens-Trial-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bluescreens';
+  src: url('/fonts/TT-Bluescreens-Trial-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('/fonts/RobotoCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
