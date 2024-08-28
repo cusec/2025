@@ -3,7 +3,30 @@
 @tailwind utilities;
 
 :root {
+  --gradient-color: linear-gradient(
+    -150deg,
+    #FF93D7 2.9%,
+    #EDB6E3 17.67%,
+    #CBF7F8 38.84%,
+    #DDFFFC 53.56%, 
+    rgba(203, 247, 248, 0.9875) 64.29%,
+    rgba(200, 195, 255, 0.975) 80.48%,
+    #6C6BD1 103.23%);
+  --purple: #6C6BD1;
+  --light-purple: #C8C3FF;
+}
 
+.mainGradientBackground {
+  z-index: 0;
+  background: var(--gradient-color);
+  mix-blend-mode: normal;
+}
+
+.navbarGradientBackground {
+  background: var(--gradient-color);
+  mix-blend-mode: hard-light;
+  opacity: 0.8;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 /* FONTS */
@@ -27,4 +50,64 @@
   src: url('/fonts/RobotoCondensed.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+
+.logo-font-1 {
+  font-family: "Bluescreens";
+  color: var(--purple);
+  text-shadow: 1.71963px 2.57944px 0px rgba(73, 72, 130, 0.4);
+
+}
+
+.logo-font-2 {
+  font-family: "Bluescreens";
+  color: var(--light-purple);
+  text-shadow: 1.71963px 2.57944px 0px rgba(73, 72, 130, 0.4);
+
+}
+
+.text-font {
+  font-family: "Roboto Condensed";
+}
+
+/* bobbing */
+@keyframes bobbing {
+  0%,
+  100% {
+    transform: translateY(-3px);
+  }
+  50% {transform: translateY(3px);}
+}
+
+.bobbing-animation {
+  animation: bobbing 3.5s ease-in-out infinite;
+}
+
+/* bouncing */
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(10px);
+  }
+  50% {
+      transform: translateY(6px);
+  }
+}
+
+.bouncing-animation {
+  animation: bounce 1s ease-in-out infinite;
+  box-shadow: 1px 2px 0px rgba(73, 72, 130, 0.4);
+}
+
+/* Animation delays */
+
+.delay-1 {
+  animation-delay: 0.2s;
+}
+
+.delay-2 {
+  animation-delay: 0.4s;
+}
+
+.opacity-delay {
+  transition: opacity 2s ease-in-out;
 }
