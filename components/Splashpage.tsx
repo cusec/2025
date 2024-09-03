@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect } from "react";
 
+// this determines the transition logic for all animations
 const transitionConfig = (delay = 0) => ({
   type: "spring",
   stiffness: 50,
@@ -11,6 +12,7 @@ const transitionConfig = (delay = 0) => ({
   delay: delay,
 });
 
+// this determines the fade animations of content
 const fadeConfig = (
   initialX = 0,
   initialY = 0,
@@ -30,6 +32,7 @@ const fadeConfig = (
 });
 
 export default function Splashpage({ onComplete }: { onComplete: () => void }) {
+  //removes splashpage loading from DOM after animation sequence
   useEffect(() => {
     const timer = setTimeout(() => {
       onComplete();
@@ -37,6 +40,7 @@ export default function Splashpage({ onComplete }: { onComplete: () => void }) {
 
     return () => clearTimeout(timer);
   }, [onComplete]);
+
   return (
     <AnimatePresence>
       <motion.main
@@ -74,10 +78,10 @@ export default function Splashpage({ onComplete }: { onComplete: () => void }) {
               animate={{ x: "50vw", opacity: 0 }}
               transition={transitionConfig(1)}
             >
-              <h2 className="logo-font-1 font-bold text-[13vw] md:text-[100px] bobbing-animation leading-[80%]">
+              <h2 className="purple-text font-bold text-[13vw] md:text-[100px] bobbing-animation leading-[80%]">
                 CUSEC
               </h2>
-              <h2 className="logo-font-2 font-bold text-[13vw] md:text-[100px] bobbing-animation leading-[80%]">
+              <h2 className="light-purple-text font-bold text-[13vw] md:text-[100px] bobbing-animation leading-[80%]">
                 2025
               </h2>
             </motion.div>

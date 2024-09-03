@@ -52,14 +52,14 @@
   font-style: normal;
 }
 
-.logo-font-1 {
+.purple-text {
   font-family: "Bluescreens";
   color: var(--purple);
-  text-shadow: 1.71963px 2.57944px 0px rgba(73, 72, 130, 0.4);
+  text-shadow: 1.7px 2.5px 0px rgba(73, 72, 130, 0.4);
 
 }
 
-.logo-font-2 {
+.light-purple-text {
   font-family: "Bluescreens";
   color: var(--light-purple);
   text-shadow: 1.71963px 2.57944px 0px rgba(73, 72, 130, 0.4);
@@ -68,6 +68,15 @@
 
 .text-font {
   font-family: "Roboto Condensed";
+  font-weight: bold;
+  color: var(--purple);
+}
+
+.text-shadow {
+  font-family: "Bluescreens";
+  color: var(--purple);
+  text-shadow: 1px 2px 0px rgba(73, 72, 130, 0.4);
+
 }
 
 /* bobbing */
@@ -110,4 +119,10 @@
 
 .opacity-delay {
   transition: opacity 2s ease-in-out;
+}
+
+/* Buttons */
+.main-button {
+  box-shadow: 1.5px 2.5px 0px rgba(73, 72, 130, 0.4);
+  border-radius: 10px;
 }
