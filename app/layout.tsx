@@ -7,6 +7,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logo.svg" />
+      </head>
       <body className="overflow-hidden">{children}</body>
     </html>
   );
