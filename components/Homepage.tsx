@@ -52,18 +52,18 @@ export default function Homepage() {
   return (
     <>
       <motion.div
-        className="flex flex-col items-center w-4/5 z-10 mt-[-150px]"
+        className="flex flex-col items-center w-4/5 sm:w-[500px] z-10 mt-[-150px]"
         variants={parentVariants}
       >
         <motion.div
-          className="flex justify-center mb-[80px]"
+          className="flex justify-center mb-[80px] w-full"
           transition={transitionConfig()}
           variants={childVariants}
           initial="hidden"
           animate="visible"
         >
           <Image
-            className=" w-[90%] max-w-[325px]"
+            className=" w-[90%] max-w-[450px]"
             src="/images/logo-text-main.svg"
             alt="2025 logo"
             width={1080}
@@ -72,6 +72,7 @@ export default function Homepage() {
         </motion.div>
 
         <motion.div
+          className="flex flex-wrap	justify-center"
           id="text"
           transition={transitionConfig(0)}
           variants={parentVariants}
@@ -101,7 +102,7 @@ export default function Homepage() {
             variants={childVariants}
           >
             <motion.button
-              className="w-[225px] h-[44px] bg-[#FEFEFE] text-font main-button"
+              className="w-[225px] h-[44px] bg-[#FEFEFE] text-font main-button transition-all duration-300 ease-in-out hover:bg-[#f8f9fa]"
               variants={childVariants}
             >
               BUY TICKETS
