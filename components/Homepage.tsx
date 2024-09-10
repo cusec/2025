@@ -109,8 +109,9 @@ export default function Homepage() {
             variants={childVariants}
           >
             <motion.button
-              className="w-[225px] h-[44px] bg-[#FEFEFE] text-font main-button transition-all duration-300 ease-in-out hover:bg-[#f8f9fa]"
+              className="w-[225px] h-[44px] bg-[#FEFEFE] text-font main-button "
               variants={childVariants}
+              whileHover={{ backgroundColor: "#f8f9fa" }}
             >
               BUY TICKETS
             </motion.button>
