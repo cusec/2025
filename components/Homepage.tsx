@@ -2,6 +2,7 @@
 
 import { motion, Variants } from "framer-motion";
 import Image from "next/image";
+import React, { useState, useEffect } from "react";
 
 const transitionConfig = (delay = 0) => ({
   type: "spring",
@@ -72,7 +73,7 @@ export default function Homepage() {
         </motion.div>
 
         <motion.div
-          className="flex flex-wrap	justify-center"
+          className="flex flex-col justify-center"
           id="text"
           transition={transitionConfig(0)}
           variants={parentVariants}
@@ -80,16 +81,22 @@ export default function Homepage() {
           animate="visible"
         >
           <motion.h2
-            className="text-center text-[14px] text-font"
+            className="text-center sm:hidden text-[14px] text-font"
             variants={childVariants}
           >
             CANADIAN UNIVERSITY
           </motion.h2>
           <motion.h2
-            className="text-center text-[14px] text-font"
+            className="text-center sm:hidden text-[14px] text-font"
             variants={childVariants}
           >
             SOFTWARE ENGINEERING CONFERENCE
+          </motion.h2>
+          <motion.h2
+            className="hidden sm:block text-center text-[14px] text-font"
+            variants={childVariants}
+          >
+            CANADIAN UNIVERSITY SOFTWARE ENGINEERING CONFERENCE
           </motion.h2>
           <motion.h1
             className="text-shadow text-center text-[40px] font-bold"
