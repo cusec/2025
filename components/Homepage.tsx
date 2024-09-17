@@ -57,18 +57,19 @@ export default function Homepage() {
         variants={parentVariants}
       >
         <motion.div
-          className="flex justify-center mb-[80px] w-full"
+          className="flex justify-center mb-[80px] w-full max-w-[450px]"
           transition={transitionConfig()}
           variants={childVariants}
           initial="hidden"
           animate="visible"
         >
           <Image
-            className=" w-[90%] max-w-[450px]"
-            src="/images/logo-text-main.svg"
+            // className=" w-[90%] max-w-[450px]"
+            src="/images/logo-text-test.svg"
             alt="2025 logo"
             width={1080}
             height={1080}
+            style={{ imageRendering: "auto" }}
           />
         </motion.div>
 
