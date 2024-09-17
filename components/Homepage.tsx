@@ -64,12 +64,11 @@ export default function Homepage() {
           animate="visible"
         >
           <Image
-            // className=" w-[90%] max-w-[450px]"
-            src="/images/logo-text-test.svg"
+            className=" w-[90%] max-w-[450px]"
+            src="/images/logo-text-main.svg"
             alt="2025 logo"
             width={1080}
             height={1080}
-            style={{ imageRendering: "auto" }}
           />
         </motion.div>
 

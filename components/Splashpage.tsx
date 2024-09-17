@@ -59,7 +59,7 @@ export default function Splashpage({ onComplete }: { onComplete: () => void }) {
             >
               <Image
                 className="bobbing-animation w-[30vw] h-[30vw] max-w-[250px] max-h-[250px]"
-                src="/images/logo.svg"
+                src="/images/logo-main.svg"
                 alt="2025 logo main"
                 width={1080}
                 height={1080}
