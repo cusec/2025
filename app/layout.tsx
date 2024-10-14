@@ -1,4 +1,5 @@
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 export default function RootLayout({
   children,
@@ -10,7 +11,10 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/logo.svg" />
       </head>
-      <body className="overflow-hidden">{children}</body>
+      <body className="overflow-hidden">
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

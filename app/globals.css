@@ -2,20 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ----------variables---------- */
 :root {
   --gradient-color: linear-gradient(
-    -150deg,
-    #FF93D7 2.9%,
-    #EDB6E3 17.67%,
-    #CBF7F8 38.84%,
-    #DDFFFC 53.56%, 
-    rgba(203, 247, 248, 0.9875) 64.29%,
-    rgba(200, 195, 255, 0.975) 80.48%,
-    #6C6BD1 103.23%);
+    -162deg,
+  #EDB6E3 -16.45%, 
+  #CBF7F8 45.97%, 
+  rgba(200, 195, 255, 0.975) 96.73%, 
+  #6C6BD1 128.35%
+  );
   --purple: #6C6BD1;
   --light-purple: #C8C3FF;
+  --dark-blue: #494882;
+
+  --button-gradient-color: linear-gradient(
+    270deg,
+    #B8EEF4 0%,
+    #C8C3FF 100%
+  );
 }
 
+/* ----------background gradients---------- */
 .mainGradientBackground {
   z-index: 0;
   background: var(--gradient-color);
@@ -29,7 +36,14 @@
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-/* FONTS */
+/* purple -> blue gradients, for buttons like tickets, hamburger/ etc.. */
+.buttonGradient {
+  background: var(--button-gradient-color);
+  /* box-shadow: 0px 4.63636px 4.63636px 11.5909px rgba(255, 255, 255, 0.25), 0px 0px 4.63636px 4.63636px #FFFFFF;
+  border-radius: 12.7412px; */
+}
+
+/* ----------FONTS---------- */
 
 @font-face {
   font-family: 'Bluescreens';
@@ -52,24 +66,28 @@
   font-style: normal;
 }
 
-.purple-text {
+
+/* ----------text styles---------- */
+/* purple-text & light-purple-text are headers texts (h3) */
+.purpleText {
   font-family: "Bluescreens";
   color: var(--purple);
-  text-shadow: 1.7px 2.5px 0px rgba(73, 72, 130, 0.4);
+  text-shadow: 1.5px 1.5px 0px rgba(73, 72, 130, 0.4);
 
 }
 
-.light-purple-text {
+.lightPurpleText {
   font-family: "Bluescreens";
   color: var(--light-purple);
-  text-shadow: 1.71963px 2.57944px 0px rgba(73, 72, 130, 0.4);
+  text-shadow: 1.5px 1.5px 0px rgba(73, 72, 130, 0.4);
 
 }
 
-.text-font {
+/* any <p> text that is dark blue (like in header) */
+.textFont {
   font-family: "Roboto Condensed";
   font-weight: bold;
-  color: var(--purple);
+  color: var(--dark-blue);
 }
 
 .text-shadow {
@@ -79,7 +97,7 @@
 
 }
 
-/* bobbing */
+/* ----------bobbing---------- */
 @keyframes bobbing {
   0%,
   100% {
@@ -92,7 +110,7 @@
   animation: bobbing 3.5s ease-in-out infinite;
 }
 
-/* bouncing */
+/* ----------bouncing---------- */
 @keyframes bounce {
   0%, 100% {
       transform: translateY(10px);
@@ -107,7 +125,7 @@
   box-shadow: 1px 2px 0px rgba(73, 72, 130, 0.4);
 }
 
-/* Animation delays */
+/* ----------animation delays---------- */
 
 .delay-1 {
   animation-delay: 0.2s;
@@ -125,4 +143,9 @@
 .main-button {
   box-shadow: 1.5px 2.5px 0px rgba(73, 72, 130, 0.4);
   border-radius: 10px;
+}
+
+.container {
+  background-color: rgba(255,255,255, 0.4);
+  border-radius: 20px;
 }

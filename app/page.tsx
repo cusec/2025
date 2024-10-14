@@ -1,10 +1,13 @@
 "use client";
 
+// dependencies
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Splashpage from "@/components/Splashpage";
-import Homepage from "@/components/Homepage";
+
+// components
+import Splashpage from "@/components/Home/Splashpage";
+import Main from "@/components/Home/Main";
 
 export default function Home() {
   const [showSplash, setShowSplash] = useState(false);
@@ -22,30 +25,12 @@ export default function Home() {
     <>
       <title>CUSEC 2025</title>
       <main
-        className={`${"mainGradientBackground"} flex items-center justify-center flex-col min-h-[calc(100vh+50px)]`}
+        className={`${"mainGradientBackground"} flex items-center justify-center flex-col h-[100vh] pt-[65px]`}
       >
-        {/* only show map after splash animation */}
-        {showSplash ? null : (
-          <motion.div
-            className="flex items-center justify-center fixed z-0 inset-0 mx-auto top-[115px]"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-          >
-            <Image
-              className="w-[95%] max-w-[400px]"
-              src="/images/canada-map.svg"
-              alt="canada map"
-              width={1080}
-              height={1080}
-            />
-          </motion.div>
-        )}
-
-        {/* only show main page after splash animation */}
         {showSplash ? (
           <Splashpage onComplete={() => setShowSplash(false)} />
         ) : (
-          <Homepage />
+          <Main />
         )}
       </main>
     </>
