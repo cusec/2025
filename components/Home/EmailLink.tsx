@@ -13,6 +13,7 @@ const EmailLink: React.FC<EmailLinkProps> = ({ href, text }) => {
     <motion.div
       className="w-[225px] md:w-[315px] h-[44px] md:h-[62px] mx-auto bg-[--purple] flex justify-center items-center rounded-xl"
       whileHover={{ backgroundColor: "#5250d4", scale: 1.05 }}
+      whileTap={{ scale: 0.9 }}
     >
       <a
         href={href}
