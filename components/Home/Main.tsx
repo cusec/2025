@@ -11,7 +11,7 @@ import Star from "../Star";
 
 export default function Main() {
   return (
-    <div className="z-10 h-[100vh]">
+    <div className="z-10 h-[100vh] w-screen">
       <Header />
       <Star />
       <EventDetails />

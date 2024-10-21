@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Header() {
   return (
-    <div className="flex flex-row justify-center items-center container h-[150px] mx-auto gap-[14px] !rounded-none">
+    <div className="flex flex-row justify-center items-center content-container h-[150px] w-screen md:w-[90%] max-w-[900px] mx-auto md:mt-[27px] gap-[14px] max-md:!rounded-none">
       {/* LEFT SIDE */}
       <div className="w-[44.5%] flex flex-row justify-center items-center flex-grow">
         <Image
@@ -24,11 +24,11 @@ export default function Header() {
         </div>
       </div>
       {/* MIDDLE DIVIDER */}
-      <div className="w-[1%] h-3/5">
-        <div className="h-full w-[2px] bg-white"></div>
+      <div className="w-[1%] max-w-[2px] h-3/5 bg-red-200">
+        <div className="h-full w-full bg-white"></div>
       </div>
       {/* RIGHT */}
-      <div className="w-[44.5%] flex flex-grow">
+      <div className="w-[44.5%] flex flex-grow pr-4">
         <p className="textFont text-base font-extrabold">
           CANADIAN UNIVERSITY SOFTWARE ENGINEERING CONFERENCE
         </p>
