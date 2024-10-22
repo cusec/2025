@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className="flex flex-row justify-center items-center content-container h-[150px] w-screen md:w-[90%] max-w-[900px] mx-auto md:mt-[27px] gap-[14px] max-md:!rounded-none">
       {/* LEFT SIDE */}
-      <div className="w-[44.5%] flex flex-row justify-center items-center flex-grow">
+      <div className="w-[44.5%] flex flex-row justify-end items-center flex-grow mx-5">
         <Image
           className="w-[75px] h-[75px] max-w-[250px] max-h-[250px]"
           src="/images/logo-main.svg"
@@ -28,8 +28,8 @@ export default function Header() {
         <div className="h-full w-full bg-white"></div>
       </div>
       {/* RIGHT */}
-      <div className="w-[44.5%] flex flex-grow px-5">
-        <p className="textFont text-base font-extrabold">
+      <div className="w-[44.5%] flex flex-grow mx-5">
+        <p className="textFont text-base font-extrabold max-w-[150px]">
           Canadian University Software Engineering Conference
         </p>
       </div>

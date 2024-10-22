@@ -11,13 +11,6 @@ const transitionConfig = (delay = 0) => ({
   delay: delay,
 });
 
-const rippleConfig = () => ({
-  type: "spring",
-  duration: 2,
-  repeat: Infinity,
-  RepeatType: "mirror",
-});
-
 const parentVariants: Variants = {
   hidden: {
     opacity: 0,
