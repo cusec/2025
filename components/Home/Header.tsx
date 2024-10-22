@@ -24,13 +24,13 @@ export default function Header() {
         </div>
       </div>
       {/* MIDDLE DIVIDER */}
-      <div className="w-[1%] max-w-[2px] h-3/5 bg-red-200">
+      <div className="w-[1%] max-w-[2px] h-3/5">
         <div className="h-full w-full bg-white"></div>
       </div>
       {/* RIGHT */}
-      <div className="w-[44.5%] flex flex-grow pr-4">
+      <div className="w-[44.5%] flex flex-grow px-5">
         <p className="textFont text-base font-extrabold">
-          CANADIAN UNIVERSITY SOFTWARE ENGINEERING CONFERENCE
+          Canadian University Software Engineering Conference
         </p>
       </div>
     </div>

@@ -83,6 +83,13 @@
 
 }
 
+.darkBlueText {
+  font-family: "Bluescreens";
+  color: var(--dark-blue);
+  text-shadow: 1.5px 1.5px 0px rgba(73, 72, 130, 0.4);
+
+}
+
 /* any <p> text that is dark blue (like in header) */
 .textFont {
   font-family: "Roboto Condensed";
