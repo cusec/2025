@@ -11,7 +11,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/logo.svg" />
       </head>
-      <body className="overflow-hidden">
+      <body className="overflow-x-hidden overflow-y-auto">
         <Navbar />
         {children}
       </body>

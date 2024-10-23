@@ -44,7 +44,7 @@ export default function Splashpage({ onComplete }: { onComplete: () => void }) {
   return (
     <AnimatePresence>
       <motion.main
-        className={`flex items-center justify-center flex-col h-screen`}
+        className={`flex items-center justify-center flex-col h-screen !overflow-hidden`}
       >
         <div className="flex flex-row justify-center items-center h-[150px] w-full mx-auto gap-[14px]">
           {/* LEFT SIDE */}

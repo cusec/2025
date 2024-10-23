@@ -15,7 +15,7 @@ const AnimatedStar = AnimateElement(Star, 0);
 
 export default function Main() {
   return (
-    <motion.div className="z-10 h-[100vh] w-screen">
+    <motion.div className="z-10 h-auto w-screen">
       <AnimatedHeader />
       <AnimatedStar />
       <AnimatedEventDetails />

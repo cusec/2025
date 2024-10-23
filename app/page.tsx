@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 // components
 import Splashpage from "@/components/Home/Splashpage";
 import Main from "@/components/Home/Main";
+import AboutUs from "@/components/AboutUs/AboutUs";
 
 export default function Home() {
   const [showSplash, setShowSplash] = useState(false);
@@ -24,13 +25,16 @@ export default function Home() {
   return (
     <>
       <title>CUSEC 2025</title>
-      <main
-        className={`${"mainGradientBackground"} flex items-center justify-center flex-col h-[100vh] pt-[65px]`}
-      >
+      <main className="mainGradientBackground flex flex-col overflow-x-hidden">
         {showSplash ? (
           <Splashpage onComplete={() => setShowSplash(false)} />
         ) : (
-          <Main />
+          <>
+            <div className="h-auto flex items-center justify-center mt-[65px]">
+              <Main />
+            </div>
+            <AboutUs />
+          </>
         )}
       </main>
     </>

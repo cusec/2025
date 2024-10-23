@@ -90,6 +90,16 @@
 
 }
 
+/* any text w/ bluescreens font */
+.BScreensText {
+  font-family: "Bluescreens";
+}
+
+/* any text w/ roboto condensed font */
+.RobotoText {
+  font-family: "Roboto Condensed";
+}
+
 /* any <p> text that is dark blue (like in header) */
 .textFont {
   font-family: "Roboto Condensed";
@@ -97,11 +107,18 @@
   color: var(--dark-blue);
 }
 
-.text-shadow {
-  font-family: "Bluescreens";
-  color: var(--purple);
-  text-shadow: 1px 2px 0px rgba(73, 72, 130, 0.4);
+/* any <p> text that is used for large bodies of text (like in about us section) */
+.parText {
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  color: white;
+}
 
+.textGradient {
+  background: linear-gradient(270deg, #B8EEF4 0%, #C8C3FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* ----------bobbing---------- */
