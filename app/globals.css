@@ -22,6 +22,10 @@
   );
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 /* ----------background gradients---------- */
 .mainGradientBackground {
   z-index: 0;
@@ -42,6 +46,8 @@
   /* box-shadow: 0px 4.63636px 4.63636px 11.5909px rgba(255, 255, 255, 0.25), 0px 0px 4.63636px 4.63636px #FFFFFF;
   border-radius: 12.7412px; */
 }
+
+  
 
 /* ----------FONTS---------- */
 
@@ -172,4 +178,8 @@
 .content-container {
   background-color: rgba(255,255,255, 0.4);
   border-radius: 20px;
+}
+
+.buttonShadow {
+  box-shadow: 0.717352px 1.4347px 0px rgba(73, 72, 130, 0.4);
 }

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Header() {
   return (
-    <div className="flex flex-row justify-center items-center content-container h-[150px] w-screen md:w-[90%] max-w-[900px] mx-auto md:mt-[27px] gap-[14px] max-md:!rounded-none">
+    <div className="flex flex-row justify-center items-center content-container h-[150px] w-screen md:w-[90%] max-w-[900px] mx-auto md:mt-[45px] gap-[14px] max-md:!rounded-none">
       {/* LEFT SIDE */}
       <div className="w-[44.5%] flex flex-row justify-end items-center flex-grow mx-5">
         <Image

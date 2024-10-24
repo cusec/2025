@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import Splashpage from "@/components/Home/Splashpage";
 import Main from "@/components/Home/Main";
 import AboutUs from "@/components/AboutUs/AboutUs";
+import Tickets from "@/components/Tickets/Tickets";
 
 export default function Home() {
   const [showSplash, setShowSplash] = useState(false);
@@ -34,6 +35,7 @@ export default function Home() {
               <Main />
             </div>
             <AboutUs />
+            <Tickets />
           </>
         )}
       </main>

@@ -6,7 +6,7 @@ import AnimateElement from "../AnimateElement";
 
 export default function InfoText() {
   return (
-    <div className="w-[85%] md:w-[90%] max-w-[900px] h-auto mx-auto py-[25px] flex flex-col justify-center items-center gap-2 text-center">
+    <div className="w-[85%] md:w-[90%] max-w-[900px] h-auto mx-auto pb-[25px] flex flex-col justify-center items-center gap-2 text-center">
       <h1 className="purpleText text-[40px] font-extrabold">WHAT IS CUSEC?</h1>
       <p className="parText text-sm tracking-normal">
         CUSEC is Canada's longest running student-led software engineering

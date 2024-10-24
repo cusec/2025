@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, useTime, useTransform } from "framer-motion";
+import Link from "next/link";
 
 // components
 import EmailLink from "./EmailLink";
@@ -35,16 +36,14 @@ export default function EventDetails() {
 
       {/* TICKETS button */}
       <motion.div className="relative mb-[30px]">
-        <motion.button
+        <motion.a
           className="w-[225px] md:w-[315px] h-[55px] md:h-[62px] textFont text-xl buttonGradient flex justify-center items-center rounded-xl z-10 disabled:opacity-75"
-          // whileHover={{ backgroundColor: "#5250d4", scale: 1.05 }}
-          // whileTap={{ scale: 0.9 }}
-          disabled
+          whileHover={{ backgroundColor: "#5250d4", scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
+          href="#tickets"
         >
-          <a href="" className="pointer-events-none">
-            TICKETS COMING SOON
-          </a>
-        </motion.button>
+          BUY TICKETS
+        </motion.a>
         <motion.div
           className="absolute -inset-2 rounded-xl -z-10 blur-[3px]"
           style={{

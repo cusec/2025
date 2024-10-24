@@ -14,7 +14,7 @@ const AnimatedOurObjectives = AnimateElement(OurObjectives, 0);
 
 export default function AboutUs() {
   return (
-    <motion.div className="z-10 h-auto w-full bg-[#494882] bg-opacity-35 pb-5">
+    <motion.div className="z-10 h-auto w-full bg-[#494882] bg-opacity-35 pt-[15px] pb-[30px]">
       <AnimatedInfoText />
       <AnimatedOurObjectives />
     </motion.div>
