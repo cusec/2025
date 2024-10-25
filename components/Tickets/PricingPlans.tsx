@@ -19,7 +19,7 @@ export default function PricingPlans() {
       </div>
 
       {/* ticket types */}
-      <div className="flex flex-wrap justify-center gap-2 md:gap-4">
+      <div className="flex flex-wrap justify-center gap-2 md:gap-8">
         <TicketType
           ticketType="standard"
           text="Learn, Connect and discover with CUSEC."
