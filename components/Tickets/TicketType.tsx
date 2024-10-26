@@ -40,36 +40,40 @@ const TicketType: React.FC<TicketTypeProps> = ({
       } `}
     >
       {/* INFO */}
-      <div className="w-full flex flex-row justify-center items-center px-4">
-        {/* LEFT SIDE */}
-        <h3
-          className={`RobotoText uppercase text-3xl font-extrabold ${
-            tixType == "std" ? "text-[--dark-blue]" : "textGradient"
-          }`}
-        >
-          {ticketType}
-        </h3>
-        {/* MIDDLE DIVIDER */}
-        <div
-          className={`w-[2px] h-8 mx-2 ${
-            tixType == "std" ? "bg-[--purple]" : "bg-white"
-          }`}
-        ></div>
-        {/* RIGHT */}
-        <div className="w-auto h-auto flex flex-grow justify-start items-center pr-4">
-          <p
-            className={`RobotoText text-sm font-bold ${
-              tixType == "std" ? "text-[--purple]" : "text-white"
+      <div className="w-full flex flex-row justify-between items-start px-4">
+        <div className="flex flex-col">
+          {/* LEFT SIDE */}
+          <h3
+            className={`RobotoText uppercase text-3xl font-extrabold ${
+              tixType == "std" ? "text-[--dark-blue]" : "textGradient"
             }`}
           >
-            {text}
-          </p>
+            {ticketType}
+          </h3>
+          {/* MIDDLE DIVIDER */}
+          {/* <div
+            className={`w-8 h-[2px] mx-2 ${
+              tixType == "std" ? "bg-[--purple]" : "bg-white"
+            }`}
+          ></div> */}
+          {/* RIGHT */}
+          <div className="w-auto h-auto flex flex-grow justify-start items-center pr-4">
+            <p
+              className={`RobotoText text-sm font-bold ${
+                tixType == "std" ? "text-[--purple]" : "text-white"
+              }`}
+            >
+              {text}
+            </p>
+          </div>
         </div>
         {/* HOT tag */}
         <div
-          className={`relative w-[50px] ${tixType == "std" ? "hidden" : ""}`} // only show on VIP ticket
+          className={`w-[50px] relative pt-2  ${
+            tixType == "std" ? "hidden" : ""
+          }`} // only show on VIP ticket
         >
-          <div className="flex flex-row justify-center absolute -top-6 right-0">
+          <div className="flex flex-row justify-center">
             <p className="RobotoText text-base font-bold text-white">HOT</p>
             <Image
               className="w-[21px] h-[21px] max-w-[21px] max-h-[21px]"
@@ -94,7 +98,11 @@ const TicketType: React.FC<TicketTypeProps> = ({
             >
               ${StuPrice}
             </h4>
-            <p className="RobotoText text-[13px] text-white font-bold tracking-wide">
+            <p
+              className={`RobotoText text-[13px] font-bold tracking-wide ${
+                tixType == "std" ? "text-[--purple]" : "text-white"
+              }`}
+            >
               /student
             </p>
           </div>
@@ -106,7 +114,11 @@ const TicketType: React.FC<TicketTypeProps> = ({
             >
               ${proPrice}
             </h4>
-            <p className="RobotoText text-[13px] text-white font-bold tracking-wide">
+            <p
+              className={`RobotoText text-[13px] font-bold tracking-wide ${
+                tixType == "std" ? "text-[--purple]" : "text-white"
+              }`}
+            >
               /professional
             </p>
           </div>

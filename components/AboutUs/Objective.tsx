@@ -10,7 +10,7 @@ interface ObjectiveProps {
 
 const Objective: React.FC<ObjectiveProps> = ({ number, title, text }) => {
   return (
-    <div className="flex flex-row items-center px-4">
+    <div className="flex flex-col xs:flex-row items-start xs:items-center px-4 gap-2 xs:gap-0">
       {/* LEFT SIDE */}
       <div className="w-auto flex flex-row justify-center items-center mr-2">
         <div className="w-[30px] h-[30px] bg-[--light-purple] rounded-full flex items-center justify-center text-white font-bold text-xl mr-2">
@@ -23,7 +23,7 @@ const Objective: React.FC<ObjectiveProps> = ({ number, title, text }) => {
         </div>
       </div>
       {/* MIDDLE DIVIDER */}
-      <div className="w-[2px] h-8 mx-2 bg-white"></div>
+      <div className="w-[2px] h-8 px-[1px]  mx-2 bg-white hidden xs:block"></div>
       {/* RIGHT */}
       <div className="w-auto h-auto flex flex-grow justify-start items-center ml-2">
         <p className="RobotoText text-base text-white font-extrabold">{text}</p>

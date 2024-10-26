@@ -16,6 +16,9 @@ const config: Config = {
       fontFamily: {
         'roboto-condensed': ['"Roboto Condensed"', 'sans-serif'],
       },
+      screens: {
+        xs: "420px",
+      },
     },
   },
   plugins: [],
