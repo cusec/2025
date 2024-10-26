@@ -24,14 +24,19 @@ export default function EventDetails() {
     // cloud image is implemented as a bg image (opacity is managed in svg file itself)
     <div className="w-[85%] md:w-[90%] max-w-[900px] h-auto mx-auto py-[25px] content-container flex flex-col justify-center items-center gap-2 bg-[url('/images/cloud.svg')] bg-no-repeat bg-left-top">
       {/* event details */}
-      <div className="w-full flex flex-col md:flex-row flex-wrap justify-center items-center gap-2">
+      <div className="w-full flex flex-col justify-center items-center">
         <h3 className="purpleText text-[40px] font-extrabold">MONTREAL, QC</h3>
-        <h3 className="text-[40px] font-extrabold purpleText hidden md:block">
-          ·
-        </h3>
-        <h3 className="purpleText text-[40px] font-extrabold">
-          JANUARY 9-10-11 2025
-        </h3>
+        <div className="w-full flex flex-col md:flex-row flex-wrap justify-center md:gap-2 items-center">
+          <h3 className="purpleText text-[40px] font-extrabold -mt-4">
+            JANUARY 9-10-11 2025
+          </h3>
+          <h3 className="text-[40px] font-extrabold -mb-3 purpleText hidden md:block -mt-8">
+            ·
+          </h3>
+          <h3 className="purpleText text-[40px] font-extrabold -mt-4">
+            LE CENTRE SHERATON
+          </h3>
+        </div>
       </div>
 
       {/* TICKETS button */}
