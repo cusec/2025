@@ -8,6 +8,7 @@ import AnimateElement from "../AnimateElement";
 import Header from "./Header";
 import EventDetails from "./EventDetails";
 import Star from "../Star";
+import Footer from "../Footer";
 
 const AnimatedHeader = AnimateElement(Header, 0);
 const AnimatedEventDetails = AnimateElement(EventDetails, 0);
