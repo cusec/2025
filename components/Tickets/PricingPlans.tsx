@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 // components
+import TicketsInfo from "./TicketsInfo"
 import TicketType from "./TicketType";
 
 export default function PricingPlans() {
@@ -20,6 +21,10 @@ export default function PricingPlans() {
 
       {/* ticket types */}
       <div className="flex flex-wrap justify-center gap-2 md:gap-8 w-full">
+        <div className="w-full flex justify-center ">
+          <TicketsInfo/>
+        </div>
+
         <TicketType
           ticketType="standard"
           text="Learn, Connect and discover with CUSEC."
