@@ -28,9 +28,8 @@ const TicketLink: React.FC<TicketLinkProps> = ({ href, ticketType }) => {
       className={`w-[115px] h-[28px] mb-1.5 flex justify-center items-center rounded-md disabled:opacity-75 disabled:pointer-events-none ${
         tixType == "std" ? "bg-[--dark-blue] buttonShadow" : "buttonGradient"
       }`}
-      // whileHover={whileHoverProps}
-      // whileTap={{ scale: 0.9 }}
-      disabled
+      whileHover={whileHoverProps}
+      whileTap={{ scale: 0.9 }}
     >
       <a
         href={href}
@@ -39,7 +38,7 @@ const TicketLink: React.FC<TicketLinkProps> = ({ href, ticketType }) => {
         }`}
         target="_blank"
       >
-        COMING SOON!
+        BUY NOW
       </a>
     </motion.button>
   );
