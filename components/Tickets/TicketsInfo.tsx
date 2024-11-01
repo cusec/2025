@@ -21,7 +21,9 @@ const TicketsInfo = ({
             <h3 className="RobotoText text-5 textGradient font-bold pr-0.5">VIP</h3>   
         </div>
         {/* divider */}
-        <div className="w-[90%] h-[1px] m-auto bg-[--purple]"></div>
+        <div className="w-full px-4 h-[1px] m-auto ">
+            <div className="w-full h-full bg-[--purple]"></div>
+        </div>
         {/* PERKS */}
         <div className="w-full m-auto flex flex-col gap-0.5 px-4">
         <TicketPerk text="Social Events" />
@@ -32,7 +34,9 @@ const TicketsInfo = ({
         <TicketPerk text="Exclusive CUSEC Merchandise" />
         </div>
         {/* divider */}
-        <div className="w-[90%] h-[1px] m-auto bg-[--purple]"></div>
+        <div className="w-full px-4 h-[1px] m-auto ">
+            <div className="w-full h-full bg-[--purple]"></div>
+        </div>
     </div>
   );
 };
