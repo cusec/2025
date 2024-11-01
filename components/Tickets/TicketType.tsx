@@ -50,12 +50,6 @@ const TicketType: React.FC<TicketTypeProps> = ({
           >
             {ticketType}
           </h3>
-          {/* MIDDLE DIVIDER */}
-          {/* <div
-            className={`w-8 h-[2px] mx-2 ${
-              tixType == "std" ? "bg-[--purple]" : "bg-white"
-            }`}
-          ></div> */}
           {/* RIGHT */}
           <div className="w-auto h-auto flex flex-grow justify-start items-center pr-4">
             <p

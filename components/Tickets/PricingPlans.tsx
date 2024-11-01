@@ -25,16 +25,14 @@ export default function PricingPlans() {
           text="Learn, Connect and discover with CUSEC."
           StuPrice={80}
           proPrice={200}
-          // href="https://www.tickettailor.com/events/cusec/1401652"
-          href=""
+          href="https://www.tickettailor.com/events/cusec/1401652"
         />
         <TicketType
           ticketType="vip"
           text="The exclusive CUSEC experience."
           StuPrice={120}
           proPrice={240}
-          // href="https://www.tickettailor.com/events/cusec/1401652"
-          href=""
+          href="https://www.tickettailor.com/events/cusec/1401652"
         />
       </div>
     </div>

@@ -25,25 +25,45 @@ export default function Footer() {
         <Link href="/code-of-conduct" className="textFont hover:underline mx-4">
           Code of Conduct
         </Link>
-        <Link href="/privacy-policy" className="textFont hover:underline mx-4">
+        <Link href="/" className="textFont hover:underline mx-4">
           Privacy Policy
         </Link>
       </div>
 
       {/* Right Section: Social Media Icons */}
       <div className="flex justify-center md:justify-end items-center space-x-4 w-full md:w-auto">
-        <Link href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+        <a
+          href="https://www.instagram.com/cusecofficial/"
+          target="_blank"
+          aria-label="Instagram"
+          rel="noopener noreferrer"
+        >
           <FaInstagram className="text-2xl gradient-icon hover:opacity-75" />
-        </Link>
-        <Link href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+        </a>
+        <a
+          href="https://www.linkedin.com/company/cusec/posts/?feedView=all"
+          target="_blank"
+          aria-label="LinkedIn"
+          rel="noopener noreferrer"
+        >
           <FaLinkedin className="text-2xl gradient-icon hover:opacity-75" />
-        </Link>
-        <Link href="https://www.youtube.com" target="_blank" aria-label="YouTube">
+        </a>
+        <a
+          href="https://www.youtube.com"
+          target="_blank"
+          aria-label="YouTube"
+          rel="noopener noreferrer"
+        >
           <FaYoutube className="text-2xl gradient-icon hover:opacity-75" />
-        </Link>
-        <Link href="https://www.github.com" target="_blank" aria-label="GitHub">
-          <FaGithub className="text-2xl gradient-icon hover:opacity-75" />
-        </Link>
+        </a>
+        <a
+          href="https://github.com/cusec"
+          target="_blank"
+          aria-label="GitHub"
+          rel="noopener noreferrer"
+        >
+          <FaGithub className="text-2xl gradient-icon hover:opacity-75 z-10" />
+        </a>
       </div>
     </footer>
   );

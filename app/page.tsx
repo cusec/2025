@@ -10,7 +10,6 @@ import Splashpage from "@/components/Home/Splashpage";
 import Main from "@/components/Home/Main";
 import AboutUs from "@/components/AboutUs/AboutUs";
 import Tickets from "@/components/Tickets/Tickets";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   const [showSplash, setShowSplash] = useState(false);
@@ -27,7 +26,7 @@ export default function Home() {
   return (
     <>
       <title>CUSEC 2025</title>
-      <main className="mainGradientBackground flex flex-col overflow-x-hidden">
+      <main className="flex flex-col overflow-x-hidden">
         {showSplash ? (
           <Splashpage onComplete={() => setShowSplash(false)} />
         ) : (
@@ -37,7 +36,6 @@ export default function Home() {
             </div>
             <AboutUs />
             <Tickets />
-            <Footer />
           </>
         )}
       </main>
