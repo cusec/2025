@@ -15,7 +15,7 @@ export default function ReExperienceCUSEC() {
         {/* Top Image Spanning Full Width */}
         <div className="col-span-full">
           <Image
-            src="/images/2024/main.JPG"
+            src="/images/2024/maincrop.JPG"
             alt="CUSEC group photo"
             width={800}
             height={400}
@@ -35,7 +35,7 @@ export default function ReExperienceCUSEC() {
             className="object-cover w-full h-auto"
           />
           <Image
-            src="/images/2024/kareoke.JPG"
+            src="/images/2024/kareokewide.JPG"
             alt="Gallery photo 2"
             width={400}
             height={400}
