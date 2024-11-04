@@ -25,7 +25,7 @@ export default function Footer() {
         <Link href="/code-of-conduct" className="textFont hover:underline mx-4">
           Code of Conduct
         </Link>
-        <Link href="/" className="textFont hover:underline mx-4">
+        <Link href="/privacy-policy" className="textFont hover:underline mx-4">
           Privacy Policy
         </Link>
       </div>
