@@ -108,8 +108,8 @@ const FAQ = () => {
                 prohibited.
                 <br />
                 Refunds are available up to{" "}
-                <strong>30 days after purchase</strong> or until December 22,
-                2023, at 11:59 PM ET, whichever is earlier.
+                <strong>30 days after purchase</strong> or until December 27,
+                2024, at 23:00 ET, whichever is earlier.
                 <br />
                 <br />
                 If you cannot attend, please email{" "}
