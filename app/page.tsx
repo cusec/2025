@@ -10,6 +10,8 @@ import Splashpage from "@/components/Home/Splashpage";
 import Main from "@/components/Home/Main";
 import AboutUs from "@/components/AboutUs/AboutUs";
 import Tickets from "@/components/Tickets/Tickets";
+import ReExperienceCUSEC from "@/components/ReExperienceCUSEC/ReExperienceCUSEC";
+import FAQ from "@/components/FAQ/FAQ";
 
 export default function Home() {
   const [showSplash, setShowSplash] = useState(false);
@@ -36,6 +38,8 @@ export default function Home() {
             </div>
             <AboutUs />
             <Tickets />
+            <ReExperienceCUSEC />
+            <FAQ />
           </>
         )}
       </main>
