@@ -1,11 +1,11 @@
 // FAQItem.tsx
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, ReactNode } from "react";
 import { motion } from "framer-motion";
 import { FaChevronDown } from "react-icons/fa";
 
 interface FAQItemProps {
   question: string;
-  answer: string;
+  answer: ReactNode;
 }
 
 const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
@@ -45,12 +45,13 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
           maxHeight: isOpen ? contentHeight : 0,
           opacity: isOpen ? 1 : 0,
         }}
-        transition={{ maxHeight: { duration: 0.3 }, opacity: { duration: 0.2 } }}
+        transition={{
+          maxHeight: { duration: 0.3 },
+          opacity: { duration: 0.2 },
+        }}
         className="overflow-hidden"
       >
-        <div className="pt-2 RobotoText text-gray-200 text-sm">
-          {answer}
-        </div>
+        <div className="pt-2 RobotoText text-gray-200 text-sm">{answer}</div>
       </motion.div>
     </motion.div>
   );
