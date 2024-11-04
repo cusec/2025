@@ -1,8 +1,6 @@
 // dependencies
 import { useState, useEffect } from "react";
-
 import { motion } from "framer-motion";
-import AnimateElement from "../AnimateElement";
 
 export default function InfoText() {
   return (

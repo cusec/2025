@@ -1,19 +1,22 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-export default function Hamburger() {
-  const [isOpen, setIsOpen] = useState(false);
+interface HamburgerProps {
+  isOpen: boolean;
+  setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}
 
+const Hamburger = ({ isOpen, setIsOpen }: HamburgerProps) => {
   const toggleOpen = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <motion.div>
+    <motion.div className="z-50 md:hidden">
       <motion.svg
         className="w-[55px]"
         viewBox="0 0 100 100"
-        // onClick={toggleOpen} DISABLED FOR NOW
+        onClick={toggleOpen}
         animate={isOpen ? { rotate: -45 } : { rotate: 0 }}
         transition={{ duration: 0.4 }}
       >
@@ -55,4 +58,6 @@ export default function Hamburger() {
       </motion.svg>
     </motion.div>
   );
-}
+};
+
+export default Hamburger;

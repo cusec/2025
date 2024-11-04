@@ -2,21 +2,25 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, Variants } from "framer-motion";
-import AnimateElement from "../AnimateElement";
+import { useNav } from "../Navbar/NavContext";
 
 // components
 import InfoText from "./InfoText";
 import OurObjectives from "./OurObjectives";
-import Star from "../Star";
-
-const AnimatedInfoText = AnimateElement(InfoText, 0);
-const AnimatedOurObjectives = AnimateElement(OurObjectives, 0);
 
 export default function AboutUs() {
+  const { isOpen, setIsOpen } = useNav();
+
   return (
     <motion.div className="z-10 h-auto w-full bg-[#FFFFFF] pt-[15px] pb-[30px]">
-      <AnimatedInfoText />
-      <AnimatedOurObjectives />
+      <div
+        className={`transition-opacity ease-in-out duration-700 ${
+          isOpen ? "opacity-0" : "opacity-100"
+        }`}
+      >
+        <InfoText />
+        <OurObjectives />
+      </div>
     </motion.div>
   );
 }

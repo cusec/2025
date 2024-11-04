@@ -6,6 +6,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 // components
+import LoadingSection from "@/components/LoadingElement";
 import Splashpage from "@/components/Home/Splashpage";
 import Main from "@/components/Home/Main";
 import AboutUs from "@/components/AboutUs/AboutUs";
@@ -34,11 +35,19 @@ export default function Home() {
         ) : (
           <>
             <div className="h-auto flex items-center justify-center mt-[65px]">
-              <Main />
+              <LoadingSection delay={0}>
+                <Main />
+              </LoadingSection>
             </div>
-            <AboutUs />
-            <Tickets />
-            <ReExperienceCUSEC />
+            <LoadingSection delay={0.1}>
+              <AboutUs />
+            </LoadingSection>
+            <LoadingSection delay={0.2}>
+              <Tickets />
+            </LoadingSection>
+            <LoadingSection delay={0.3}>
+              <ReExperienceCUSEC />
+            </LoadingSection>
             <FAQ />
           </>
         )}

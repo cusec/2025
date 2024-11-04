@@ -1,6 +1,9 @@
+"use client";
+
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer";
+import { NavProvider } from "@/components/Navbar/NavContext";
 
 export default function RootLayout({
   children,
@@ -13,9 +16,11 @@ export default function RootLayout({
         <link rel="icon" href="/logo.svg" />
       </head>
       <body className="overflow-x-hidden overflow-y-auto mainGradientBackground">
-        <Navbar />
-        {children}
-        <Footer />
+        <NavProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </NavProvider>
       </body>
     </html>
   );
