@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 export default function Header() {
   return (
-    <div className="flex flex-row justify-center items-center content-container h-[150px] w-screen md:w-[90%] max-w-[900px] mx-auto md:mt-[45px] gap-[14px] max-md:!rounded-none">
+    <div className="flex flex-row justify-center items-center bg-white h-[150px] max-md:!rounded-none">
       {/* LEFT SIDE */}
       <div className="w-[44.5%] flex flex-row justify-end items-center flex-grow mx-5">
         <Image
           className="w-[75px] h-[75px] max-w-[250px] max-h-[250px]"
-          src="/images/logo-main.svg"
+          src="/images/Logo!.svg"
           alt="2025 logo main"
           width={1080}
           height={1080}
@@ -25,7 +25,7 @@ export default function Header() {
       </div>
       {/* MIDDLE DIVIDER */}
       <div className="w-[1%] max-w-[2px] h-3/5">
-        <div className="h-full w-full bg-white"></div>
+        <div className="h-full w-full bg-[--purple]"></div>
       </div>
       {/* RIGHT */}
       <div className="w-[44.5%] flex flex-grow mx-5">

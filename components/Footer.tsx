@@ -12,7 +12,7 @@ export default function Footer() {
         <Link href="/" className="ml-[15px]">
           <Image
             className="w-[42px] h-[42px] max-w-[250px] max-h-[250px]"
-            src="/images/logo-main.svg"
+            src="/images/Logo!.svg"
             alt="2025 logo main"
             width={1080}
             height={1080}
