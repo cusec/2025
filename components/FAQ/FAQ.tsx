@@ -83,7 +83,7 @@ const FAQ = () => {
               <>
                 Reselling a CUSEC ticket above the purchased price is prohibited.
                 <br />
-                Refunds are available up to <strong>30 days after purchase</strong> or until December 22, 2023, at 11:59 PM ET, whichever is earlier.
+                Refunds are available up to <strong>30 days after purchase</strong> or until December 27, 2024, at 23:00 ET, whichever is earlier.
                 <br />
                 <br />
                 If you cannot attend, please email <strong>info@cusec.net</strong> and CC your Head Delegate if applicable. We will do our best to assist you.
