@@ -15,7 +15,7 @@ const PrivacyPolicy: React.FC = () => {
           website,
           <a href="https://2024.cusec.net" className="hover:underline">
             {" "}
-            https://2024.cusec.net
+            https://2025.cusec.net
           </a>
           , and other sites we own and operate.
         </p>
