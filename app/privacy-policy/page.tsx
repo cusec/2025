@@ -12,7 +12,7 @@ export default function privacyPolicy() {
   return (
     <>
       <title>Privacy Policy</title>
-      <main className="mainGradientBackground flex flex-col overflow-x-hidden">
+      <main className="flex flex-col overflow-x-hidden min-h-screen justify-center">
         <div className="h-auto flex items-center justify-center my-[65px]">
           <PrivacyPolicy />
         </div>
