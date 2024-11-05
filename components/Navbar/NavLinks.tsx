@@ -21,14 +21,14 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
         }`}
       >
         <Link
-          href={"#tickets"}
+          href={"/#tickets"}
           className="text-[28px] RobotoText font-semibold text-white"
           onClick={toggleOpen}
         >
           SIGN UP
         </Link>
         <Link
-          href={"#faq"}
+          href={"/#faq"}
           className="text-[28px] RobotoText font-semibold text-white"
           onClick={toggleOpen}
         >
