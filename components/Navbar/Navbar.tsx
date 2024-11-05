@@ -18,7 +18,7 @@ export default function Navbar() {
     <nav
       className={`bg-gray-600/[.40] h-[65px] w-full fixed top-0 z-50 flex justify-between items-center`}
     >
-      <Link href="/" className="ml-[15px]">
+      <Link href="/" className="ml-[15px] z-[100]">
         <Image
           className="w-[42px] h-[42px] max-w-[250px] max-h-[250px]"
           src="/images/logo-main.svg"
