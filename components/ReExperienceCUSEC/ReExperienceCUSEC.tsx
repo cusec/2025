@@ -29,7 +29,6 @@ export default function ReExperienceCUSEC() {
               alt="CUSEC group photo"
               width={800}
               height={400}
-              layout="responsive"
               className="object-cover"
             />
           </div>
@@ -41,7 +40,6 @@ export default function ReExperienceCUSEC() {
               alt="Gallery photo 1"
               width={400}
               height={400}
-              layout="responsive"
               className="object-cover w-full h-auto"
             />
             <Image
@@ -49,7 +47,6 @@ export default function ReExperienceCUSEC() {
               alt="Gallery photo 2"
               width={400}
               height={400}
-              layout="responsive"
               className="object-cover w-full h-auto"
             />
             <Image
@@ -57,7 +54,6 @@ export default function ReExperienceCUSEC() {
               alt="Gallery photo 3"
               width={400}
               height={400}
-              layout="responsive"
               className="object-cover w-full h-auto"
             />
             <Image
@@ -65,7 +61,6 @@ export default function ReExperienceCUSEC() {
               alt="Gallery photo 4"
               width={400}
               height={400}
-              layout="responsive"
               className="object-cover w-full h-auto"
             />
             <Image
@@ -73,7 +68,6 @@ export default function ReExperienceCUSEC() {
               alt="Gallery photo 5"
               width={400}
               height={400}
-              layout="responsive"
               className="object-cover w-full h-auto"
             />
             <Image
@@ -81,7 +75,6 @@ export default function ReExperienceCUSEC() {
               alt="Gallery photo 6"
               width={400}
               height={400}
-              layout="responsive"
               className="object-cover w-full h-auto"
             />
           </div>

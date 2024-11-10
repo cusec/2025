@@ -13,6 +13,7 @@ export default function Header() {
           alt="2025 logo main"
           width={1080}
           height={1080}
+          priority
         ></Image>
         <div className="flex flex-col items-center">
           <h3 className="text-[40px] purpleText font-bold leading-[80%]">

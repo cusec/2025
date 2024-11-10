@@ -65,6 +65,7 @@ export default function Splashpage({ onComplete }: { onComplete: () => void }) {
                   alt="2025 logo main"
                   width={1080}
                   height={1080}
+                  priority
                 />
               </motion.div>
             </motion.div>

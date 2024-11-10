@@ -14,6 +14,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/logo.svg" />
+        <meta
+        name="description"
+        content="Official website for the 2025 edition of the Canadian University Software Engineering Conference."
+        />
       </head>
       <body className="overflow-x-hidden overflow-y-auto mainGradientBackground">
         <NavProvider>

@@ -25,6 +25,7 @@ export default function Navbar() {
           alt="2025 logo main"
           width={1080}
           height={1080}
+          priority
         ></Image>
       </Link>
       <NavLinks isOpen={isOpen} setIsOpen={setIsOpen} />
