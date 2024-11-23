@@ -26,8 +26,8 @@ const FloatingCircles = () => {
   ];
 
   return (
-    <div className="absolute inset-0 pointer-events-none z-0 hidden lg:block">
-      {circleData.map((circle, index) => (
+    <div className="absolute inset-0 pointer-events-none z-0 hidden [@media(min-width:1200px)]:block">
+        {circleData.map((circle, index) => (
         <motion.div
           key={index}
           className="absolute flex flex-col items-center justify-center rounded-full shadow-md"
