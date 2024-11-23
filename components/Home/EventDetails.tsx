@@ -22,7 +22,7 @@ export default function EventDetails() {
 
   return (
     // cloud image is implemented as a bg image (opacity is managed in svg file itself)
-    <div className="w-[85%] md:w-[90%] max-w-[900px] h-auto mx-auto py-[25px] content-container flex flex-col justify-center items-center gap-2 bg-[url('/images/cloud.svg')] bg-no-repeat bg-left-top">
+    <div className="w-[85%] md:w-[90%] max-w-[700px] h-auto mx-auto py-[25px] content-container flex flex-col justify-center items-center gap-2 bg-[url('/images/cloud.svg')] bg-no-repeat bg-left-top">
       {/* event details */}
       <div className="w-full flex flex-col justify-center items-center">
         <h3 className="purpleText text-[40px] font-extrabold">MONTREAL, QC</h3>
