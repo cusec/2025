@@ -1,9 +1,8 @@
-// FAQ.tsx
 import FAQItem from "./FAQItem";
 import { useNav } from "../Navbar/NavContext";
 
 const FAQ = () => {
-  const { isOpen, setIsOpen } = useNav();
+  const { isOpen } = useNav();
 
   return (
     <div
@@ -11,14 +10,13 @@ const FAQ = () => {
       className={`flex flex-col items-center w-full py-8 px-4 transition-opacity ease-in-out duration-700 ${
         isOpen ? "opacity-0" : "opacity-100"
       }`}
+      style={{
+        backgroundColor: "#FFFFFF", 
+      }}
     >
       {/* FAQ Container */}
       <div
-        className="rounded-xl p-6 w-full max-w-3xl shadow-lg"
-        style={{
-          backgroundColor: "rgba(255, 255, 255, 0.4)",
-          backdropFilter: "blur(10px)", // Optional blur effect for a frosted glass effect
-        }}
+        className="rounded-xl p-6 w-full max-w-3xl "
       >
         <h2 className="text-5xl font-bold purpleText text-center mb-6">FAQ</h2>
 
