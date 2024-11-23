@@ -40,7 +40,7 @@ export default function Header() {
         {/* Right Content */}
         <div className="hidden md:flex items-center justify-end w-1/2 text-right">
           <h3 className="text-2xl uppercase text-[--purple] font-[650] font-[Roboto Condensed]">
-            Canada's Longest Running Student-Ran Tech Conference
+            Canada's Longest Running Student-Ran <br /> Tech Conference
           </h3>
         </div>
       </div>
