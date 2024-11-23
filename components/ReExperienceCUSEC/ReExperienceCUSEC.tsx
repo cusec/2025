@@ -6,7 +6,7 @@ export default function ReExperienceCUSEC() {
   const { isOpen, setIsOpen } = useNav();
 
   return (
-    <div className="flex flex-col items-center w-full bg-white py-8 px-4 md:px-0">
+    <div className="flex flex-col items-center w-full bg-mainGradientBackground py-8 px-4 md:px-0">
       <div
         className={`flex flex-col items-center transition-opacity ease-in-out duration-700 ${
           isOpen ? "opacity-0" : "opacity-100"
