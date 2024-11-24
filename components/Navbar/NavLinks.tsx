@@ -47,6 +47,18 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
           SIGN UP
         </Link>
         <Link
+          href={"/#sponsors"}
+          className="text-[28px] RobotoText font-semibold text-white"
+        >
+          SPONSORS
+        </Link>
+        <Link
+          href={"/#about"}
+          className="text-[28px] RobotoText font-semibold text-white"
+        >
+          ABOUT
+        </Link>
+        <Link
           href={"/#faq"}
           className="text-[28px] RobotoText font-semibold text-white"
         >

@@ -17,6 +17,7 @@ export default function AboutUs() {
         className={`transition-opacity ease-in-out duration-700 ${
           isOpen ? "opacity-0" : "opacity-100"
         }`}
+        id="about"
       >
         <InfoText />
         <OurObjectives />
