@@ -3,10 +3,10 @@ import sponsors from "./SponsorData";
 
 const Sponsors = () => {
   return (
-    <section className="w-full py-12 mainGradientBackground">
+    <section className="w-full py-12 mainGradientBackground" id="sponsors">
       {/* Header */}
       <div className="text-center mb-12">
-        <h2 className="text-5xl font-bold purpleText">Our Sponsors</h2>
+        <h2 className="text-5xl font-bold purpleText">OUR SPONSORS</h2>
       </div>
 
       {/* Sponsors Layout */}

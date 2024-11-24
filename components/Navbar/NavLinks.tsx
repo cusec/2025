@@ -25,7 +25,21 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
           className="text-[28px] RobotoText font-semibold text-white"
           onClick={toggleOpen}
         >
-          SIGN UP
+          ATTEND THE CONFERENCE
+        </Link>
+        <Link
+          href={"/#sponsors"}
+          className="text-[28px] RobotoText font-semibold text-white"
+          onClick={toggleOpen}
+        >
+          SPONSORS
+        </Link>
+        <Link
+          href={"/#about"}
+          className="text-[28px] RobotoText font-semibold text-white"
+          onClick={toggleOpen}
+        >
+          ABOUT
         </Link>
         <Link
           href={"/#faq"}
@@ -44,7 +58,19 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
           href={"/#tickets"}
           className="text-[28px] RobotoText font-semibold text-white"
         >
-          SIGN UP
+          ATTEND THE CONFERENCE
+        </Link>
+        <Link
+          href={"/#sponsors"}
+          className="text-[28px] RobotoText font-semibold text-white"
+        >
+          SPONSORS
+        </Link>
+        <Link
+          href={"/#about"}
+          className="text-[28px] RobotoText font-semibold text-white"
+        >
+          ABOUT
         </Link>
         <Link
           href={"/#faq"}
