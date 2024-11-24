@@ -28,6 +28,20 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
           SIGN UP
         </Link>
         <Link
+          href={"/#sponsors"}
+          className="text-[28px] RobotoText font-semibold text-white"
+          onClick={toggleOpen}
+        >
+          SPONSORS
+        </Link>
+        <Link
+          href={"/#about"}
+          className="text-[28px] RobotoText font-semibold text-white"
+          onClick={toggleOpen}
+        >
+          ABOUT
+        </Link>
+        <Link
           href={"/#faq"}
           className="text-[28px] RobotoText font-semibold text-white"
           onClick={toggleOpen}
