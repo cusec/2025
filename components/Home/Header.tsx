@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Header() {
   return (
     <div className="w-full py-8 bg-white">
-      <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 gap-6">
-        {/* Left Content */}
+      <div className="flex flex-col md:flex-row items-center justify-between max-w-[90%] mx-auto px-4 gap-6">
+      {/* Left Content */}
         <div className="flex flex-row items-center gap-4 md:justify-start justify-center w-full md:w-auto">
           {/* Logo and Title */}
           <div className="flex items-center">
