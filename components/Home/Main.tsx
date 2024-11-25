@@ -12,8 +12,8 @@ export default function Main() {
 
   return (
     <motion.div
-      className={`relative z-10 h-auto w-screen min-h-screen transition-opacity ease-in-out duration-700 ${
-        isOpen ? "opacity-0" : "opacity-100"
+    className={`z-10 h-auto w-screen transition-opacity ease-in-out duration-700 ${
+      isOpen ? "opacity-0" : "opacity-100"
       }`}
     >
       <Header />
