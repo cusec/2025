@@ -28,36 +28,32 @@ const Sponsors = () => {
         )}
 
         {/* Silver Sponsors */}
-        {sponsors.silver.length > 0 && (
-          <div className="flex justify-center space-x-6">
-            {sponsors.silver.map((logo: string, index: number) => (
-              <Image
-                key={`silver-${index}`}
-                src={logo}
-                alt={`Silver Sponsor ${index + 1}`}
-                width={300}
-                height={200}
-                className="object-contain"
-              />
-            ))}
-          </div>
-        )}
+        <div className="flex justify-center space-x-6">
+          {sponsors.silver.map((logo: string, index: number) => (
+            <Image
+              key={`silver-${index}`}
+              src={logo}
+              alt={`Silver Sponsor ${index + 1}`}
+              width={300}
+              height={200}
+              className="object-contain"
+            />
+          ))}
+        </div>
 
         {/* Bronze Sponsors */}
-        {sponsors.bronze.length > 0 && (
-          <div className="flex justify-center space-x-4">
-            {sponsors.bronze.map((logo: string, index: number) => (
-              <Image
-                key={`bronze-${index}`}
-                src={logo}
-                alt={`Bronze Sponsor ${index + 1}`}
-                width={200}
-                height={110}
-                className="object-contain"
-              />
-            ))}
-          </div>
-        )}
+        <div className="flex justify-center space-x-4">
+          {sponsors.bronze.map((logo: string, index: number) => (
+            <Image
+              key={`bronze-${index}`}
+              src={logo}
+              alt={`Bronze Sponsor ${index + 1}`}
+              width={200}
+              height={110}
+              className="object-contain"
+            />
+          ))}
+        </div>
 
         {/* Collaborators Section */}
         {sponsors.collaborators.length > 0 && (
@@ -71,8 +67,8 @@ const Sponsors = () => {
                   key={`collaborators-${index}`}
                   src={logo}
                   alt={`Collaborator ${index + 1}`}
-                  width={250}
-                  height={125}
+                  width={200}
+                  height={110}
                   className="object-contain"
                 />
               ))}
@@ -106,3 +102,5 @@ const Sponsors = () => {
 };
 
 export default Sponsors;
+
+
