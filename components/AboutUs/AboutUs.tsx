@@ -12,11 +12,12 @@ export default function AboutUs() {
   const { isOpen, setIsOpen } = useNav();
 
   return (
-    <motion.div className="z-10 h-auto w-full bg-[#FFFFFF] pt-[15px] pb-[30px]">
+    <motion.div className="z-10 h-auto w-full bg-[#FFFFFF] pt-[35px] pb-[50px]">
       <div
         className={`transition-opacity ease-in-out duration-700 ${
           isOpen ? "opacity-0" : "opacity-100"
         }`}
+        id="about"
       >
         <InfoText />
         <OurObjectives />

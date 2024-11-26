@@ -22,7 +22,7 @@ export default function EventDetails() {
 
   return (
     // cloud image is implemented as a bg image (opacity is managed in svg file itself)
-    <div className="w-[85%] md:w-[90%] max-w-[900px] h-auto mx-auto py-[25px] content-container flex flex-col justify-center items-center gap-2 bg-[url('/images/cloud.svg')] bg-no-repeat bg-left-top">
+    <div className="w-[85%] md:w-[90%] max-w-[575px] h-auto mx-auto py-[25px] content-container flex flex-col justify-center items-center gap-2 bg-[url('/images/cloud.svg')] bg-no-repeat bg-left-top">
       {/* event details */}
       <div className="w-full flex flex-col justify-center items-center">
         <h3 className="purpleText text-[40px] font-extrabold">MONTREAL, QC</h3>
@@ -40,9 +40,9 @@ export default function EventDetails() {
       </div>
 
       {/* TICKETS button */}
-      <motion.div className="relative mb-[30px]">
+      <motion.div className="relative mb-[5px]"> {/* Reduced the margin-bottom */}
         <motion.a
-          className="w-[225px] md:w-[315px] h-[55px] md:h-[62px] textFont text-xl buttonGradient flex justify-center items-center rounded-xl z-10 disabled:opacity-75"
+          className="w-[315px] md:w-[450px] h-[55px] md:h-[62px] textFont text-xl buttonGradient flex justify-center items-center rounded-xl z-10 disabled:opacity-75"
           whileHover={{ backgroundColor: "#5250d4", scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
           href="#tickets"
@@ -58,10 +58,11 @@ export default function EventDetails() {
       </motion.div>
 
       {/* email buttons */}
-      <div className="flex flex-wrap justify-center gap-2 md:gap-4">
+      <div className="flex flex-col justify-center items-center gap-2 mt-2"> {/* Reduced the top margin */}
         <EmailLink href="mailto:sponsor@cusec.net" text="BECOME A SPONSOR" />
         <EmailLink href="mailto:talks@cusec.net" text="BECOME A SPEAKER" />
       </div>
+
     </div>
   );
 }

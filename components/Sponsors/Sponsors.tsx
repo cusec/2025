@@ -3,27 +3,29 @@ import sponsors from "./SponsorData";
 
 const Sponsors = () => {
   return (
-    <section className="w-full py-12 mainGradientBackground">
+    <section className="w-full py-12 mainGradientBackground" id="sponsors">
       {/* Header */}
       <div className="text-center mb-12">
-        <h2 className="text-5xl font-bold purpleText">Our Sponsors</h2>
+        <h2 className="text-5xl font-bold purpleText">OUR SPONSORS</h2>
       </div>
 
       {/* Sponsors Layout */}
       <div className="flex flex-col items-center space-y-12">
         {/* Gold Sponsors */}
-        <div className="flex justify-center space-x-8">
-          {sponsors.gold.map((logo: string, index: number) => (
-            <Image
-              key={`gold-${index}`}
-              src={logo}
-              alt={`Gold Sponsor ${index + 1}`}
-              width={450}
-              height={300}
-              className="object-contain"
-            />
-          ))}
-        </div>
+        {sponsors.gold.length > 0 && (
+          <div className="flex justify-center space-x-8">
+            {sponsors.gold.map((logo: string, index: number) => (
+              <Image
+                key={`gold-${index}`}
+                src={logo}
+                alt={`Gold Sponsor ${index + 1}`}
+                width={450}
+                height={300}
+                className="object-contain"
+              />
+            ))}
+          </div>
+        )}
 
         {/* Silver Sponsors */}
         <div className="flex justify-center space-x-6">
@@ -75,23 +77,25 @@ const Sponsors = () => {
         )}
 
         {/* In-Kind Sponsors Section */}
-        <div className="w-full">
-          <h3 className="text-3xl font-bold purpleText text-center mb-6">
-            In-Kind Sponsors
-          </h3>
-          <div className="flex justify-center space-x-3">
-            {sponsors.inkind.map((logo: string, index: number) => (
-              <Image
-                key={`inkind-${index}`}
-                src={logo}
-                alt={`In-Kind Sponsor ${index + 1}`}
-                width={125}
-                height={125}
-                className="object-contain"
-              />
-            ))}
+        {sponsors.inkind.length > 0 && (
+          <div className="w-full">
+            <h3 className="text-3xl font-bold purpleText text-center mb-6">
+              In-Kind Sponsors
+            </h3>
+            <div className="flex justify-center space-x-3">
+              {sponsors.inkind.map((logo: string, index: number) => (
+                <Image
+                  key={`inkind-${index}`}
+                  src={logo}
+                  alt={`In-Kind Sponsor ${index + 1}`}
+                  width={125}
+                  height={125}
+                  className="object-contain"
+                />
+              ))}
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </section>
   );
