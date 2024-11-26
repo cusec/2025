@@ -54,23 +54,25 @@ const Sponsors = () => {
         </div>
 
         {/* Collaborators Section */}
-        <div className="w-full">
-          <h3 className="text-3xl font-bold purpleText text-center mb-6">
-            Collaborators
-          </h3>
-          <div className="flex justify-center space-x-3">
-            {sponsors.collaborators.map((logo: string, index: number) => (
-              <Image
-                key={`collaborators-${index}`}
-                src={logo}
-                alt={`Collaborator ${index + 1}`}
-                width={250}
-                height={125}
-                className="object-contain"
-              />
-            ))}
+        {sponsors.collaborators.length > 0 && (
+          <div className="w-full">
+            <h3 className="text-3xl font-bold purpleText text-center mb-6">
+              Collaborators
+            </h3>
+            <div className="flex justify-center space-x-3">
+              {sponsors.collaborators.map((logo: string, index: number) => (
+                <Image
+                  key={`collaborators-${index}`}
+                  src={logo}
+                  alt={`Collaborator ${index + 1}`}
+                  width={200}
+                  height={110}
+                  className="object-contain"
+                />
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         {/* In-Kind Sponsors Section */}
         <div className="w-full">
