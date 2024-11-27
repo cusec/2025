@@ -13,7 +13,7 @@ export default function ReExperienceCUSEC() {
         }`}
       >
         {/* Heading */}
-        <h2 className="text-5xl font-bold purpleText mb-2">
+        <h2 className="text-5xl md:text-7xl font-bold purpleText mb-2">
           RE-EXPERIENCE CUSEC
         </h2>
         <p className="text-center textFont mb-6">

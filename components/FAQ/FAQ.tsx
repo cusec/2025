@@ -11,14 +11,14 @@ const FAQ = () => {
         isOpen ? "opacity-0" : "opacity-100"
       }`}
       style={{
-        backgroundColor: "#FFFFFF", 
+        backgroundColor: "#FFFFFF",
       }}
     >
       {/* FAQ Container */}
-      <div
-        className="rounded-xl p-6 w-full max-w-3xl "
-      >
-        <h2 className="text-5xl font-bold purpleText text-center mb-6">FAQ</h2>
+      <div className="rounded-xl p-6 w-full max-w-3xl ">
+        <h2 className="text-5xl md:text-7xl font-bold purpleText text-center mb-6">
+          FAQ
+        </h2>
 
         {/* FAQ Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

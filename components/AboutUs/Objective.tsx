@@ -17,16 +17,16 @@ const Objective: React.FC<ObjectiveProps> = ({ number, title, text }) => {
           {number}
         </div>
         <div className="flex flex-col items-center">
-          <h3 className="text-xl textGradient RobotoText font-extrabold leading-[80%]">
+          <h3 className="text-xl md:text-3xl textGradient RobotoText leading-[80%]">
             {title}
           </h3>
         </div>
       </div>
       {/* MIDDLE DIVIDER */}
-      <div className="w-[2px] h-8 px-[1px]  mx-2 bg-white hidden xs:block"></div>
+      <div className="w-[2px] h-8 px-[1px] mx-2 bg-white hidden xs:block"></div>
       {/* RIGHT */}
       <div className="w-auto h-auto flex flex-grow justify-start items-center ml-2">
-        <p className="RobotoText text-base text-white font-extrabold">{text}</p>
+        <p className="RobotoText text-base md:text-2xl text-white">{text}</p>
       </div>
     </div>
   );

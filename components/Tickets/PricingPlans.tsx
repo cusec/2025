@@ -9,15 +9,15 @@ import TicketType from "./TicketType";
 
 export default function PricingPlans() {
   return (
-    <div className="w-[85%] md:w-[90%] max-w-[900px] h-auto mx-auto py-[25px] content-container flex flex-col md:flex-row justify-center items-center gap-2">
-      <div className="w-full flex flex-col justify-center items-center md:items-start gap-2 md:gap-4">
+    <div className="w-[85%] md:w-[90%] max-w-[900px] md:max-w-[1024px] h-auto mx-auto py-[25px] content-container flex flex-col md:flex-row justify-center items-center gap-2">
+      <div className="w-full flex flex-col justify-center items-center md:items-start gap-2">
         {/* text */}
-        <h3 className="purpleText text-5xl font-extrabold px-4">
+        <h3 className="purpleText text-5xl lg:text-7xl font-extrabold px-4">
           JOIN US AT CUSEC 2025
         </h3>
         {/* text divider */}
         <div className="h-0.5 w-20 bg-[--purple] mx-4"></div>
-        <p className="textFont text-base px-4">PRICING PLANS</p>
+        <p className="textFont text-base lg:text-4xl px-4">PRICING PLANS</p>
         {/* tickets info */}
         <div className="w-full flex justify-center">
           <TicketsInfo />

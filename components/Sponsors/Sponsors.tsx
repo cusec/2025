@@ -6,7 +6,9 @@ const Sponsors = () => {
     <section className="w-full py-12 mainGradientBackground" id="sponsors">
       {/* Header */}
       <div className="text-center mb-12">
-        <h2 className="text-5xl font-bold purpleText">OUR SPONSORS</h2>
+        <h2 className="text-5xl md:text-7xl font-bold purpleText">
+          OUR SPONSORS
+        </h2>
       </div>
 
       {/* Sponsors Layout */}
@@ -102,5 +104,3 @@ const Sponsors = () => {
 };
 
 export default Sponsors;
-
-
