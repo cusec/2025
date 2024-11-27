@@ -33,7 +33,7 @@ const TicketType: React.FC<TicketTypeProps> = ({
 
   return (
     <div
-      className={`w-[85%] md:w-[42.5%] max-w-[450px] md:max-w-[900px] h-auto py-[15px] rounded-[20px] flex flex-col justify-center items-start gap-2 ${
+      className={`w-[85%] md:w-full max-w-[450px] h-auto py-[15px] rounded-[20px] flex flex-col justify-center items-start gap-2 ${
         tixType == "std"
           ? "buttonGradient"
           : "bg-[--dark-blue] bg-[url('/images/vip-cloud.svg')] bg-no-repeat bg-right-top"

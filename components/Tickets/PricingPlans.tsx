@@ -4,27 +4,27 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 // components
-import TicketsInfo from "./TicketsInfo"
+import TicketsInfo from "./TicketsInfo";
 import TicketType from "./TicketType";
 
 export default function PricingPlans() {
   return (
-    <div className="w-[85%] md:w-[90%] max-w-[900px] h-auto mx-auto py-[25px] content-container flex flex-col justify-center items-center gap-2">
-      <div className="w-full flex flex-col justify-center items-center gap-2">
-        <h3 className="purpleText text-[40px] font-extrabold">
+    <div className="w-[85%] md:w-[90%] max-w-[900px] h-auto mx-auto py-[25px] content-container flex flex-col md:flex-row justify-center items-center gap-2">
+      <div className="w-full flex flex-col justify-center items-center md:items-start gap-2 md:gap-4">
+        {/* text */}
+        <h3 className="purpleText text-5xl font-extrabold px-4">
           JOIN US AT CUSEC 2025
         </h3>
         {/* text divider */}
-        <div className="h-0.5 w-20 bg-white"></div>
-        <p className="textFont text-base">PRICING PLANS</p>
-      </div>
-
-      {/* ticket types */}
-      <div className="flex flex-wrap justify-center gap-2 md:gap-8 w-full">
-        <div className="w-full flex justify-center ">
-          <TicketsInfo/>
+        <div className="h-0.5 w-20 bg-[--purple] mx-4"></div>
+        <p className="textFont text-base px-4">PRICING PLANS</p>
+        {/* tickets info */}
+        <div className="w-full flex justify-center">
+          <TicketsInfo />
         </div>
-
+      </div>
+      {/* ticket types */}
+      <div className="flex flex-wrap md:flex-col justify-center items-center gap-2 md:gap-4 w-full">
         <TicketType
           ticketType="standard"
           text="Learn, Connect and discover with CUSEC."
