@@ -13,7 +13,7 @@ const Objective: React.FC<ObjectiveProps> = ({ number, title, text }) => {
     <div className="flex flex-col xs:flex-row items-start xs:items-center px-4 gap-2 xs:gap-0">
       {/* LEFT SIDE */}
       <div className="w-auto flex flex-row justify-center items-center mr-2">
-        <div className="w-[30px] h-[30px] bg-[--light-purple] rounded-full flex items-center justify-center text-white font-bold text-xl mr-2">
+        <div className="w-[30px] h-[30px] bg-[--light-purple] rounded-full flex items-center justify-center text-white text-xl md:text-2xl mr-2">
           {number}
         </div>
         <div className="flex flex-col items-center">
