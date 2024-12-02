@@ -12,7 +12,7 @@ const faqData = [
       ),
     },
     {
-      question: "here can I find the conference schedule, speakers, and sponsors?",
+      question: "Where can I find the conference schedule, speakers, and sponsors?",
       answer: (
         <>
             The schedule will be available on the website soon, along with

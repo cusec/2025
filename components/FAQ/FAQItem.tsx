@@ -34,7 +34,7 @@ const FAQItem: React.FC<FAQItemProps> = ({
     >
       {/* Question */}
       <div className="flex items-center justify-between">
-        <span className="RobotoText font-bold text-lg text-white">
+        <span className="RobotoText font-bold text-lg text-white w-[95%]">
           {question}
         </span>
         <FaChevronDown
