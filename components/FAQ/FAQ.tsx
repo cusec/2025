@@ -33,13 +33,14 @@ const FAQ = () => {
         {/* FAQ Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {FAQData.map((faq, index) => (
-            <FAQItem
-              key={index}
-              question={faq.question}
-              answer={faq.answer}
-              isOpen={openIndex === index}
-              onToggle={() => handleToggleAccordion(index)}
-            />
+            <div key={index} className="relative">
+              <FAQItem
+                question={faq.question}
+                answer={faq.answer}
+                isOpen={openIndex === index}
+                onToggle={() => handleToggleAccordion(index)}
+              />
+            </div>
           ))}
         </div>
       </div>
