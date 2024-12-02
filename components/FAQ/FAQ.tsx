@@ -1,9 +1,18 @@
+import { useState } from "react";
+
 import FAQItem from "./FAQItem";
 import FAQData from "./FAQData";
 import { useNav } from "../Navbar/NavContext";
 
 const FAQ = () => {
   const { isOpen } = useNav();
+
+  // State to keep track of the open accordion
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const handleToggleAccordion = (index: number) => {
+    setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
+  };
 
   return (
     <div
@@ -24,7 +33,13 @@ const FAQ = () => {
         {/* FAQ Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {FAQData.map((faq, index) => (
-            <FAQItem key={index} question={faq.question} answer={faq.answer} />
+            <FAQItem
+              key={index}
+              question={faq.question}
+              answer={faq.answer}
+              isOpen={openIndex === index}
+              onToggle={() => handleToggleAccordion(index)}
+            />
           ))}
         </div>
       </div>
