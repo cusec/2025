@@ -37,7 +37,7 @@ const FAQ = () => {
               <FAQItem
                 question={faq.question}
                 answer={faq.answer}
-                isOpen={openIndex === index}
+                // isOpen={openIndex === index}
                 onToggle={() => handleToggleAccordion(index)}
               />
             </div>

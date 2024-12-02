@@ -6,17 +6,17 @@ import { FaChevronDown } from "react-icons/fa";
 interface FAQItemProps {
   question: string;
   answer: ReactNode;
-  isOpen: boolean;
+  // isOpen: boolean;
   onToggle: () => void;
 }
 
 const FAQItem: React.FC<FAQItemProps> = ({
   question,
   answer,
-  isOpen,
-  onToggle,
+  // isOpen,
+  // onToggle,
 }) => {
-  // const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const [contentHeight, setContentHeight] = useState(0);
 
@@ -28,7 +28,7 @@ const FAQItem: React.FC<FAQItemProps> = ({
 
   return (
     <motion.div
-      onClick={onToggle}
+      onClick={() => setIsOpen(!isOpen)}
       className="bg-[--dark-blue] bg-opacity-20 rounded-xl p-4 mb-4 cursor-pointer transition-all"
       whileHover={{ scale: 1.02 }}
     >
