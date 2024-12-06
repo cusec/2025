@@ -6,9 +6,16 @@ import { FaChevronDown } from "react-icons/fa";
 interface FAQItemProps {
   question: string;
   answer: ReactNode;
+  // isOpen: boolean;
+  onToggle: () => void;
 }
 
-const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
+const FAQItem: React.FC<FAQItemProps> = ({
+  question,
+  answer,
+  // isOpen,
+  // onToggle,
+}) => {
   const [isOpen, setIsOpen] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const [contentHeight, setContentHeight] = useState(0);
@@ -27,7 +34,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
     >
       {/* Question */}
       <div className="flex items-center justify-between">
-        <span className="RobotoText font-bold text-lg text-white">
+        <span className="RobotoText font-bold text-lg text-white w-[95%]">
           {question}
         </span>
         <FaChevronDown
