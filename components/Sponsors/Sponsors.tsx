@@ -12,10 +12,10 @@ const Sponsors = () => {
       </div>
 
       {/* Sponsors Layout */}
-      <div className="flex flex-col items-center space-y-12">
+      <div className="flex flex-col items-center gap-12">
         {/* Gold Sponsors */}
         {sponsors.gold.length > 0 && (
-          <div className="flex justify-center space-x-8">
+          <div className="flex justify-center gap-24">
             {sponsors.gold.map((logo: string, index: number) => (
               <Image
                 key={`gold-${index}`}
@@ -30,7 +30,7 @@ const Sponsors = () => {
         )}
 
         {/* Silver Sponsors */}
-        <div className="flex justify-center space-x-6">
+        <div className="flex justify-center gap-24">
           {sponsors.silver.map((logo: string, index: number) => (
             <Image
               key={`silver-${index}`}
@@ -44,7 +44,7 @@ const Sponsors = () => {
         </div>
 
         {/* Bronze Sponsors */}
-        <div className="flex justify-center space-x-4">
+        <div className="flex justify-center gap-24">
           {sponsors.bronze.map((logo: string, index: number) => (
             <Image
               key={`bronze-${index}`}
@@ -63,7 +63,7 @@ const Sponsors = () => {
             <h3 className="text-3xl font-bold purpleText text-center mb-6">
               Collaborators
             </h3>
-            <div className="flex justify-center space-x-3">
+            <div className="flex justify-center gap-24">
               {sponsors.collaborators.map((logo: string, index: number) => (
                 <Image
                   key={`collaborators-${index}`}
@@ -84,7 +84,7 @@ const Sponsors = () => {
             <h3 className="text-3xl font-bold purpleText text-center mb-6">
               In-Kind Sponsors
             </h3>
-            <div className="flex justify-center space-x-3">
+            <div className="flex justify-center gap-24">
               {sponsors.inkind.map((logo: string, index: number) => (
                 <Image
                   key={`inkind-${index}`}
