@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
-type TeamCardProps = {
+type HDCardProps = {
   name: string;
   university: string;
   image?: string;
@@ -18,7 +18,7 @@ type TeamCardProps = {
   email?: string;
 };
 
-export default function TeamCard({
+export default function HDCard({
   name,
   university,
   image,
@@ -32,6 +32,6 @@ export default function TeamCard({
   github,
   website,
   email,
-}: TeamCardProps) {
+}: HDCardProps) {
   return <div className="w-full h-full"></div>;
 }
