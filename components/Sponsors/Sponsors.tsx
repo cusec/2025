@@ -21,8 +21,8 @@ const Sponsors = () => {
                 key={`gold-${index}`}
                 src={logo}
                 alt={`Gold Sponsor ${index + 1}`}
-                width={450}
-                height={300}
+                width={585}
+                height={455}
                 className="object-contain"
               />
             ))}
@@ -36,8 +36,8 @@ const Sponsors = () => {
               key={`silver-${index}`}
               src={logo}
               alt={`Silver Sponsor ${index + 1}`}
-              width={300}
-              height={200}
+              width={390}
+              height={260}
               className="object-contain"
             />
           ))}
@@ -50,8 +50,8 @@ const Sponsors = () => {
               key={`bronze-${index}`}
               src={logo}
               alt={`Bronze Sponsor ${index + 1}`}
-              width={200}
-              height={110}
+              width={260}
+              height={145}
               className="object-contain"
             />
           ))}
@@ -69,8 +69,8 @@ const Sponsors = () => {
                   key={`collaborators-${index}`}
                   src={logo}
                   alt={`Collaborator ${index + 1}`}
-                  width={200}
-                  height={110}
+                  width={260}
+                  height={145}
                   className="object-contain"
                 />
               ))}
@@ -90,8 +90,8 @@ const Sponsors = () => {
                   key={`inkind-${index}`}
                   src={logo}
                   alt={`In-Kind Sponsor ${index + 1}`}
-                  width={125}
-                  height={125}
+                  width={165}
+                  height={165}
                   className="object-contain"
                 />
               ))}
