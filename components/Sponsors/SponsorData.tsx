@@ -8,7 +8,10 @@ type SponsorData = {
 
 const sponsors: SponsorData = {
   gold: ["/images/sponsors/rbc.png"],
-  silver: ["/images/sponsors/Compulsion_Games.png"],
+  silver: [
+    "/images/sponsors/Compulsion_Games.png",
+    "/images/sponsors/fellow.webp",
+  ],
   bronze: ["/images/sponsors/ciena.png", "/images/sponsors/cse.svg"],
   collaborators: ["/images/sponsors/tailed.png"],
   inkind: [
