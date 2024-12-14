@@ -12,14 +12,16 @@ const Sponsors = () => {
       </div>
 
       {/* Sponsors Layout */}
-      <div className="flex flex-col items-center gap-12 m-auto w-[95%] md:w-full bg-red-200">
+      <div className="flex flex-col items-center gap-12 m-auto w-[95%] md:w-full">
         {/* Gold Sponsors */}
         {sponsors.gold.length > 0 && (
           <div className="flex justify-center gap-12 lg:gap-24">
             {sponsors.gold.map((logo: string, index: number) => (
-              <div className="max-w-[450px] lg:max-w-[585px]">
+              <div
+                key={`gold-${index}`}
+                className="max-w-[450px] lg:max-w-[585px]"
+              >
                 <Image
-                  key={`gold-${index}`}
                   src={logo}
                   alt={`Gold Sponsor ${index + 1}`}
                   width={585}
@@ -34,9 +36,11 @@ const Sponsors = () => {
         {/* Silver Sponsors */}
         <div className="flex justify-center gap-12 lg:gap-24">
           {sponsors.silver.map((logo: string, index: number) => (
-            <div className="max-w-[300px] lg:max-w-[390px]">
+            <div
+              key={`silver-${index}`}
+              className="max-w-[300px] lg:max-w-[390px]"
+            >
               <Image
-                key={`silver-${index}`}
                 src={logo}
                 alt={`Silver Sponsor ${index + 1}`}
                 width={390}
@@ -50,9 +54,11 @@ const Sponsors = () => {
         {/* Bronze Sponsors */}
         <div className="flex justify-center gap-12 lg:gap-24">
           {sponsors.bronze.map((logo: string, index: number) => (
-            <div className="max-w-[200px] lg:max-w-[260px]">
+            <div
+              key={`bronze-${index}`}
+              className="max-w-[200px] lg:max-w-[260px]"
+            >
               <Image
-                key={`bronze-${index}`}
                 src={logo}
                 alt={`Bronze Sponsor ${index + 1}`}
                 width={260}
@@ -71,9 +77,11 @@ const Sponsors = () => {
             </h3>
             <div className="flex justify-center gap-12 lg:gap-24">
               {sponsors.collaborators.map((logo: string, index: number) => (
-                <div className="max-w-[200px] lg:max-w-[260px]">
+                <div
+                  key={`collaborators-${index}`}
+                  className="max-w-[200px] lg:max-w-[260px]"
+                >
                   <Image
-                    key={`collaborators-${index}`}
                     src={logo}
                     alt={`Collaborator ${index + 1}`}
                     width={260}
@@ -94,9 +102,11 @@ const Sponsors = () => {
             </h3>
             <div className="flex justify-center gap-12 lg:gap-24">
               {sponsors.inkind.map((logo: string, index: number) => (
-                <div className="max-w-[125px] lg:max-w-[165px]">
+                <div
+                  key={`inkind-${index}`}
+                  className="max-w-[125px] lg:max-w-[165px]"
+                >
                   <Image
-                    key={`inkind-${index}`}
                     src={logo}
                     alt={`In-Kind Sponsor ${index + 1}`}
                     width={165}
