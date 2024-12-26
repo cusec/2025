@@ -21,7 +21,7 @@ const sponsors: SponsorData = {
     { image: "/images/sponsors/cse.svg", link: "https://www.cse-cst.gc.ca/" }
   ],
   collaborators: [
-    { image: "/images/tailed.png", link: "https://www.tailed.com" }
+    { image: "/images/sponsors/tailed.png", link: "https://www.tailed.ca" }
   ],
   inkind: [
     { image: "/images/sponsors/wolfram.png", link: "https://www.wolframalpha.com/" },
