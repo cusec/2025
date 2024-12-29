@@ -12,7 +12,9 @@ const Schedule = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">Schedule</h1>
+      <h2 className="text-5xl md:text-7xl font-bold purpleText mb-2 pb-6 pt-6 text-center">
+        SCHEDULE
+      </h2>      
       <div className="flex justify-center mb-4">
         {scheduleData.map((day, index) => (
           <DayButton
