@@ -5,26 +5,26 @@
         "type": "keynote",
         "pronouns": "he/him",
         "image": "/images/speakers/greg.png",
-        "description": "",
+        "description": "Dr. Greg Wilson co-founded and was the first Executive Director of Software Carpentry, which has taught basic software skills to tens of thousands of researchers worldwide, and has authored or edited over a dozen books, including 'Beautiful Code', 'The Architecture of Open Source Applications', and most recently 'Software Design by Example'. Greg is a Fellow of the Python Software Foundation and a recipient of ACM SIGSOFT's Influential Educator of the Year award, and currently works as a software engineering manager at Plotly.",
         "social": {
             "twitter": "",
             "linkedin": "",
-            "github": "",
-            "website": ""
+            "github": "https://github.com/gvwilson",
+            "website": "https://third-bit.com/"
         }
     },
     {
         "name": "Lyn Chen",
-        "role": "she/her",
+        "role": "",
         "type": "keynote",
-        "pronouns": "",
+        "pronouns": "she/her",
         "image": "/images/speakers/lyn.png",
-        "description": "",
+        "description": "Lyn Chen is a serial entrepreneur and educator passionate about solving complex problems and empowering the next generation of leaders. She co-founded Webapp.io, a Y Combinator-backed DevOps tooling company backed by the former CTO of npm, scaling it to a $15M valuation. Lyn is also the co-author of the most popular free DevOps Engineering Course on FreeCodeCamp, with over 1M learners worldwide. \n As co-CEO of Cansbridge Scholars, Lyn mentors ambitious students under 25 globally, inspiring them to excel in entrepreneurship and intrapreneurship. Named the youngest Forbes 30 Under 30 in North America for B2B enterprise software, she has taught and spoken internationally through programs like Rotman’s CDL, TKS, and Techstars. \n Currently building a university, Lyn is dedicated to unlocking human potential with technology. She loves lifelong learning, traveling, trying new sports, and spending time with her husband, a video game developer, and their dog Penny and cat Zoe.",
         "social": {
             "twitter": "",
-            "linkedin": "",
+            "linkedin": "linkedin.com/in/lynchen",
             "github": "",
-            "website": ""
+            "website": "https://lynslearninglab.substack.com/?"
         }
     },
     {
@@ -36,9 +36,9 @@
         "description": "",
         "social": {
             "twitter": "",
-            "linkedin": "",
+            "linkedin": "https://www.linkedin.com/in/fatima-taj-37363a109/",
             "github": "",
-            "website": ""
+            "website": "https://linktr.ee/fatimataj"
         }
     },
     {
@@ -49,9 +49,9 @@
         "image": "/images/speakers/gaia.png",
         "description": "",
         "social": {
-            "twitter": "",
-            "linkedin": "",
-            "github": "",
+            "twitter": "https://x.com/gaianoseworthy",
+            "linkedin": "https://www.linkedin.com/in/gaianoseworthy/",
+            "github": "https://github.com/gaianoseworthy",
             "website": ""
         }
     },
@@ -65,7 +65,7 @@
         "social": {
             "twitter": "",
             "linkedin": "",
-            "github": "",
+            "github": "https://github.com/maujim/",
             "website": ""
         }
     },
@@ -78,7 +78,7 @@
         "description": "",
         "social": {
             "twitter": "",
-            "linkedin": "",
+            "linkedin": "https://www.linkedin.com/in/jmurphyy/",
             "github": "",
             "website": ""
         }
@@ -92,9 +92,9 @@
         "description": "",
         "social": {
             "twitter": "",
-            "linkedin": "",
-            "github": "",
-            "website": ""
+            "linkedin": "https://www.linkedin.com/in/matthewmacraebovell/",
+            "github": "https://github.com/MathyouMB",
+            "website": "https://matthewmacraebovell.com/"
         }
     },
     {
@@ -106,7 +106,7 @@
         "description": "",
         "social": {
             "twitter": "",
-            "linkedin": "",
+            "linkedin": "https://www.linkedin.com/in/ruesriharsha",
             "github": "",
             "website": ""
         }
@@ -119,10 +119,10 @@
         "image": "/images/speakers/maya.png",
         "description": "",
         "social": {
-            "twitter": "",
-            "linkedin": "",
-            "github": "",
-            "website": ""
+            "twitter": "https://x.com/maya_l39",
+            "linkedin": "https://www.linkedin.com/in/maya-l/",
+            "github": "https://github.com/mlekhi",
+            "website": "https://www.mayalekhi.ca/"
         }
     },
     {
@@ -134,8 +134,8 @@
         "description": "",
         "social": {
             "twitter": "",
-            "linkedin": "",
-            "github": "",
+            "linkedin": "https://www.linkedin.com/in/victorli5611/",
+            "github": "https://github.com/VictorLi5611",
             "website": ""
         }
     },
@@ -148,8 +148,8 @@
         "description": "",
         "social": {
             "twitter": "",
-            "linkedin": "",
-            "github": "",
+            "linkedin": "https://www.linkedin.com/in/rabab-azeem/",
+            "github": "https://github.com/beepbeep63",
             "website": ""
         }
     },
@@ -161,8 +161,8 @@
         "image": "/images/speakers/sophy.png",
         "description": "",
         "social": {
-            "twitter": "",
-            "linkedin": "",
+            "twitter": "https://x.com/_sophysun",
+            "linkedin": "LinkedIn.com/in/sophysun",
             "github": "",
             "website": ""
         }
