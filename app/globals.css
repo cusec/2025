@@ -248,3 +248,17 @@
 .social-links a:hover {
   color: #23527c;
 }
+
+/* Carousel */
+.carousel-root {
+  max-height: 400px;
+}
+
+.carousel-arrow {
+  font-size: 1.5rem;
+}
+
+.carousel-status {
+  font-size: 1rem;
+  font-weight: bold;
+}
