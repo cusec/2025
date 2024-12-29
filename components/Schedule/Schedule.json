@@ -1,0 +1,327 @@
+[
+    {
+      "Date": "January 11",
+      "Day": "Thursday",
+      "items": [{
+          "category": "1",
+          "title": "Conference Check-In",
+          "location": "Registration and Help Desk",
+          "start_time": "9:00 AM",
+          "end_time": "9:55 AM"
+        },
+        {
+          "category": "1",
+          "title": "Opening Ceremony",
+          "location": "RBC Theatre",
+          "start_time": "10:00 AM",
+          "end_time": "10:25 AM"
+        },
+        {
+          "category": "2",
+          "speaker": "Antonio Gutierrez",
+          "title": "Lessons from Software Development of Live Service Game",
+          "location": "RBC Theatre",
+          "start_time": "10:30 AM",
+          "end_time": "11:25 AM"
+        },
+        {
+          "category": "3",
+          "start_time": "11:30 AM",
+          "end_time": "11:55 AM",
+          "items": [
+            {
+              "title": "Speed Networking",
+              "location": "RBC Theatre",
+              "start_time": "11:30 AM",
+              "end_time": "11:55 AM"
+            },
+            {
+              "title": "VIP Career Fair",
+              "location": "Sponsor Room",
+              "start_time": "11:30 AM",
+              "end_time": "11:55 AM"
+            }
+          ]
+        },
+        {
+          "category": "1",
+          "title": "Mid-Day Break",
+          "location": "",
+          "start_time": "12:00 PM",
+          "end_time": "1:30 PM"
+        },
+        {
+          "category": "1",
+          "title": "Diversity Panel",
+          "location": "RBC Theatre",
+          "start_time": "1:30 PM",
+          "end_time": "1:55 PM"
+        },
+        {
+          "category": "2",
+          "speaker": "Matthew MacRae-Bovell",
+          "title": "Four Years of Work Experience Before Graduation",
+          "location": "RBC Theatre",
+          "start_time": "2:00 PM",
+          "end_time": "2:25 PM"
+        },
+        {
+          "category": "2",
+          "speaker": "Prashanthi Ramesh",
+          "title": "Analyzing Ubisoft's Technological Framework: An In-Depth Examination of the Tools Programmer Role",
+          "location": "RBC Theatre",
+          "start_time": "2:30 PM",
+          "end_time": "2:55 PM"
+        },
+        {
+          "category": "2",
+          "speaker": "Georges-Antoine Assi",
+          "title": "Growth Engineering: The Art & Science of Making Things People Love",
+          "location": "RBC Theatre",
+          "start_time": "3:00 PM",
+          "end_time": "3:25 PM"
+        },
+        {
+          "category": "2",
+          "speaker": "Aaditya Chopra",
+          "title": "Breaking the Code: Debunking the LeetCode Myth in Tech Hiring",
+          "location": "RBC Theatre",
+          "start_time": "3:30 PM",
+          "end_time": "3:55 PM"
+        },
+        {
+          "category": "4a",
+          "start_time": "4:00 PM",
+          "mid_time_1": "4:30 PM",
+          "mid_time_2": "4:55 PM",
+          "end_time": "5:25 PM",
+          "items": [
+            {
+              "title": "Conversational AI - Build Chatbots with AWS Lex",
+              "location": "Workshop Room",
+              "start_time": "4:00 PM",
+              "end_time": "4:55 PM"
+            },
+            {
+              "title": "General Career Fair",
+              "location": "Sponsor Room",
+              "start_time": "4:00 PM",
+              "end_time": "5:25 PM"
+            },
+            {
+              "title": "Hot Takes",
+              "location": "RBC Theatre",
+              "start_time": "4:30 PM",
+              "end_time": "4:55 PM"
+            }
+          ]
+        },
+        {
+          "category": "1",
+          "title": "Evening Break",
+          "location": "",
+          "start_time": "5:30 PM",
+          "end_time": "7:55 PM"
+        },
+        {
+          "category": "4c",
+          "start_time": "8:00 PM",
+          "mid_time": "9:00 PM",
+          "end_time": "12:00 AM",
+          "items": [
+            {
+              "title": "Game Night",
+              "location": "Workshop Room",
+              "start_time": "8:00 PM",
+              "end_time": "11:59 PM"
+            },
+            {
+              "title": "Jeopardy",
+              "location": "RBC Theatre",
+              "start_time": "9:00 PM",
+              "end_time": "11:59 PM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Date": "January 12",
+      "Day": "Friday",
+      "items": [
+        {
+          "category": "1",
+          "title": "Business & Entrepreneurship: How to Begin a Startup",
+          "location": "RBC Theatre",
+          "start_time": "10:00 AM",
+          "end_time": "10:25 AM"
+        },
+        {
+          "category": "1",
+          "title": "Research Panel",
+          "location": "RBC Theatre",
+          "start_time": "10:30 AM",
+          "end_time": "10:55 AM"
+        },
+        {
+          "category": "2",
+          "speaker": "Eleanor Rumsey",
+          "title": "How to Fail Successfully",
+          "location": "RBC Theatre",
+          "start_time": "11:00 AM",
+          "end_time": "11:25 AM"
+        },
+        {
+          "category": "2",
+          "speaker": "Michael Chan",
+          "title": "Leveling Up: Game Changing Tips About a Career in Video Games",
+          "location": "RBC Theatre",
+          "start_time": "11:30 AM",
+          "end_time": "11:55 AM"
+        },
+        {
+          "category": "1",
+          "title": "Mid-Day Break",
+          "location": "",
+          "start_time": "12:00 PM",
+          "end_time": "1:25 PM"
+        },
+        {
+          "category": "3",
+          "start_time": "1:30 PM",
+          "end_time": "1:55 PM",
+          "items": [
+            {
+              "title": "Resume Review",
+              "location": "RBC Theatre",
+              "start_time": "1:30 PM",
+              "end_time": "1:55 PM"
+            },
+            {
+              "title": "VIP Exclusive Career Fair",
+              "location": "Sponsor Room",
+              "start_time": "1:30 PM",
+              "end_time": "1:55 PM"
+            }
+          ]
+        },
+        {
+          "category": "3",
+          "start_time": "2:00 PM",
+          "end_time": "2:55 PM",
+          "items": [
+            {
+              "title": "CSE Workshop - My First Cyber Security Chatbot",
+              "location": "Workshop Room",
+              "start_time": "2:00 PM",
+              "end_time": "2:55 PM"
+            },
+            {
+              "title": "General Career Fair",
+              "location": "Sponsor Room",
+              "start_time": "2:00 PM",
+              "end_time": "2:55 PM"
+            }
+          ]
+        },
+        {
+          "category": "3",
+          "start_time": "3:00 PM",
+          "end_time": "3:55 PM",
+          "items": [
+            {
+              "title": "RBC Workshop - Kube 101: Run Your Workloads on K8s!",
+              "location": "Workshop Room",
+              "start_time": "3:00 PM",
+              "end_time": "3:55 PM"
+            },
+            {
+              "title": "Dev's Den",
+              "location": "RBC Theatre",
+              "start_time": "3:15 PM",
+              "end_time": "3:55 PM"
+            }
+          ]
+        },
+        {
+          "category": "2",
+          "speaker": "Gazi Jarin",
+          "title": "From Algorithms to Content Creation: The Dual Life of a Software Engineer and TikToker",
+          "location": "RBC Theatre",
+          "start_time": "4:00 PM",
+          "end_time": "4:25 PM"
+        },
+        {
+          "category": "1",
+          "title": "Evening Break",
+          "location": "",
+          "start_time": "4:30 PM",
+          "end_time": "7:55 PM"
+        },
+        {
+          "category": "4c",
+          "start_time": "8:00 PM",
+          "mid_time": "9:00 PM",
+          "end_time": "12:00 AM",
+          "items": [
+            {
+              "title": "Pub Night (18+)",
+              "location": "McLean's Public House, 1420 Peel St. (Not to be confused with McLean's Pub on 1210 Peel St.)",
+              "start_time": "8:00 PM",
+              "end_time": "11:59 PM"
+            },
+            {
+              "title": "Karaoke Night",
+              "location": "RBC Theatre",
+              "start_time": "9:00 PM",
+              "end_time": "11:59 PM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Date": "January 13",
+      "Day": "Saturday",
+      "items": [
+        {
+          "category": "1",
+          "title": "CUSEC 2024 Organizers Panel",
+          "location": "RBC Theatre",
+          "start_time": "10:00 AM",
+          "end_time": "10:25 AM"
+        },
+        {
+          "category": "2",
+          "speaker": "Devon Knight",
+          "title": "NewGame+ : Software Engineering",
+          "location": "RBC Theatre",
+          "start_time": "10:30 AM",
+          "end_time": "10:55 AM"
+        },
+        {
+          "category": "1",
+          "speaker": "What Have We Learned From the Pandemic",
+          "title": "Online & Remote Work Panel",
+          "location": "RBC Theatre",
+          "start_time": "11:00 AM",
+          "end_time": "11:25 AM"
+        },
+        {
+          "category": "2",
+          "speaker": "Fatima Taj",
+          "title": "Beyond the Classroom: Your Early Years as a Software Engineer",
+          "location": "RBC Theatre",
+          "start_time": "11:30 AM",
+          "end_time": "12:25 PM"
+        },
+        {
+          "category": "1",
+          "title": "Closing Ceremony",
+          "location": "RBC Theatre",
+          "start_time": "12:30 PM",
+          "end_time": "12:55 PM"
+        }
+      ]
+    }
+  ]
