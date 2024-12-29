@@ -17,13 +17,17 @@ const DayButton = ({
 }: DayButtonProps) => {
   return (
     <button
-      className={`px-4 py-2 rounded-lg ${
-        selected ? 'bg-purple-600 text-white' : 'bg-gray-200 hover:bg-gray-300'
+      style={{
+        background: selected
+          ? 'var(--button-gradient-color)'
+          : '#F7F7F7', 
+      }}
+      className={`flex flex-col items-center justify-center px-8 py-5 rounded-lg mx-2 RobotoText text-lg ${
+        selected ? 'text-gray-600' : 'text-gray-600'
       }`}
       onClick={onDayButtonClick}
     >
-      <span className="text-lg font-bold">{Day}</span>
-      <br />
+      <span className="font-bold">{Day}</span>
       <span className="text-sm">{Date}</span>
     </button>
   );
