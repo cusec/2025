@@ -203,3 +203,20 @@
 .buttonShadow {
   box-shadow: 0.717352px 1.4347px 0px rgba(73, 72, 130, 0.4);
 }
+
+/* Border */
+.border-pink {
+  border-color: #EDB6E3;
+}
+
+.border-lightblue {
+  border-color: #CBF7F8;
+}
+
+.border-lavender {
+  border-color: rgba(200, 195, 255, 0.975);
+}
+
+.border-deepblue {
+  border-color: #6C6BD1;
+}
