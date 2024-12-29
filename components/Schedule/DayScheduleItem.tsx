@@ -6,11 +6,15 @@ interface DayScheduleItemProps {
 
 const DayScheduleItem = ({ item }: DayScheduleItemProps) => {
   return (
-    <div className="mb-4">
-      <h3 className="text-xl font-bold">{item.title}</h3>
-      <p className="text-gray-600">{item.location}</p>
-      <p className="text-gray-600">{item.start_time} - {item.end_time}</p>
-      {item.speaker && <p className="text-gray-600">Speaker: {item.speaker}</p>}
+    <div className="bg-gray-100 rounded-lg shadow-sm p-4 mb-4">
+      <div className="flex justify-between">
+        <p className="text-lg font-bold">{item.start_time}</p>
+        <p className="text-lg font-bold">{item.end_time}</p>
+      </div>
+      <div className="flex justify-between">
+        <p className="text-lg">{item.title}</p>
+        <p className="text-lg">{item.location}</p>
+      </div>
     </div>
   );
 };
