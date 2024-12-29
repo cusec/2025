@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Greg Wilson",
+        "role": "",
+        "type": "keynote",
+        "pronouns": "he/him",
+        "image": "/images/speakers/greg.png",
+        "description": "",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "",
+            "website": ""
+        }
+    },
+    {
+        "name": "Lyn Chen",
+        "role": "she/her",
+        "type": "keynote",
+        "pronouns": "",
+        "image": "/images/speakers/lyn.png",
+        "description": "",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "",
+            "website": ""
+        }
+    },
+    {
+        "name": "Fatima Taj",
+        "role": "Senior Software Engineer at Yelp",
+        "type": "speaker",
+        "pronouns": "she/her",
+        "image": "/images/speakers/fatima.png",
+        "description": "",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "",
+            "website": ""
+        }
+    },
+    {
+        "name": "Gaia Noseworthy",
+        "role": "M. Applied Mathematics at the University of Waterloo",
+        "type": "speaker",
+        "pronouns": "they/them",
+        "image": "/images/speakers/gaia.png",
+        "description": "",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "",
+            "website": ""
+        }
+    },
+    {
+        "name": "Mukund Mauji",
+        "role": "Applied Mathematics and Engineering, Self Employed Software Engineer",
+        "type": "speaker",
+        "pronouns": "he/him",
+        "image": "/images/speakers/mukund.png",
+        "description": "",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "",
+            "website": ""
+        }
+    },
+    {
+        "name": "Jocelyne Murphy",
+        "role": "Systems Design Engineering at the University of Waterloo",
+        "type": "speaker",
+        "pronouns": "she/her",
+        "image": "/images/speakers/jocelyne.png",
+        "description": "",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "",
+            "website": ""
+        }
+    },
+    {
+        "name": "Matthew Macrae-Bovell",
+        "role": "Software Developer II at Jobber, Computer Science at Carleton University",
+        "type": "speaker",
+        "pronouns": "he/him",
+        "image": "/images/speakers/matthew.png",
+        "description": "",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "",
+            "website": ""
+        }
+    },
+    {
+        "name": "Rue Sriharsha",
+        "role": "Trustworthy AI Consultant at Deloitte",
+        "type": "speaker",
+        "pronouns": "she/her",
+        "image": "/images/speakers/rue.png",
+        "description": "",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "",
+            "website": ""
+        }
+    },    
+    {
+        "name": "Maya Lehki",
+        "role": "Computer Science and Business at Western University and Ivey School of Business",
+        "type": "panelist",
+        "pronouns": "she/her",
+        "image": "/images/speakers/maya.png",
+        "description": "",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "",
+            "website": ""
+        }
+    },
+    {
+        "name": "Victor Li",
+        "role": "Upcoming Masters Student in Data Science",
+        "type": "panelist",
+        "pronouns": "he/him",
+        "image": "/images/speakers/victor.png",
+        "description": "",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "",
+            "website": ""
+        }
+    },
+    {
+        "name": "Rabab Azeem",
+        "role": "Computer Engineering Student at Queen's University",
+        "type": "panelist",
+        "pronouns": "he/him",
+        "image": "/images/speakers/rabab.png",
+        "description": "",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "",
+            "website": ""
+        }
+    },
+    {
+        "name": "Sophy Sun",
+        "role": "Bachelors of Computer Science at the University of Waterloo",
+        "type": "panelist",
+        "pronouns": "he/him",
+        "image": "/images/speakers/sophy.png",
+        "description": "",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "",
+            "website": ""
+        }
+    }
+]
