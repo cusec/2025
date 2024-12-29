@@ -18,7 +18,8 @@ const sponsors: SponsorData = {
   ],
   bronze: [
     { image: "/images/sponsors/ciena.png", link: "https://www.ciena.com" },
-    { image: "/images/sponsors/cse.svg", link: "https://www.cse-cst.gc.ca/" }
+    { image: "/images/sponsors/cse.svg", link: "https://www.cse-cst.gc.ca/" },
+    { image: "/images/sponsors/gadget.svg", link: "https://www.gadget.dev/" },
   ],
   collaborators: [
     { image: "/images/sponsors/tailed.png", link: "https://www.tailed.ca" }
