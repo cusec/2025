@@ -2,9 +2,9 @@ import React from 'react';
 
 const SpeakerHero = () => {
   return (
-    <div className="relative py-8">
-      <div className="container mx-auto px-4 lg:px-8 flex justify-center">
-        <div className="max-w-8xl mx-auto flex flex-col md:flex-row justify-center mt-15">
+    <div className="relative py-8 flex justify-center">
+      <div className="container mx-auto px-4 lg:px-8 flex justify-center items-center">
+        <div className="max-w-8xl mx-auto flex flex-col md:flex-row justify-center items-center mt-15">
           <div className="w-full md:w-1/2 xl:w-1/3 text-center md:text-left mx-4 md:mx-8 xl:mx-12 md:mb-0">
             <h1 className="text-5xl md:text-7xl lg:text-7xl font-bold purpleText mb-4 md:mb-6 leading-tight">
               Meet Our Speakers

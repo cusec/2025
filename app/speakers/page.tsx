@@ -15,7 +15,7 @@ export default function SpeakersPage() {
     <>
       <title>Speakers</title>
       <LoadingElement delay={0}>
-        <main className="flex flex-col overflow-x-hidden mainBackgroundGradient -mb-20">          
+        <main className="flex flex-col overflow-x-hidden mainBackgroundGradient justify-center -mb-20">          
           <div className="h-auto flex mt-[65px]">
             <SpeakersHero />
           </div>
