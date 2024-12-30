@@ -28,6 +28,20 @@
         }
     },
     {
+        "name": "Edwin Sarmiento",
+        "role": "",
+        "type": "keynote",
+        "pronouns": "he/him",
+        "image": "/images/speakers/edwin.png",
+        "description": "I'm the Managing Director of 15C, a global consulting and training company that specializes in designing, implementing, and supporting Microsoft data platform solutions. \n A Microsoft Certified Master and a former Microsoft Data Platform MVP for 12 years, I specialize in the design and implementation of high availability, disaster recovery and system infrastructure solutions. The nature of my work got me interested in non-technology matters such as professional and organizational development, leadership and management matters, neuroscience, and human psychology. \n When not working with databases, you can find me playing jazz music on my Korg X50 or Kawai ES110 keyboards or acoustic guitar, going on nature hikes, doing wilderness camping, running races, and earning my private pilot's license. ",
+        "social": {
+            "twitter": "https://twitter.com/EdwinMSarmiento",
+            "linkedin": "https://www.linkedin.com/in/edwinmsarmiento/",
+            "github": "https://github.com/EdwinMSarmiento",
+            "website": "https://www.edwinmsarmiento.com/"
+        }
+    },
+    {
         "name": "Fatima Taj",
         "role": "Senior Software Engineer at Yelp",
         "type": "speaker",
