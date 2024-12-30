@@ -116,6 +116,13 @@
 
 }
 
+.whiteText {
+  font-family: "Bluescreens";
+  color: white;
+  text-shadow: 1.5px 1.5px 0px rgba(73, 72, 130, 0.4);
+
+}
+
 /* any text w/ bluescreens font */
 .BScreensText {
   font-family: "Bluescreens";
