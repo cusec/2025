@@ -44,7 +44,7 @@ const SpeakerCard = ({ speaker }: { speaker: Speaker }) => {
               X
             </button>
             <h2 className="text-3xl font-bold mb-4 RobotoText">{speaker.name}</h2>
-            <p className="text-lg RobotoText">{speaker.description}</p>
+            <p className="text-m RobotoText">{speaker.description}</p>
             <div className="flex flex-wrap gap-2 justify-center RobotoText mt-4">
               {iconConfigs.map((iconConfig) => (
                 speaker.social[iconConfig.prop] && (
