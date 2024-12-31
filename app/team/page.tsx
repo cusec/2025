@@ -15,7 +15,7 @@ export default function TeamPage() {
   return (
     <>
       <title>The Team</title>
-      <main className="w-screen h-auto flex items-center justify-center mt-[65px] py-8">
+      <main className="w-screen h-auto flex flex-col items-center justify-center mt-[65px] py-8">
         {/* hero / header */}
         <LoadingElement delay={0}>
           <div className="w-screen flex flex-col items-center justify-center">
@@ -25,12 +25,16 @@ export default function TeamPage() {
 
         {/* team section */}
         <LoadingElement delay={0.1}>
-          <Team></Team>
+          <div className="w-screen grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4 items-center justify-center">
+            <Team></Team>
+          </div>
         </LoadingElement>
 
         {/* head delegates section */}
         <LoadingElement delay={0.2}>
-          <HeadDelegates></HeadDelegates>
+          <div className="w-screen grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4 items-center justify-center">
+            <HeadDelegates></HeadDelegates>
+          </div>
         </LoadingElement>
       </main>
     </>
