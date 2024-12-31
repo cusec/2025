@@ -116,6 +116,13 @@
 
 }
 
+.whiteText {
+  font-family: "Bluescreens";
+  color: white;
+  text-shadow: 1.5px 1.5px 0px rgba(73, 72, 130, 0.4);
+
+}
+
 /* any text w/ bluescreens font */
 .BScreensText {
   font-family: "Bluescreens";
@@ -202,4 +209,63 @@
 
 .buttonShadow {
   box-shadow: 0.717352px 1.4347px 0px rgba(73, 72, 130, 0.4);
+}
+
+/* TO DEPRECATE: SPEAKERS STUFF */
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.speaker-card {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.speaker-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.speaker-card h2 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.speaker-card p {
+  margin-bottom: 10px;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.social-links a:hover {
+  color: #23527c;
+}
+
+/* Carousel */
+.carousel-root {
+  max-height: 400px;
+}
+
+.carousel-arrow {
+  font-size: 1.5rem;
+}
+
+.carousel-status {
+  font-size: 1rem;
+  font-weight: bold;
 }
