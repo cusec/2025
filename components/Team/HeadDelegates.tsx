@@ -7,7 +7,7 @@ import headDelegates from "./HDData";
 
 // components
 import LoadingElement from "@/components/LoadingElement";
-import HDCard from "@/components/MeetTheTeam/HDCard";
+import HDCard from "@/components/Team/HDCard";
 
 export default function Team() {
   return (

@@ -7,7 +7,7 @@ import teamMembers from "./TeamData";
 
 // components
 import LoadingElement from "@/components/LoadingElement";
-import TeamCard from "@/components/MeetTheTeam/TeamCard";
+import TeamCard from "@/components/Team/TeamCard";
 
 export default function Team() {
   return (
