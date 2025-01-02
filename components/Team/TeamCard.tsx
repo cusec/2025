@@ -1,6 +1,7 @@
 // dependencies
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 type TeamCardProps = {
   name: string;
@@ -33,8 +34,16 @@ export default function TeamCard({
   website,
   email,
 }: TeamCardProps) {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
-    <div className="bg-white rounded-lg shadow-md p-12 relative flex flex-col items-center justify-center">
+    <motion.div
+      className={`rounded-lg  p-12 relative flex flex-col items-center justify-center transition-all duration-500 ease-in-out ${
+        isHovered ? "bg-white shadow-md" : ""
+      }`}
+      onHoverStart={() => setIsHovered(true)}
+      onHoverEnd={() => setIsHovered(false)}
+    >
       {/* headshot */}
       <div className="w-[200px] h-[200px] flex justify-center items-center mb-10 rounded-full bg-gray-100">
         {" "}
@@ -49,16 +58,14 @@ export default function TeamCard({
 
       {/* main info */}
       <div className="flex flex-col items-center justify-center">
-        <h3 className="text-3xl font-bold mb-1 RobotoText">{name}</h3>
-        <p className="text-sm text-gray-600 RobotoText">{pronouns}</p>
+        <h3 className="text-3xl font-bold mb-1 RobotoText">
+          {isHovered ? university : name}
+        </h3>
+        <p className="text-sm text-gray-600 RobotoText">
+          {isHovered ? program : pronouns}
+        </p>
         <p className="text-lg mb-2 RobotoText">{roles.join(", ")}</p>
       </div>
-
-      {/* more info */}
-      <div className="hidden">
-        <h3>{university}</h3>
-        <p>{program}</p>
-      </div>
-    </div>
+    </motion.div>
   );
 }

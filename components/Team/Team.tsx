@@ -11,7 +11,7 @@ import TeamCard from "@/components/Team/TeamCard";
 
 export default function Team() {
   return (
-    <div className="w-full h-full grid grid-cols-1 md:grid-cols-4 gap-4">
+    <div className="w-[90%] h-full grid grid-cols-1 md:grid-cols-4 gap-4">
       {teamMembers.map((member, index) => (
         <TeamCard
           name={member.name}
