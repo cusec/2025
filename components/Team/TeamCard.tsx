@@ -34,36 +34,28 @@ export default function TeamCard({
   email,
 }: TeamCardProps) {
   return (
-    <div className="w-[350px] h-full">
+    <div className="bg-white rounded-lg shadow-md p-12 relative flex flex-col items-center justify-center">
       {/* headshot */}
-      <div>
+      <div className="w-[200px] h-[200px] flex justify-center items-center mb-10 rounded-full bg-gray-100">
         {" "}
         <Image
-          className="w-full h-full"
+          className="w-full h-full rounded-full"
           src={image}
           alt=""
-          width={1080}
-          height={1080}
-        ></Image>
-        {/* university logo */}
-        <Image
-          className="w-full h-full"
-          src={university_image}
-          alt=""
-          width={1080}
-          height={1080}
+          width={200}
+          height={200}
         ></Image>
       </div>
 
       {/* main info */}
-      <div>
-        <h3>{name}</h3>
-        <p>{pronouns}</p>
-        <p>{roles.join(", ")}</p>
+      <div className="flex flex-col items-center justify-center">
+        <h3 className="text-3xl font-bold mb-1 RobotoText">{name}</h3>
+        <p className="text-sm text-gray-600 RobotoText">{pronouns}</p>
+        <p className="text-lg mb-2 RobotoText">{roles.join(", ")}</p>
       </div>
 
       {/* more info */}
-      <div>
+      <div className="hidden">
         <h3>{university}</h3>
         <p>{program}</p>
       </div>
