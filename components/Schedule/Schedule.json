@@ -35,23 +35,16 @@
         {
           "category": "2",
           "speaker": "Mukund Mauji",
-          "title": "The Year After Burnout: Lessons from Letting Go and Starting Over",
+          "title": "The Year After Burnout: Lessons from \n Letting Go and Starting Over",
           "location": "Theatre",
-          "start_time": "10:55 AM",
-          "end_time": "11:20 AM"
-        },
-        {
-          "category": "1",
-          "title": "VIP Career Fair",
-          "location": "Theatre",
-          "start_time": "10:45 AM",
-          "end_time": "11:45 AM"
+          "start_time": "11:30 AM",
+          "end_time": "11:55 AM"
         },
         {
           "category": "1",
           "title": "Mid-Day Break",
           "location": "",
-          "start_time": "11:55 PM",
+          "start_time": "11:55 AM",
           "end_time": "1:25 PM"
         },
         {
@@ -67,7 +60,7 @@
           "title": "Workshop 1: Hosted by RBC",
           "location": "Theatre",
           "start_time": "2:00 PM",
-          "end_time": "2:55 AM"
+          "end_time": "2:55 PM"
         },
         {
           "category": "2",
@@ -81,7 +74,7 @@
           "category": "1",
           "title": "Dev's Den Reloaded: Preliminary Round 1",
           "location": "Theatre",
-          "start_time": "3:35 PM",
+          "start_time": "3:45 PM",
           "end_time": "5:00 PM"
         },
         {
@@ -167,7 +160,7 @@
         },
         {
           "category": "1",
-          "title": "Dev's Den Reloaded: Preliminary Round 1",
+          "title": "Dev's Den Reloaded: Preliminary Round 2",
           "location": "Theatre",
           "start_time": "4:00 PM",
           "end_time": "5:00 PM"
@@ -180,17 +173,19 @@
           "end_time": "8:00 PM"
         },
         {
-          "category": "3",
+          "category": "2",
           "start_time": "8:00 PM",
           "end_time": "12:00 AM",
           "items": [
             {
+              "category": "2",
               "title": "Pub Night (18+)",
               "location": "McLean's Public House, 1420 Peel St. (Not to be confused with McLean's Pub on 1210 Peel St.)",
               "start_time": "8:00 PM",
               "end_time": "12:00 AM"
             },
             {
+              "category": "2",
               "title": "Karaoke Night",
               "location": "Sponsor Room",
               "start_time": "8:00 PM",
@@ -235,19 +230,47 @@
           "end_time": "12:15 PM"
         },
         {
-          "category": "2",
-          "speaker": "Fatima Taj",
-          "title": "Beyond the Classroom: Your Early Years as a Software Engineer",
-          "location": "RBC Theatre",
-          "start_time": "11:30 AM",
-          "end_time": "12:25 PM"
+          "category": "1",
+          "title": "Mid-Day Break",
+          "location": "",
+          "start_time": "12:15 PM",
+          "end_time": "1:45 PM"
         },
         {
           "category": "1",
-          "title": "Closing Ceremony",
-          "location": "RBC Theatre",
-          "start_time": "12:30 PM",
-          "end_time": "12:55 PM"
+          "title": "Dev's Den Reloaded: Finals",
+          "location": "Theatre",
+          "start_time": "1:50 PM",
+          "end_time": "2:30 PM"
+        },
+        {
+          "category": "2",
+          "speaker": "Edwin Sarmiento",
+          "title": "Preparing for Your Career in the New Era of an AI-Driven world",
+          "location": "Theatre",
+          "start_time": "2:30 PM",
+          "end_time": "3:25 PM"
+        },
+        {
+          "category": "1",
+          "title": "Post-Grad/Research Panel",
+          "location": "Theatre",
+          "start_time": "3:35 PM",
+          "end_time": "4:20 PM"
+        },
+        {
+          "category": "1",
+          "title": "Get Involved With CUSEC, 2025 Organizer's Panel",
+          "location": "Theatre",
+          "start_time": "4:30 PM",
+          "end_time": "4:55 PM"
+        },
+        {
+          "category": "1",
+          "title": "Closing Ceremony, Awards, and Photos!",
+          "location": "Theatre",
+          "start_time": "4:55 PM",
+          "end_time": "5:15 PM"
         }
       ]
     }
