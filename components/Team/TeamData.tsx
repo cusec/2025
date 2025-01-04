@@ -16,14 +16,14 @@ export interface TeamMember {
 
 const teamMembers: TeamMember[] = [
   {
-    name: "",
-    university: "",
+    name: "First Last",
+    university: "School",
     image: "",
     university_image: "",
-    pronouns: "",
-    roles: [""],
+    pronouns: "She/Her",
+    roles: ["Co-Chair"],
     sub_role: "",
-    program: "",
+    program: "Computer Science",
     linkedin: "",
     instagram: "",
     github: "",

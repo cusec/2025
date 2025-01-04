@@ -2,18 +2,18 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
-// team data
-import teamMembers from "./TeamData";
+// head delegates data
+import headDelegates from "./HDData";
 
 // components
 import LoadingElement from "@/components/LoadingElement";
-import TeamCard from "@/components/MeetTheTeam/TeamCard";
+import HDCard from "@/components/Team/HDCard";
 
 export default function Team() {
   return (
     <div className="w-full h-full flex flex-wrap">
-      {teamMembers.map((member, index) => (
-        <TeamCard
+      {headDelegates.map((member, index) => (
+        <HDCard
           name={member.name}
           university={member.university}
           image={member.image}
