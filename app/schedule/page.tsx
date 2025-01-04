@@ -9,10 +9,10 @@ import { motion } from "framer-motion";
 import Schedule from "@/components/Schedule/Schedule";
 import LoadingElement from "@/components/LoadingElement";
 
-export default function privacyPolicy() {
+export default function schedule() {
   return (
     <>
-      <title>Privacy Policy</title>
+      <title>Schedule</title>
       <LoadingElement delay={0}>
         <main className="flex flex-col overflow-x-hidden min-h-screen justify-center">
           <div className="h-auto flex items-center justify-center my-[65px]">
