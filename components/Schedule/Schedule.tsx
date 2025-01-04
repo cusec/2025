@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import DaySchedule from './DaySchedule';
 import DayButton from './DayButton';
 import scheduleData from './schedule.json';
+import careerFairData from './CareerFair.json';
 
 const Schedule = () => {
   const [selectedDay, setSelectedDay] = useState(0);
@@ -27,7 +28,7 @@ const Schedule = () => {
           />
         ))}
       </div>
-      <DaySchedule dayIndex={selectedDay} scheduleData={scheduleData} />
+      <DaySchedule dayIndex={selectedDay} scheduleData={scheduleData} careerFairData={careerFairData} />
     </div>
   );
 };
