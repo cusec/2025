@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import DaySchedule from './DaySchedule';
-import DayButton from './DayButton';
-import scheduleData from './schedule.json';
-import careerFairData from './CareerFair.json';
+import React, { useState } from "react";
+import DaySchedule from "./DaySchedule";
+import DayButton from "./DayButton";
+import scheduleData from "./Schedule.json";
+import careerFairData from "./CareerFair.json";
 
 const Schedule = () => {
   const [selectedDay, setSelectedDay] = useState(0);
@@ -15,7 +15,7 @@ const Schedule = () => {
     <div className="container mx-auto p-4">
       <h2 className="text-5xl md:text-7xl font-bold purpleText mb-2 pb-6 pt-6 text-center">
         SCHEDULE
-      </h2>      
+      </h2>
       <div className="flex justify-center mb-4">
         {scheduleData.map((day, index) => (
           <DayButton
@@ -28,7 +28,11 @@ const Schedule = () => {
           />
         ))}
       </div>
-      <DaySchedule dayIndex={selectedDay} scheduleData={scheduleData} careerFairData={careerFairData} />
+      <DaySchedule
+        dayIndex={selectedDay}
+        scheduleData={scheduleData}
+        careerFairData={careerFairData}
+      />
     </div>
   );
 };

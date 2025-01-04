@@ -1,6 +1,6 @@
-import React from 'react';
-import scheduleData from './schedule.json';
-import careerFairData from './CareerFair.json';
+import React from "react";
+// import scheduleData from './schedule.json';
+import careerFairData from "./CareerFair.json";
 
 interface DayScheduleProps {
   dayIndex: number;
@@ -8,27 +8,31 @@ interface DayScheduleProps {
   careerFairData: any[];
 }
 
-const DaySchedule = ({ dayIndex, scheduleData, careerFairData }: DayScheduleProps) => {
+const DaySchedule = ({
+  dayIndex,
+  scheduleData,
+  careerFairData,
+}: DayScheduleProps) => {
   const daySchedule = scheduleData[dayIndex];
   const dayCareerFair = careerFairData[dayIndex];
 
   const renderTimeColumn = (item: any, index: any) => {
     let borderColorClass;
-  
+
     switch (item.category) {
-      case '1':
-        borderColorClass = 'border-[#EDB6E3]';
+      case "1":
+        borderColorClass = "border-[#EDB6E3]";
         break;
-      case '2':
-        borderColorClass = 'border-[#6C6BD1]';
+      case "2":
+        borderColorClass = "border-[#6C6BD1]";
         break;
-      case '3':
-        borderColorClass = 'border-[rgba(200, 195, 255, 0.975)]';
+      case "3":
+        borderColorClass = "border-[rgba(200, 195, 255, 0.975)]";
         break;
       default:
-        borderColorClass = 'border-[#CBF7F8]';
+        borderColorClass = "border-[#CBF7F8]";
     }
-  
+
     if (item.items) {
       return (
         <div
@@ -39,7 +43,7 @@ const DaySchedule = ({ dayIndex, scheduleData, careerFairData }: DayScheduleProp
         </div>
       );
     }
-  
+
     return (
       <div
         className={`flex flex-col justify-center pr-4 border-r-2 ${borderColorClass} md:border-r-[3px] xs:text-[20px] RobotoText`}
@@ -49,24 +53,24 @@ const DaySchedule = ({ dayIndex, scheduleData, careerFairData }: DayScheduleProp
       </div>
     );
   };
-  
+
   const renderEventInfo = (item: any, index: any) => {
     let borderColorClass;
-  
+
     switch (item.category) {
-      case '1':
-        borderColorClass = 'border-[#EDB6E3]';
+      case "1":
+        borderColorClass = "border-[#EDB6E3]";
         break;
-      case '2':
-        borderColorClass = 'border-[#6C6BD1]';
+      case "2":
+        borderColorClass = "border-[#6C6BD1]";
         break;
-      case '3':
-        borderColorClass = 'border-[rgba(200, 195, 255, 0.975)]';
+      case "3":
+        borderColorClass = "border-[rgba(200, 195, 255, 0.975)]";
         break;
       default:
-        borderColorClass = 'border-[#CBF7F8]';
+        borderColorClass = "border-[#CBF7F8]";
     }
-  
+
     if (item.items) {
       return (
         <div
@@ -85,7 +89,7 @@ const DaySchedule = ({ dayIndex, scheduleData, careerFairData }: DayScheduleProp
         </div>
       );
     }
-  
+
     return (
       <div
         className={`flex flex-col md:pl-10 justify-center break-words sm272:break-normal ${borderColorClass} RobotoText`}
@@ -115,17 +119,17 @@ const DaySchedule = ({ dayIndex, scheduleData, careerFairData }: DayScheduleProp
     let borderColorClass;
 
     switch (item.category) {
-      case '1':
-        borderColorClass = 'border-[#EDB6E3]';
+      case "1":
+        borderColorClass = "border-[#EDB6E3]";
         break;
-      case '2':
-        borderColorClass = 'border-[#6C6BD1]';
+      case "2":
+        borderColorClass = "border-[#6C6BD1]";
         break;
-      case '3':
-        borderColorClass = 'border-[rgba(200, 195, 255, 0.975)]';
+      case "3":
+        borderColorClass = "border-[rgba(200, 195, 255, 0.975)]";
         break;
       default:
-        borderColorClass = 'border-[#CBF7F8]';
+        borderColorClass = "border-[#CBF7F8]";
     }
 
     if (item.title === "") {
@@ -137,7 +141,6 @@ const DaySchedule = ({ dayIndex, scheduleData, careerFairData }: DayScheduleProp
     }
 
     return (
-      
       <div
         className={`flex flex-col justify-center pr-4 border-r-2 ${borderColorClass} md:border-r-[3px] xs:text-[20px] RobotoText`}
       >
@@ -149,34 +152,36 @@ const DaySchedule = ({ dayIndex, scheduleData, careerFairData }: DayScheduleProp
 
   const renderCareerFairEventInfo = (item: any, index: any) => {
     let borderColorClass;
-  
+
     switch (item.category) {
-      case '1':
-        borderColorClass = 'border-[#EDB6E3]';
+      case "1":
+        borderColorClass = "border-[#EDB6E3]";
         break;
-      case '2':
-        borderColorClass = 'border-[#6C6BD1]';
+      case "2":
+        borderColorClass = "border-[#6C6BD1]";
         break;
-      case '3':
-        borderColorClass = 'border-[rgba(200, 195, 255, 0.975)]';
+      case "3":
+        borderColorClass = "border-[rgba(200, 195, 255, 0.975)]";
         break;
       default:
-        borderColorClass = 'border-[#CBF7F8]';
+        borderColorClass = "border-[#CBF7F8]";
     }
-  
+
     if (item.title === "") {
       return (
         <div
-          className={`grid grid-cols-[minmax(50px,_1fr)_10fr] xs:grid-cols-[minmax(70px,_1fr)_10fr] sm:grid-cols-[minmax(100px,_1.5fr)_10fr] gap-4 my-6 h-[${item.row_span * 100}px] invisible`}
+          className={`grid grid-cols-[minmax(50px,_1fr)_10fr] xs:grid-cols-[minmax(70px,_1fr)_10fr] sm:grid-cols-[minmax(100px,_1.5fr)_10fr] gap-4 my-6 h-[${
+            item.row_span * 100
+          }px] invisible`}
         />
       );
     }
-  
+
     return (
       <div
-      className={`flex flex-col md:pl-10 justify-center break-words sm272:break-normal ${borderColorClass} RobotoText grid grid-cols-[minmax(50px,_1fr)_10fr] xs:grid-cols-[minmax(70px,_1fr)_10fr] sm:grid-cols-[minmax(100px,_1.5fr)_10fr] gap-4 my-6`}
-      style={{ minHeight: `${item.row_span * 100}px` }}
-     >
+        className={`flex flex-col md:pl-10 justify-center break-words sm272:break-normal ${borderColorClass} RobotoText grid grid-cols-[minmax(50px,_1fr)_10fr] xs:grid-cols-[minmax(70px,_1fr)_10fr] sm:grid-cols-[minmax(100px,_1.5fr)_10fr] gap-4 my-6`}
+        style={{ minHeight: `${item.row_span * 100}px` }}
+      >
         <h3 className="font-semibold text-[14px] xs:text-[16px] sm:text-[24px]">
           {item.title}
         </h3>
@@ -195,20 +200,30 @@ const DaySchedule = ({ dayIndex, scheduleData, careerFairData }: DayScheduleProp
             <span className="font-semibold">{daySchedule.Date}, </span>
             <span>{daySchedule.Day}</span>
           </h2>
-          {daySchedule.items.map((item: any, index: React.Key | null | undefined) => (
-            <div key={index} className="grid grid-cols-[minmax(50px,_1fr)_10fr] xs:grid-cols-[minmax(70px,_1fr)_10fr] sm:grid-cols-[minmax(100px,_1.5fr)_10fr] gap-4 my-6">
-              {renderTimeColumn(item, index)}
-              {renderEventInfo(item, index)}
-            </div>
-          ))}
+          {daySchedule.items.map(
+            (item: any, index: React.Key | null | undefined) => (
+              <div
+                key={index}
+                className="grid grid-cols-[minmax(50px,_1fr)_10fr] xs:grid-cols-[minmax(70px,_1fr)_10fr] sm:grid-cols-[minmax(100px,_1.5fr)_10fr] gap-4 my-6"
+              >
+                {renderTimeColumn(item, index)}
+                {renderEventInfo(item, index)}
+              </div>
+            )
+          )}
         </div>
         <div>
-          {dayCareerFair.items.map((item: any, index: React.Key | null | undefined) => (
-            <div key={index} className="grid grid-cols-[minmax(50px,_1fr)_10fr] xs:grid-cols-[minmax(70px,_1fr)_10fr] sm:grid-cols-[minmax(100px,_1.5fr)_10fr] gap-4 my-6">
-              {renderCareerFairTimeColumn(item, index)}
-              {renderCareerFairEventInfo(item, index)}
-            </div>
-          ))}
+          {dayCareerFair.items.map(
+            (item: any, index: React.Key | null | undefined) => (
+              <div
+                key={index}
+                className="grid grid-cols-[minmax(50px,_1fr)_10fr] xs:grid-cols-[minmax(70px,_1fr)_10fr] sm:grid-cols-[minmax(100px,_1.5fr)_10fr] gap-4 my-6"
+              >
+                {renderCareerFairTimeColumn(item, index)}
+                {renderCareerFairEventInfo(item, index)}
+              </div>
+            )
+          )}
         </div>
       </div>
     </div>
