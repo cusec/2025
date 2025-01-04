@@ -1,0 +1,184 @@
+[
+    {
+        "name": "Greg Wilson",
+        "role": "",
+        "type": "keynote",
+        "pronouns": "he/him",
+        "image": "/images/speakers/greg.png",
+        "description": "Dr. Greg Wilson co-founded and was the first Executive Director of Software Carpentry, which has taught basic software skills to tens of thousands of researchers worldwide, and has authored or edited over a dozen books, including 'Beautiful Code', 'The Architecture of Open Source Applications', and most recently 'Software Design by Example'. Greg is a Fellow of the Python Software Foundation and a recipient of ACM SIGSOFT's Influential Educator of the Year award, and currently works as a software engineering manager at Plotly.",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "https://github.com/gvwilson",
+            "website": "https://third-bit.com/"
+        }
+    },
+    {
+        "name": "Lyn Chen",
+        "role": "",
+        "type": "keynote",
+        "pronouns": "she/her",
+        "image": "/images/speakers/lyn.png",
+        "description": "Lyn Chen is a serial entrepreneur and educator passionate about solving complex problems and empowering the next generation of leaders. She co-founded Webapp.io, a Y Combinator-backed DevOps tooling company backed by the former CTO of npm, scaling it to a $15M valuation. Lyn is also the co-author of the most popular free DevOps Engineering Course on FreeCodeCamp, with over 1M learners worldwide. \n As co-CEO of Cansbridge Scholars, Lyn mentors ambitious students under 25 globally, inspiring them to excel in entrepreneurship and intrapreneurship. Named the youngest Forbes 30 Under 30 in North America for B2B enterprise software, she has taught and spoken internationally through programs like Rotman’s CDL, TKS, and Techstars. \n Currently building a university, Lyn is dedicated to unlocking human potential with technology. She loves lifelong learning, traveling, trying new sports, and spending time with her husband, a video game developer, and their dog Penny and cat Zoe.",
+        "social": {
+            "twitter": "",
+            "linkedin": "linkedin.com/in/lynchen",
+            "github": "",
+            "website": "https://lynslearninglab.substack.com/?"
+        }
+    },
+    {
+        "name": "Edwin Sarmiento",
+        "role": "",
+        "type": "keynote",
+        "pronouns": "he/him",
+        "image": "/images/speakers/edwin.png",
+        "description": "I'm the Managing Director of 15C, a global consulting and training company that specializes in designing, implementing, and supporting Microsoft data platform solutions. \n A Microsoft Certified Master and a former Microsoft Data Platform MVP for 12 years, I specialize in the design and implementation of high availability, disaster recovery and system infrastructure solutions. The nature of my work got me interested in non-technology matters such as professional and organizational development, leadership and management matters, neuroscience, and human psychology. \n When not working with databases, you can find me playing jazz music on my Korg X50 or Kawai ES110 keyboards or acoustic guitar, going on nature hikes, doing wilderness camping, running races, and earning my private pilot's license. ",
+        "social": {
+            "twitter": "https://twitter.com/EdwinMSarmiento",
+            "linkedin": "https://www.linkedin.com/in/edwinmsarmiento/",
+            "github": "https://github.com/EdwinMSarmiento",
+            "website": "https://www.edwinmsarmiento.com/"
+        }
+    },
+    {
+        "name": "Fatima Taj",
+        "role": "Senior Software Engineer at Yelp",
+        "type": "speaker",
+        "pronouns": "she/her",
+        "image": "/images/speakers/fatima.png",
+        "description": "Fatima is a Senior Software Engineer at Yelp with a deep passion for mentoring early-career tech professionals. She has successfully guided many individuals through their first steps in the tech industry, helping them overcome challenges and achieve their career goals. In addition to her mentorship, Fatima is a prominent voice in the tech community, with a substantial following on LinkedIn, where she shares actionable insights on career development and growth. An experienced speaker, Fatima has presented at leading conferences including Developer Week 2024, the Southern California Linux Expo (Scale) 2023 and 2024, NDC Copenhagen Developer Festival 2023, Women of Silicon Roundabout 2022, cdCon+GitOpsCon 2023 (as a keynote speaker), Momentum 2024, and the Black is Tech Conference in 2022 and 2023. She has also spoken at over 80 hackathons across North America. Fatima holds a master's degree in Data Science from HEC Montreal and a bachelor’s degree in Mathematics from the University of Waterloo, Canada.",
+        "social": {
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/in/fatima-taj-37363a109/",
+            "github": "",
+            "website": "https://linktr.ee/fatimataj"
+        }
+    },
+    {
+        "name": "Gaia Noseworthy",
+        "role": "M. Applied Mathematics at the University of Waterloo",
+        "type": "speaker",
+        "pronouns": "they/them",
+        "image": "/images/speakers/gaia.png",
+        "description": "Gaia Noseworthy is a masters student of Applied Mathematics at the University of Waterloo. With a background in Computer Science, Mathematics, Physics, and Statistics, all at the University of New Brunswick, Gaia has built a life on local politics, research, and a love of learning. In their off-time, Gaia is known for podcasting, community outreach, and exploring their local city! ",
+        "social": {
+            "twitter": "https://x.com/gaianoseworthy",
+            "linkedin": "https://www.linkedin.com/in/gaianoseworthy/",
+            "github": "https://github.com/gaianoseworthy",
+            "website": ""
+        }
+    },
+    {
+        "name": "Mukund Mauji",
+        "role": "Applied Mathematics and Engineering, Self Employed Software Engineer",
+        "type": "speaker",
+        "pronouns": "he/him",
+        "image": "/images/speakers/mukund.png",
+        "description": "Hi my name is Mukund and I am a curious person. \n In university, I studied Applied Mathematics and Engineering, interning in SF and running a hackathon along the way. Since graduating, I've worked in multi-material 3D printing and web-scale search. Currently, I'm self employed and exploring different opportunities and technologies. So far this year, I've worked on projects in computational neuroscience, climate science, insurance tech, 3D modelling, and RC cars.",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "https://github.com/maujim/",
+            "website": ""
+        }
+    },
+    {
+        "name": "Jocelyne Murphy",
+        "role": "Systems Design Engineering at the University of Waterloo",
+        "type": "speaker",
+        "pronouns": "she/her",
+        "image": "/images/speakers/jocelyne.png",
+        "description": "Jocelyne is a Systems Design Engineering student at the University of Waterloo. She's recently founded Wygo, a company to support community-builders, and been a key contributor to the entrepreneurial ecosystem at Waterloo through building Socratica, a collective of writers, artists, engineers, and everything in-between. ",
+        "social": {
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/in/jmurphyy/",
+            "github": "",
+            "website": ""
+        }
+    },
+    {
+        "name": "Matthew Macrae-Bovell",
+        "role": "Software Developer II at Jobber, Computer Science at Carleton University",
+        "type": "speaker",
+        "pronouns": "he/him",
+        "image": "/images/speakers/matthew.png",
+        "description": "Carleton University computer science student and previous President of the Carleton Computer Science Society. \n Software Developer with 5+ years of experience across freelance, internships, and more. \n Interned with various startups as well as The Bank of Canada, Kinaxis, and RBC, followed by a two-year tenure at Shopify. \n Currently working as a Software Developer II at Jobber (a SAAS for service providers).",
+        "social": {
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/in/matthewmacraebovell/",
+            "github": "https://github.com/MathyouMB",
+            "website": "https://matthewmacraebovell.com/"
+        }
+    },
+    {
+        "name": "Rue Sriharsha",
+        "role": "Trustworthy AI Consultant at Deloitte",
+        "type": "speaker",
+        "pronouns": "she/her",
+        "image": "/images/speakers/rue.png",
+        "description": "Rue is on a mission to build products that improve life convenience. She is an AI/ML Consultant in Deloitte's Trustworthy AI practice. \n She graduated from the University of Toronto with a major in Computational Cognitive Science and triple minors in Computer Science, Statistics and Business. Rue has previously interned at Microsoft, Amazon and 3 Canadian startups. She is also an avid hackathon attendee with over 30+ successful projects and 5 wins under her belt.",
+        "social": {
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/in/ruesriharsha",
+            "github": "",
+            "website": ""
+        }
+    },    
+    {
+        "name": "Maya Lehki",
+        "role": "Computer Science and Business at Western University and Ivey School of Business",
+        "type": "panelist",
+        "pronouns": "she/her",
+        "image": "/images/speakers/maya.png",
+        "description": "Maya Lekhi is a Computer Science and Business student at Western University and the Ivey School of Business. Her journey into engineering began in high school, where she applied microbiology and data analysis in researching how SCOBY biofilms can be applied as renewable biofilters to address Canada’s water crisis. This groundbreaking research earned her recognition as a Canada-Wide Science Fair Finalist, placing her in the top 2% of research projects in Canada, and resulted in several publications. This early work led her to explore bioinformatics, studying mitochondrial haplotypes and their influence on DNA methylation for over a year. \n Maya has interned at 3 startups, TD Bank, Borealis AI, and is an incoming Software Engineer Intern at Microsoft. During her time at Borealis AI, she developed large language models and Fintech AI infrastructure supporting over 17 million clients. Beyond her internships, Maya has founded several startups, which she has grown through participation in the RippleX Accelerator and the Cansbridge Scholars program. Maya is committed to growing in the intersection of creativity and engineering, where she’s passionate about turning bold ideas into meaningful, lasting solutions.",
+        "social": {
+            "twitter": "https://x.com/maya_l39",
+            "linkedin": "https://www.linkedin.com/in/maya-l/",
+            "github": "https://github.com/mlekhi",
+            "website": "https://www.mayalekhi.ca/"
+        }
+    },
+    {
+        "name": "Victor Li",
+        "role": "Upcoming Masters Student in Data Science",
+        "type": "panelist",
+        "pronouns": "he/him",
+        "image": "/images/speakers/victor.png",
+        "description": "Hi! My name is Victor Li. I'm in my final year of Undergrad in CS and will start my Master's in Data Science in September. \n I have researched maritime ship prediction modelling, game theory, social networking, and reinforcement learning. While I gained valuable software development experience at Cerio, my passion lies in research, where I can tackle open-ended problems and explore innovative solutions. This interest has led me to focus on research-driven projects. \n A fun fact about me is that I represented Team Canada in Dragon Boat in Italy last year and am currently training for my Half-Ironman.  \n See you at CUSEC!! ",
+        "social": {
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/in/victorli5611/",
+            "github": "https://github.com/VictorLi5611",
+            "website": ""
+        }
+    },
+    {
+        "name": "Rabab Azeem",
+        "role": "Computer Engineering Student at Queen's University",
+        "type": "panelist",
+        "pronouns": "she/her",
+        "image": "/images/speakers/rabab.png",
+        "description": "Rabab is a 5th year Computer Engineering student at Queen's. Currently a Managing Director for the Queen's AI club, QMIND, she loves to lead and aspires to do AI research as a graduate student. ",
+        "social": {
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/in/rabab-azeem/",
+            "github": "https://github.com/beepbeep63",
+            "website": ""
+        }
+    },
+    {
+        "name": "Sophy Sun",
+        "role": "Bachelors of Computer Science at the University of Waterloo",
+        "type": "panelist",
+        "pronouns": "she/her",
+        "image": "/images/speakers/sophy.png",
+        "description": "Sophy graduated from the University of Toronto in 2024 and started working full-time at HubSpot in Boston. She interned five times during undergrad and held two research assistantships. ",
+        "social": {
+            "twitter": "https://x.com/_sophysun",
+            "linkedin": "LinkedIn.com/in/sophysun",
+            "github": "",
+            "website": ""
+        }
+    }
+]

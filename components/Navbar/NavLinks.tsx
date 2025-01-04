@@ -42,6 +42,13 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
           SPONSORS
         </Link>
         <Link
+          href={"/speakers"}
+          className="text-[28px] RobotoText font-semibold text-white"
+          onClick={toggleOpen}
+        >
+          SPEAKERS
+        </Link>
+        <Link
           href={"/#about"}
           className="text-[28px] RobotoText font-semibold text-white"
           onClick={toggleOpen}
@@ -78,6 +85,12 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
           className="text-[28px] RobotoText font-semibold text-white"
         >
           SPONSORS
+        </Link>
+        <Link
+          href={"/speakers"}
+          className="text-[28px] RobotoText font-semibold text-white"
+        >
+          SPEAKERS
         </Link>
         <Link
           href={"/#about"}
