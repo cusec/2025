@@ -28,6 +28,13 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
           ATTEND THE CONFERENCE
         </Link>
         <Link
+          href={"/schedule"}
+          className="text-[28px] RobotoText font-semibold text-white"
+          onClick={toggleOpen}
+        >
+          SCHEDULE
+        </Link>
+        <Link
           href={"/#sponsors"}
           className="text-[28px] RobotoText font-semibold text-white"
           onClick={toggleOpen}
@@ -66,6 +73,12 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
           className="text-[28px] RobotoText font-semibold text-white"
         >
           ATTEND THE CONFERENCE
+        </Link>
+        <Link
+          href={"/schedule"}
+          className="text-[28px] RobotoText font-semibold text-white"
+        >
+          SCHEDULE
         </Link>
         <Link
           href={"/#sponsors"}

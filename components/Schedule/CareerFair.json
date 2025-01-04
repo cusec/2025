@@ -1,0 +1,127 @@
+[
+    {
+      "Date": "January 9th",
+      "Day": "Thursday",
+      "items": [{
+        "title": "",
+        "location": "",
+        "start_time": "9:30 AM",
+        "end_time": "9:55 AM",
+        "row_span": 1
+      },
+      {
+        "title": "",
+        "location": "",
+        "start_time": "9:30 AM",
+        "end_time": "9:55 AM",
+        "row_span": 1
+      },
+     {
+        "title": "",
+        "location": "",
+        "start_time": "9:30 AM",
+        "end_time": "9:55 AM",
+        "row_span": 1
+      },
+        {
+          "title": "",
+          "location": "",
+          "start_time": "9:50 AM",
+          "end_time": "10:45 AM",
+          "row_span": 1
+        },
+        {
+          "title": "VIP Career Fair",
+          "location": "Sponsor Room",
+          "start_time": "10:45 AM",
+          "end_time": "11:45 AM",
+          "row_span": 2.5
+        },
+        {
+          "title": "",
+          "location": "",
+          "start_time": "11:55 AM",
+          "end_time": "1:25 PM",
+          "row_span": 3
+        },
+        {
+            "title": "",
+            "location": "",
+            "start_time": "11:55 AM",
+            "end_time": "1:25 PM",
+            "row_span": 3
+            },
+            {
+                "title": "",
+                "location": "",
+                "start_time": "11:55 AM",
+                "end_time": "1:25 PM",
+                "row_span": 3
+                },
+                                
+        {
+          "title": "General Career Fair",
+          "location": "Sponsor Room",
+          "start_time": "2:00 PM",
+          "end_time": "4:00 PM",
+          "row_span": 2
+        }
+      ]
+    },
+    {
+      "Date": "January 10",
+      "Day": "Friday",
+      "items": [
+        {
+          "title": "",
+          "location": "",
+          "start_time": "9:30 AM",
+          "end_time": "9:55 AM",
+          "row_span": 1
+        },
+        {
+            "title": "",
+            "location": "",
+            "start_time": "9:30 AM",
+            "end_time": "9:55 AM",
+            "row_span": 1
+          },
+        {
+          "title": "General Career Fair",
+          "location": "Sponsor Room",
+          "start_time": "10:00 AM",
+          "end_time": "12:00 PM",
+          "row_span": 3.5
+        },
+        
+        {
+            "title": "",
+            "location": "",
+            "start_time": "11:50 AM",
+            "end_time": "12:15 PM",
+            "row_span": 1
+          },
+          {
+            "title": "",
+            "location": "",
+            "start_time": "11:50 AM",
+            "end_time": "12:15 PM",
+            "row_span": 1
+          },
+          
+        {
+          "title": "VIP Career Fair",
+          "location": "Sponsor Room",
+          "start_time": "2:00 PM",
+          "end_time": "3:00 PM",
+          "row_span": 1
+        }
+      ]
+    },
+    {
+      "Date": "January 11",
+      "Day": "Saturday",
+      "items": [
+      ]
+    }
+  ]
