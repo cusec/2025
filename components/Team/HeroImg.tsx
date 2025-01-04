@@ -11,8 +11,8 @@ const HeroImg: React.FC<HeroImgProps> = ({ orientation, source }) => {
   return (
     <div
       className={`${
-        orientation == "v" ? "w-[210px] h-[450px]" : "w-[500px] h-[210px]"
-      }  flex justify-center items-center bg-gray-200 rounded-3xl`}
+        orientation == "v" ? "w-full h-full" : "w-full h-full"
+      }  flex justify-center items-center bg-gray-200 rounded-lg`}
     >
       <Image
         className="w-full h-full opacity-0"

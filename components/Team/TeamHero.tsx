@@ -5,15 +5,12 @@ import HeroImg from "./HeroImg";
 
 export default function TeamHero() {
   return (
-    <div className="w-[90%] h-auto mt-[65px] flex gap-16">
+    <div className="w-[90%] h-auto mt-[65px] flex flex-col md:flex-row gap-16">
       {/* hero images */}
       <div className="w-full flex flex-row items-center justify-center gap-8">
-        {/* vertical */}
-        <div className="flex flex-row items-center justify-center">
-          <HeroImg orientation="v" source=""></HeroImg>
-        </div>
-        {/* horizontal */}
-        <div className="flex flex-col items-center justify-center gap-8">
+        <div className="grid grid-cols-3 gap-4 w-full md:w-1/2 xl:w-2/3 mx-4 md:mx-8 xl:mx-12 md:mt-0">
+          <HeroImg orientation="h" source=""></HeroImg>
+          <HeroImg orientation="h" source=""></HeroImg>
           <HeroImg orientation="h" source=""></HeroImg>
           <HeroImg orientation="h" source=""></HeroImg>
         </div>

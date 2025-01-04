@@ -23,7 +23,7 @@ export default function TeamPage() {
           </div>
         </LoadingElement>
 
-        <div className="relative z-0 left-0 w-full -mt-[400px] bg-[url('/images/wave-bg.svg')] bg-no-repeat bg-bottom">
+        <div className="relative z-0 left-0 w-full -mt-[400px] bg-[url('/images/wave-bg.svg')] bg-no-repeat bg-bottom bg-cover">
           <div className="h-[605px]"></div>
         </div>
 
