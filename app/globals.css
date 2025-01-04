@@ -6,20 +6,16 @@
 :root {
   --gradient-color: linear-gradient(
     -162deg,
-  #EDB6E3 -16.45%, 
-  #CBF7F8 45.97%, 
-  rgba(200, 195, 255, 0.975) 96.73%, 
-  #6C6BD1 128.35%
+    #edb6e3 -16.45%,
+    #cbf7f8 45.97%,
+    rgba(200, 195, 255, 0.975) 96.73%,
+    #6c6bd1 128.35%
   );
-  --purple: #6C6BD1;
-  --light-purple: #C8C3FF;
+  --purple: #6c6bd1;
+  --light-purple: #c8c3ff;
   --dark-blue: #494882;
 
-  --button-gradient-color: linear-gradient(
-    270deg,
-    #B8EEF4 0%,
-    #C8C3FF 100%
-  );
+  --button-gradient-color: linear-gradient(270deg, #b8eef4 0%, #c8c3ff 100%);
 }
 
 * {
@@ -56,7 +52,7 @@
 }
 
 .dashed-border-overlay::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -67,31 +63,29 @@
   -webkit-mask-image: linear-gradient(#fff, #fff);
   mask-image: linear-gradient(#fff, #fff);
 }
-  
 
 /* ----------FONTS---------- */
 
 @font-face {
-  font-family: 'Bluescreens';
-  src: url('/fonts/TT-Bluescreens-Trial-Regular.otf') format('opentype');
+  font-family: "Bluescreens";
+  src: url("/fonts/TT-Bluescreens-Trial-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Bluescreens';
-  src: url('/fonts/TT-Bluescreens-Trial-Bold.otf') format('opentype');
+  font-family: "Bluescreens";
+  src: url("/fonts/TT-Bluescreens-Trial-Bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Roboto Condensed';
-  src: url('/fonts/RobotoCondensed.ttf') format('truetype');
+  font-family: "Roboto Condensed";
+  src: url("/fonts/RobotoCondensed.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
 
 /* ----------text styles---------- */
 /* purple-text & light-purple-text are headers texts (h3) */
@@ -99,28 +93,24 @@
   font-family: "Bluescreens";
   color: var(--purple);
   text-shadow: 1.5px 1.5px 0px rgba(73, 72, 130, 0.4);
-
 }
 
 .lightPurpleText {
   font-family: "Bluescreens";
   color: var(--light-purple);
   text-shadow: 1.5px 1.5px 0px rgba(73, 72, 130, 0.4);
-
 }
 
 .darkBlueText {
   font-family: "Bluescreens";
   color: var(--dark-blue);
   text-shadow: 1.5px 1.5px 0px rgba(73, 72, 130, 0.4);
-
 }
 
 .whiteText {
   font-family: "Bluescreens";
   color: white;
   text-shadow: 1.5px 1.5px 0px rgba(73, 72, 130, 0.4);
-
 }
 
 /* any text w/ bluescreens font */
@@ -148,7 +138,7 @@
 }
 
 .textGradient {
-  background: linear-gradient(270deg, #B8EEF4 0%, #C8C3FF 100%);
+  background: linear-gradient(270deg, #b8eef4 0%, #c8c3ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -160,7 +150,9 @@
   100% {
     transform: translateY(-3px);
   }
-  50% {transform: translateY(3px);}
+  50% {
+    transform: translateY(3px);
+  }
 }
 
 .bobbing-animation {
@@ -169,11 +161,12 @@
 
 /* ----------bouncing---------- */
 @keyframes bounce {
-  0%, 100% {
-      transform: translateY(10px);
+  0%,
+  100% {
+    transform: translateY(10px);
   }
   50% {
-      transform: translateY(6px);
+    transform: translateY(6px);
   }
 }
 
@@ -203,7 +196,7 @@
 }
 
 .content-container {
-  background-color: rgba(255,255,255, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 20px;
 }
 
@@ -211,61 +204,19 @@
   box-shadow: 0.717352px 1.4347px 0px rgba(73, 72, 130, 0.4);
 }
 
-/* TO DEPRECATE: SPEAKERS STUFF */
-.speakers-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+/* Border */
+.border-pink {
+  border-color: #edb6e3;
 }
 
-.speaker-card {
-  background-color: #f7f7f7;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.border-lightblue {
+  border-color: #cbf7f8;
 }
 
-.speaker-card img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 10px 10px 0 0;
+.border-lavender {
+  border-color: rgba(200, 195, 255, 0.975);
 }
 
-.speaker-card h2 {
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-.speaker-card p {
-  margin-bottom: 10px;
-}
-
-.social-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.social-links a {
-  text-decoration: none;
-  color: #337ab7;
-}
-
-.social-links a:hover {
-  color: #23527c;
-}
-
-/* Carousel */
-.carousel-root {
-  max-height: 400px;
-}
-
-.carousel-arrow {
-  font-size: 1.5rem;
-}
-
-.carousel-status {
-  font-size: 1rem;
-  font-weight: bold;
+.border-deepblue {
+  border-color: #6c6bd1;
 }
