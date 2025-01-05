@@ -1,4 +1,6 @@
+// dependencies
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -8,14 +10,17 @@ export default function Header() {
         <div className="flex flex-row items-center gap-4 md:justify-start justify-center w-full md:w-auto">
           {/* Logo and Title */}
           <div className="flex items-center">
-            <Image
-              className="w-[75px] h-[75px] max-w-[250px] max-h-[250px]"
-              src="/images/logo-main.svg"
-              alt="2025 logo main"
-              width={1080}
-              height={1080}
-              priority
-            />
+            <Link href={"/"}>
+              <Image
+                className="w-[75px] h-[75px] max-w-[250px] max-h-[250px]"
+                src="/images/logo-main.svg"
+                alt="2025 logo main"
+                width={1080}
+                height={1080}
+                priority
+              />
+            </Link>
+
             <div className="flex flex-col items-center">
               <h3 className="text-[40px] purpleText font-bold leading-[80%]">
                 CUSEC
