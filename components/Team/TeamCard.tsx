@@ -3,6 +3,9 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+// components
+import SocialIcon from "../SocialIcon";
+
 type TeamCardProps = {
   fname: string;
   lname: string;
@@ -44,7 +47,7 @@ export default function TeamCard({
 
   return (
     <motion.div
-      className={`rounded-lg text-center p-12 relative flex flex-col items-center justify-center transition-all duration-500 ease-in-out ${
+      className={`min-h-[500px] rounded-lg text-center p-12 relative flex flex-col items-center justify-center transition-all duration-500 ease-in-out ${
         isHovered ? "bg-white shadow-md" : ""
       }`}
       onHoverStart={() => setIsHovered(true)}
@@ -53,7 +56,7 @@ export default function TeamCard({
       {/* headshot */}
       <div className="min-w-[200px] min-h-[200px] flex justify-center items-center mb-10 rounded-full">
         <Image
-          className="w-full h-full rounded-full object-cover"
+          className="w-[200px] h-[200px] rounded-full object-cover"
           src={image}
           alt=""
           width={200}
@@ -89,6 +92,14 @@ export default function TeamCard({
             {year} - {program}
           </p>
           <p className="text-lg mb-2 RobotoText">{roles.join(", ")}</p>
+
+          {/* social media */}
+          <div className="flex flex-wrap gap-2 justify-center items-center">
+            {linkedin && <SocialIcon prop="linkedin" href={linkedin} />}
+            {instagram && <SocialIcon prop="instagram" href={instagram} />}
+            {github && <SocialIcon prop="github" href={github} />}
+            {website && <SocialIcon prop="website" href={website} />}
+          </div>
         </div>
       </div>
     </motion.div>
