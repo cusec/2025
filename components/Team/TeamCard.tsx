@@ -23,6 +23,9 @@ type TeamCardProps = {
   github?: string;
   website?: string;
   email?: string;
+  isHovered: boolean;
+  onHover: () => void;
+  onHoverEnd: () => void;
 };
 
 export default function TeamCard({
@@ -42,16 +45,28 @@ export default function TeamCard({
   github,
   website,
   email,
+  isHovered,
+  onHover,
+  onHoverEnd,
 }: TeamCardProps) {
-  const [isHovered, setIsHovered] = useState(false);
+  const handleTouchStart = () => {
+    if (isHovered) {
+      // if already hovered toggle hover off
+      onHoverEnd();
+    } else {
+      // else trigger hover on
+      onHover();
+    }
+  };
 
   return (
     <motion.div
       className={`min-h-[500px] rounded-lg text-center p-12 relative flex flex-col items-center justify-center transition-all duration-500 ease-in-out ${
         isHovered ? "bg-white shadow-md" : ""
       }`}
-      onHoverStart={() => setIsHovered(true)}
-      onHoverEnd={() => setIsHovered(false)}
+      onHoverStart={onHover}
+      onHoverEnd={onHoverEnd}
+      onTouchStart={handleTouchStart}
     >
       {/* headshot */}
       <div className="min-w-[200px] min-h-[200px] flex justify-center items-center mb-10 rounded-full">
