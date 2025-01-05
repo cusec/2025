@@ -16,34 +16,34 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
     <>
       {/* mobile nav */}
       <motion.div
-        className={`bg-gray-600/[.40] border-t-white border-t-[1px] flex flex-col gap-5 w-screen h-screen fixed top-0 mt-[65px] pt-10 pl-8 transition-all ease-in-out duration-700 z-50 ${
+        className={`bg-gray-600/[.40] border-t-white border-t-[1px] flex flex-col gap-5 w-screen fixed top-0 mt-[191px] pt-10 pl-8 transition-all ease-in-out duration-700 z-50 ${
           isOpen ? "translate-x-0" : "translate-x-[100%]"
         }`}
       >
         <Link
           href={"/#tickets"}
-          className="text-[28px] RobotoText font-semibold text-white"
+          className="text-lg RobotoText font-semibold text-white"
           onClick={toggleOpen}
         >
           ATTEND THE CONFERENCE
         </Link>
         <Link
           href={"/schedule"}
-          className="text-[28px] RobotoText font-semibold text-white"
+          className="text-lg RobotoText font-semibold text-white"
           onClick={toggleOpen}
         >
           SCHEDULE
         </Link>
         <Link
           href={"/#sponsors"}
-          className="text-[28px] RobotoText font-semibold text-white"
+          className="text-lg RobotoText font-semibold text-white"
           onClick={toggleOpen}
         >
           SPONSORS
         </Link>
         <Link
           href={"/speakers"}
-          className="text-[28px] RobotoText font-semibold text-white"
+          className="text-lg RobotoText font-semibold text-white"
           onClick={toggleOpen}
         >
           SPEAKERS
@@ -57,14 +57,14 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
         </Link>
         <Link
           href={"/#about"}
-          className="text-[28px] RobotoText font-semibold text-white"
+          className="text-lg RobotoText font-semibold text-white"
           onClick={toggleOpen}
         >
           ABOUT
         </Link>
         <Link
           href={"/#faq"}
-          className="text-[28px] RobotoText font-semibold text-white"
+          className="text-lg RobotoText font-semibold text-white"
           onClick={toggleOpen}
         >
           FAQ
@@ -73,29 +73,29 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
 
       {/* desktop nav */}
       <motion.div
-        className={`hidden md:flex bg-gray-600/[.40] md:bg-transparent md:flex-row md:justify-end md:items-center gap-5 w-screen md:h-[65px] fixed top-0 md:right-6 mt-[65px] md:m-0 pt-10 pl-8 md:p-0 z-50`}
+        className={`hidden md:flex bg-gray-600/[.40] md:bg-transparent md:flex-row md:justify-center md:items-center gap-12 w-screen md:h-14 md:right-6 mt-[191px] md:m-0 pt-10 pl-8 md:p-0 z-50`}
       >
         <Link
           href={"/#tickets"}
-          className="text-[28px] RobotoText font-semibold text-white"
+          className="text-lg RobotoText font-semibold text-white"
         >
           ATTEND THE CONFERENCE
         </Link>
         <Link
           href={"/schedule"}
-          className="text-[28px] RobotoText font-semibold text-white"
+          className="text-lg RobotoText font-semibold text-white"
         >
           SCHEDULE
         </Link>
         <Link
           href={"/#sponsors"}
-          className="text-[28px] RobotoText font-semibold text-white"
+          className="text-lg RobotoText font-semibold text-white"
         >
           SPONSORS
         </Link>
         <Link
           href={"/speakers"}
-          className="text-[28px] RobotoText font-semibold text-white"
+          className="text-lg RobotoText font-semibold text-white"
         >
           SPEAKERS
         </Link>
@@ -107,13 +107,13 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
         </Link>
         <Link
           href={"/#about"}
-          className="text-[28px] RobotoText font-semibold text-white"
+          className="text-lg RobotoText font-semibold text-white"
         >
           ABOUT
         </Link>
         <Link
           href={"/#faq"}
-          className="text-[28px] RobotoText font-semibold text-white"
+          className="text-lg RobotoText font-semibold text-white"
         >
           FAQ
         </Link>
