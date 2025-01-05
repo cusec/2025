@@ -11,11 +11,20 @@
     rgba(200, 195, 255, 0.975) 96.73%,
     #6c6bd1 128.35%
   );
+
   --purple: #6c6bd1;
   --light-purple: #c8c3ff;
   --dark-blue: #494882;
+  --shadow-purple: #7074a4;
+  --dark-blue-shadow: rgba(73, 72,130,0.4); /* should replace navbar colour */
 
   --button-gradient-color: linear-gradient(270deg, #b8eef4 0%, #c8c3ff 100%);
+
+  --gradient-purple-blue: linear-gradient(
+    -162deg,
+    #c8c3ff 41%,
+    #b8eef4 71%;
+  );
 }
 
 * {
@@ -27,6 +36,11 @@
   z-index: 0;
   background: var(--gradient-color);
   mix-blend-mode: normal;
+}
+
+/*should replace the main background */
+.purpleBlueGradientBackground {
+  background: var(--gradient-purple-blue);
 }
 
 .navbarGradientBackground {
@@ -123,11 +137,21 @@
   font-family: "Roboto Condensed";
 }
 
+.TTBluescreensText {
+  font-family: "Bluescreens";
+}
+
 /* any <p> text that is dark blue (like in header) */
 .textFont {
   font-family: "Roboto Condensed";
   font-weight: bold;
   color: var(--dark-blue);
+}
+
+.textFontLightPurple {
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  color: var(--light-purple);
 }
 
 /* any <p> text that is used for large bodies of text (like in about us section) */
