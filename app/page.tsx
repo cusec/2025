@@ -35,7 +35,7 @@ export default function Home() {
           <Splashpage onComplete={() => setShowSplash(false)} />
         ) : (
           <>
-            <div className="h-auto flex items-center justify-center mt-[65px]">
+            <div className="h-auto flex items-center justify-center mt-[191px]">
               <LoadingSection delay={0}>
                 <Main />
               </LoadingSection>
