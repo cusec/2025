@@ -4,14 +4,17 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 type TeamCardProps = {
-  name: string;
+  fname: string;
+  lname: string;
+  nickname: string;
   university: string;
+  program: string;
+  year: string;
   image: string;
   university_image: string;
   pronouns: string;
   roles: string[];
   sub_role?: string;
-  program: string;
   linkedin?: string;
   instagram?: string;
   github?: string;
@@ -20,14 +23,17 @@ type TeamCardProps = {
 };
 
 export default function TeamCard({
-  name,
+  fname,
+  lname,
+  nickname,
   university,
+  program,
+  year,
   image,
   university_image,
   pronouns,
   roles,
   sub_role,
-  program,
   linkedin,
   instagram,
   github,
@@ -56,15 +62,34 @@ export default function TeamCard({
         ></Image>
       </div>
 
-      {/* main info */}
-      <div className="flex flex-col items-center justify-center">
-        <h3 className="text-3xl font-bold mb-1 RobotoText flex items-center justify-center">
-          {isHovered ? university : name}
-        </h3>
-        <p className="text-sm text-gray-600 RobotoText">
-          {isHovered ? program : pronouns}
-        </p>
-        <p className="text-lg mb-2 RobotoText">{roles.join(", ")}</p>
+      <div className="relative w-full h-full p-9">
+        {/* main info */}
+        <div
+          className={`absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 ${
+            isHovered ? "opacity-0" : "opacity-100"
+          }`}
+        >
+          <h3 className="text-3xl font-bold mb-1 RobotoText flex items-center justify-center">
+            {fname} {nickname ? `(${nickname})` : ""} {lname}
+          </h3>
+          <p className="text-sm text-white RobotoText">{pronouns}</p>
+          <p className="text-lg mb-2 RobotoText">{roles.join(", ")}</p>
+        </div>
+
+        {/* more info */}
+        <div
+          className={`absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 ${
+            isHovered ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          <h3 className="text-3xl font-bold mb-1 textFont flex items-center justify-center">
+            {university}
+          </h3>
+          <p className="text-sm text-gray-600 RobotoText">
+            {year} - {program}
+          </p>
+          <p className="text-lg mb-2 RobotoText">{roles.join(", ")}</p>
+        </div>
       </div>
     </motion.div>
   );
