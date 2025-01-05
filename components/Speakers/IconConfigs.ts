@@ -1,5 +1,5 @@
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
-import { FiGlobe } from 'react-icons/fi';
+import { FiGlobe, FiInstagram } from 'react-icons/fi';
 import IconConfig from './IconConfig';
 
 const iconConfigs: IconConfig[] = [
@@ -22,6 +22,11 @@ const iconConfigs: IconConfig[] = [
     prop: "website",
     classes: "border-green-500 text-green-500 hover:bg-green-500",
     IconComponent: FiGlobe,
+  },
+  {
+    prop: "instagram",
+    classes: "border-[#c13584] text-[#c13584] hover:bg-[#c13584]",
+    IconComponent: FiInstagram,
   },
 ];
 

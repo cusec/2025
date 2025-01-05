@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const SpeakerHero = () => {
   return (
@@ -11,10 +11,13 @@ const SpeakerHero = () => {
             </h1>
             <div className="h-1 w-20 bg-[#6C6BD1] mb-4 md:mb-6 mx-auto"></div>
             <p className="md:text-lg mb-4 md:mb-6 text-dark-blue RobotoText">
-              Our speakers are at the heart of CUSEC. These thought leaders, innovators and pioneers in their fields.
-              Their insights and experiences will inspire you to think differently and challenge the status quo.
-              They allow CUSEC to showcase invaluable opportunities to dive deep into the latest trends and emerging technology,
-              forming CUSEC into an essential event for anyone eager to shapre the future of technology and innovation.
+              Our speakers are at the heart of CUSEC. These thought leaders,
+              innovators and pioneers in their fields. Their insights and
+              experiences will inspire you to think differently and challenge
+              the status quo. They allow CUSEC to showcase invaluable
+              opportunities to dive deep into the latest trends and emerging
+              technology, forming CUSEC into an essential event for anyone eager
+              to shapre the future of technology and innovation.
             </p>
           </div>
           <div className="grid grid-cols-3 gap-4 w-full md:w-1/2 xl:w-2/3 mx-4 md:mx-8 xl:mx-12 md:mt-0">

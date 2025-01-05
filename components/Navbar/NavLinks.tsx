@@ -49,6 +49,13 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
           SPEAKERS
         </Link>
         <Link
+          href={"/team"}
+          className="text-lg RobotoText font-semibold text-white"
+          onClick={toggleOpen}
+        >
+          THE TEAM
+        </Link>
+        <Link
           href={"/#about"}
           className="text-lg RobotoText font-semibold text-white"
           onClick={toggleOpen}
@@ -66,7 +73,7 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
 
       {/* desktop nav */}
       <motion.div
-        className={`hidden md:flex bg-gray-600/[.40] md:bg-transparent md:flex-row md:justify-center md:items-center gap-12 w-screen md:h-14 md:right-6 mt-[191px] md:m-0 pt-10 pl-8 md:p-0 z-50`}
+        className={`hidden md:flex bg-gray-600/[.40] md:bg-transparent md:flex-row md:justify-center md:items-center gap-5 lg:gap-12 w-screen md:h-14 md:right-6 mt-[191px] md:m-0 pt-10 pl-8 md:p-0 z-50`}
       >
         <Link
           href={"/#tickets"}
@@ -91,6 +98,12 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
           className="text-lg RobotoText font-semibold text-white"
         >
           SPEAKERS
+        </Link>
+        <Link
+          href={"/team"}
+          className="text-lg RobotoText font-semibold text-white"
+        >
+          THE TEAM
         </Link>
         <Link
           href={"/#about"}

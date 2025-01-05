@@ -10,6 +10,7 @@ interface Speaker {
       linkedin: string;
       github: string;
       website: string;
+      instagram: string;
     };
 }
   
