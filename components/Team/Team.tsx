@@ -14,7 +14,7 @@ export default function Team() {
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
 
   return (
-    <div className="w-[90%] h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pb-20">
+    <div className="w-[90%] h-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pb-20">
       {teamMembers.map((member, index) => (
         <TeamCard
           key={index}
