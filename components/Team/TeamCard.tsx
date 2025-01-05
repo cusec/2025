@@ -51,14 +51,14 @@ export default function TeamCard({
       onHoverEnd={() => setIsHovered(false)}
     >
       {/* headshot */}
-      <div className="w-[200px] h-[200px] flex justify-center items-center mb-10 rounded-full bg-gray-100">
-        {" "}
+      <div className="min-w-[200px] min-h-[200px] flex justify-center items-center mb-10 rounded-full">
         <Image
-          className="w-full h-full rounded-full"
+          className="w-full h-full rounded-full object-cover"
           src={image}
           alt=""
           width={200}
           height={200}
+          quality={100}
         ></Image>
       </div>
 
