@@ -15,7 +15,7 @@ export default function TeamPage() {
   return (
     <>
       <title>The Team</title>
-      <main className="w-screen h-auto flex flex-col items-center justify-center mt-[65px] py-8">
+      <main className="w-screen h-auto flex flex-col items-center justify-center mt-[291px] pt-8">
         {/* hero / header */}
         <LoadingElement delay={0}>
           <div className="relative z-10 w-screen flex flex-col items-center justify-center">

@@ -61,7 +61,7 @@ export default function TeamCard({
 
   return (
     <motion.div
-      className={`min-h-[500px] rounded-lg text-center p-12 relative flex flex-col items-center justify-center transition-all duration-500 ease-in-out ${
+      className={`min-h-[500px] rounded-lg text-center py-12 relative flex flex-col items-center justify-center transition-all duration-500 ease-in-out ${
         isHovered ? "bg-white shadow-md" : ""
       }`}
       onHoverStart={onHover}
@@ -83,20 +83,22 @@ export default function TeamCard({
       <div className="relative w-full h-full p-9">
         {/* main info */}
         <div
-          className={`absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 ${
+          className={`px-4 absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 ${
             isHovered ? "opacity-0" : "opacity-100"
           }`}
         >
-          <h3 className="text-3xl font-bold mb-1 RobotoText flex items-center justify-center">
+          <h3 className="text-3xl font-bold mb-1 text-white RobotoText flex items-center justify-center">
             {fname} {nickname ? `(${nickname})` : ""} {lname}
           </h3>
-          <p className="text-sm text-white RobotoText">{pronouns}</p>
-          <p className="text-lg mb-2 RobotoText">{roles.join(", ")}</p>
+          <p className="text-sm text-gray-600 RobotoText">{pronouns}</p>
+          <p className="text-lg mb-2 RobotoText text-white opacity-90">
+            {roles.join(", ")}
+          </p>
         </div>
 
         {/* more info */}
         <div
-          className={`absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 ${
+          className={`px-4 absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-500 ${
             isHovered ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -109,7 +111,7 @@ export default function TeamCard({
           <p className="text-lg mb-2 RobotoText">{roles.join(", ")}</p>
 
           {/* social media */}
-          <div className="flex flex-wrap gap-2 justify-center items-center">
+          <div className="w-full flex flex-wrap gap-2 justify-center items-center">
             {linkedin && <SocialIcon prop="linkedin" href={linkedin} />}
             {instagram && <SocialIcon prop="instagram" href={instagram} />}
             {github && <SocialIcon prop="github" href={github} />}
