@@ -16,7 +16,7 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
     <>
       {/* mobile nav */}
       <motion.div
-        className={`bg-gray-600/[.40] border-t-white border-t-[1px] flex flex-col gap-5 w-screen fixed top-0 mt-[198px] pt-10 pl-8 transition-all ease-in-out duration-700 z-50 ${
+        className={`bg-gray-600/[.40] border-t-white border-t-[1px] flex flex-col gap-5 w-screen h-screen fixed top-0 mt-[200px] pt-10 pl-8 transition-all ease-in-out duration-700 z-50 ${
           isOpen ? "translate-x-0" : "translate-x-[100%]"
         }`}
       >
