@@ -9,7 +9,6 @@ import { motion } from "framer-motion";
 import LoadingElement from "@/components/LoadingElement";
 import TeamHero from "@/components/Team/TeamHero";
 import Team from "@/components/Team/Team";
-import HeadDelegates from "@/components/Team/HeadDelegates";
 
 export default function TeamPage() {
   return (
@@ -33,13 +32,6 @@ export default function TeamPage() {
             <Team></Team>
           </div>
         </LoadingElement>
-
-        {/* head delegates section */}
-        {/* <LoadingElement delay={0.2}>
-          <div className="w-screen grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4 items-center justify-center">
-            <HeadDelegates></HeadDelegates>
-          </div>
-        </LoadingElement> */}
       </main>
     </>
   );
