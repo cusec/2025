@@ -22,12 +22,11 @@ export default function TeamPage() {
           </div>
         </LoadingElement>
 
-        <div className="relative z-0 left-0 w-full -mt-[400px] bg-[url('/images/wave-bg.svg')] bg-no-repeat bg-bottom bg-cover">
-          <div className="h-[605px]"></div>
-        </div>
-
         {/* team section */}
         <LoadingElement delay={0.1}>
+          <div className="relative z-0 left-0 w-full -mt-[400px] bg-[url('/images/wave-bg.svg')] bg-no-repeat bg-bottom bg-cover">
+            <div className="h-[605px]"></div>
+          </div>
           <div className="relative z-10 w-screen py-40 flex items-center justify-center bg-gradient-to-b from-[#6C6BD1] via-[#6C6BD1] to-[#E0E0FF]">
             <Team></Team>
           </div>

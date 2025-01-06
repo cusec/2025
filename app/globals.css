@@ -14,6 +14,7 @@
 
   --purple: #6c6bd1;
   --light-purple: #c8c3ff;
+  --light-purple-1: rgba(200, 195, 255, .5); /* team card bg color */
   --dark-blue: #494882;
   --shadow-purple: #7074a4;
   --dark-blue-shadow: rgba(73, 72,130,0.4); /* should replace navbar colour */

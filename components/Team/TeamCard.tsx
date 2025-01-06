@@ -62,17 +62,17 @@ export default function TeamCard({
   return (
     <motion.div
       className={`min-h-[500px] rounded-lg text-center py-12 relative flex flex-col items-center justify-center transition-all duration-500 ease-in-out ${
-        isHovered ? "bg-white shadow-md" : ""
+        isHovered ? "bg-white shadow-md" : "bg-[--light-purple-1]"
       }`}
       onHoverStart={onHover}
       onHoverEnd={onHoverEnd}
       onTouchStart={handleTouchStart}
     >
       {/* headshot */}
-      <div className="relative min-w-[175px] min-h-[175px] sm:min-w-[200px] sm:min-h-[200px] flex justify-center items-center rounded-full">
+      <div className="relative w-[175px] h-[175px] sm:w-[200px] sm:h-[200px] flex justify-center items-center rounded-full">
         <Image
           className={`border-[--purple] w-[125px] h-[125px] xs:w-[175px] xs:h-[175px] sm:w-[200px] sm:h-[200px] transition-opacity duration-500 ease-in-out rounded-full object-cover border-[3px] mb-2 ${
-            isHovered ? "border-opacity-100" : "border-opacity-0"
+            isHovered ? "" : "border-white border-opacity-90"
           }`}
           src={image}
           alt={fname + " " + lname}
