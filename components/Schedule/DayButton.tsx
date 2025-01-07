@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface DayButtonProps {
   titleText: string;
@@ -18,12 +18,10 @@ const DayButton = ({
   return (
     <button
       style={{
-        background: selected
-          ? 'var(--button-gradient-color)'
-          : '#F7F7F7', 
+        background: selected ? "var(--button-gradient-color)" : "#F7F7F7",
       }}
-      className={`flex flex-col items-center justify-center px-8 py-5 rounded-lg mx-2 RobotoText text-lg ${
-        selected ? 'text-gray-600' : 'text-gray-600'
+      className={`flex flex-col items-center justify-center px-4 sm:px-8 py-5 rounded-lg mx-2 RobotoText text-lg ${
+        selected ? "text-gray-600" : "text-gray-600"
       }`}
       onClick={onDayButtonClick}
     >
