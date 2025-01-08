@@ -1,10 +1,17 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import "../../app/globals.css";
+import { useNav } from "../../components/Navbar/NavContext";
 
 const PrivacyPolicy: React.FC = () => {
+  const { isOpen } = useNav();
+
   return (
-    <div className="w-full flex justify-center">
+    <div
+      className={`w-full flex justify-center transition-opacity ease-in-out duration-700 ${
+        isOpen ? "opacity-0" : "opacity-100"
+      }`}
+    >
       <div className="content-container w-11/12 sm:w-8/12 md:w-9/12 lg:w-4/5 p-8 rounded-lg mt-10">
         <h1 className="text-4xl purpleText font-bold mb-6 text-left">
           Privacy Policy
