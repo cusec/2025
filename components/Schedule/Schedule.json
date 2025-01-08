@@ -12,7 +12,7 @@
         {
           "category": "1",
           "title": "Opening Ceremony",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "9:30 AM",
           "end_time": "9:50 AM"
         },
@@ -20,7 +20,7 @@
           "category": "2",
           "speaker": "Lyn Chen",
           "title": "From Zero to One: How to Treat Yourself Like A Startup",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "9:50 AM",
           "end_time": "10:45 AM"
         },
@@ -28,7 +28,7 @@
           "category": "2",
           "speaker": "Matthew Macrae-Bovell",
           "title": "Student to Software Engineer: Strategies for Launching Your Tech Career",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "10:55 AM",
           "end_time": "11:20 AM"
         },
@@ -36,7 +36,7 @@
           "category": "2",
           "speaker": "Mukund Mauji",
           "title": "The Year After Burnout: Lessons from \n Letting Go and Starting Over",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "11:30 AM",
           "end_time": "11:55 AM"
         },
@@ -51,29 +51,29 @@
           "category": "2",
           "speaker": "Nivy Kani",
           "title": "How to Make the Most of Hackathons",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "1:25 PM",
           "end_time": "1:50 PM"
         },
         {
           "category": "1",
-          "title": "Workshop 1: Hosted by RBC",
-          "location": "Theatre",
+          "title": "Pair-Piloting: Navigating Prompt Challenges with Co-Pilot",
+          "location": "CUSEC Theatre",
           "start_time": "2:00 PM",
           "end_time": "2:55 PM"
         },
         {
           "category": "2",
           "speaker": "Shan Wu",
-          "title": "5 Hacks That Changed My Life as a Student",
-          "location": "Theatre",
+          "title": "10 Steps to Get a Job (and Avert Your Quarter-Life Crisis) Now",
+          "location": "CUSEC Theatre",
           "start_time": "3:05 PM",
           "end_time": "3:30 PM"
         },
         {
           "category": "1",
           "title": "Dev's Den Reloaded: Preliminary Round 1",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "3:45 PM",
           "end_time": "5:00 PM"
         },
@@ -87,7 +87,7 @@
         {
           "category": "1",
           "title": "Game Night",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "8:00 PM",
           "end_time": "12:00 AM"
         }
@@ -101,7 +101,7 @@
           "category": "2",
           "speaker": "Rue Sriharsha",
           "title": "Getting Started with Responsible AI",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "9:30 AM",
           "end_time": "9:55 AM"
         },
@@ -109,14 +109,14 @@
           "category": "2",
           "speaker": "Gaia Noseworthy",
           "title": "Work-Life Balance: System Maintenance for Yourself",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "10:05 AM",
           "end_time": "10:30 AM"
         },
         {
           "category": "1",
           "title": "Emerging Technologies Panel",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "10:40 PM",
           "end_time": "11:05 PM"
         },
@@ -124,14 +124,14 @@
           "category": "2",
           "speaker": "Bilal Akhtar",
           "title": "Overloaded your distributed system? The solution lies in your control system course.",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "11:15 AM",
           "end_time": "11:40 AM"
         },
         {
           "category": "1",
           "title": "Resume Review",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "11:50 AM",
           "end_time": "12:15 PM"
         },
@@ -146,7 +146,7 @@
           "category": "2",
           "speaker": "Fatima Taj",
           "title": "What they don't tell you about technical interviews",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "1:45 PM",
           "end_time": "2:35 PM"
         },
@@ -154,14 +154,14 @@
           "category": "2",
           "speaker": "Greg Wilson",
           "title": "What Everyone in Tech Should Know About Teaching and Learning",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "2:45 PM",
           "end_time": "3:40 PM"
         },
         {
           "category": "1",
           "title": "Dev's Den Reloaded: Preliminary Round 2",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "4:00 PM",
           "end_time": "5:00 PM"
         },
@@ -187,7 +187,7 @@
             {
               "category": "2",
               "title": "Karaoke Night",
-              "location": "Sponsor Room",
+              "location": "Networking Room",
               "start_time": "8:00 PM",
               "end_time": "11:00 AM"
             }
@@ -203,7 +203,7 @@
           "category": "2",
           "speaker": "Tony Xu",
           "title": "Ask Me Anything",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "10:00 AM",
           "end_time": "10:25 AM"
         },
@@ -211,21 +211,21 @@
           "category": "2",
           "speaker": "Jocelyne Murphy",
           "title": "Worldbulding IRL",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "10:30 AM",
           "end_time": "10:55 AM"
         },
         {
           "category": "1",
-          "title": "Workshop 2",
-          "location": "Theatre",
+          "title": "Build Fast, Build Fresh: Nuxt and Tailwind",
+          "location": "CUSEC Theatre",
           "start_time": "11:00 AM",
           "end_time": "11:45 AM"
         },
         {
           "category": "1",
           "title": "Landing Internships Panel",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "11:50 AM",
           "end_time": "12:15 PM"
         },
@@ -239,7 +239,7 @@
         {
           "category": "1",
           "title": "Dev's Den Reloaded: Finals",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "1:50 PM",
           "end_time": "2:30 PM"
         },
@@ -247,28 +247,28 @@
           "category": "2",
           "speaker": "Edwin Sarmiento",
           "title": "Preparing for Your Career in the New Era of an AI-Driven world",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "2:30 PM",
           "end_time": "3:25 PM"
         },
         {
           "category": "1",
           "title": "Post-Grad/Research Panel",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "3:35 PM",
           "end_time": "4:20 PM"
         },
         {
           "category": "1",
           "title": "Get Involved With CUSEC, 2025 Organizer's Panel",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "4:30 PM",
           "end_time": "4:55 PM"
         },
         {
           "category": "1",
           "title": "Closing Ceremony, Awards, and Photos!",
-          "location": "Theatre",
+          "location": "CUSEC Theatre",
           "start_time": "4:55 PM",
           "end_time": "5:15 PM"
         }
