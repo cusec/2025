@@ -4,6 +4,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useNav } from "../../components/Navbar/NavContext";
 
 // components
 import Speakers from "@/components/Speakers/Speakers";
@@ -11,11 +12,17 @@ import SpeakersHero from "@/components/Speakers/SpeakerHero";
 import LoadingElement from "@/components/LoadingElement";
 
 export default function SpeakersPage() {
+  const { isOpen } = useNav();
+
   return (
     <>
       <title>Speakers</title>
       <LoadingElement delay={0}>
-        <main className="flex flex-col overflow-x-hidden mainBackgroundGradient justify-center -mb-20">
+        <main
+          className={`flex flex-col overflow-x-hidden mainBackgroundGradient justify-center -mb-20 transition-opacity ease-in-out duration-700 ${
+            isOpen ? "opacity-0" : "opacity-100"
+          }`}
+        >
           <div className="h-auto flex mt-[291px] justify-center">
             <SpeakersHero />
           </div>

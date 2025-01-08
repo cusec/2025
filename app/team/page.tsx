@@ -4,6 +4,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useNav } from "../../components/Navbar/NavContext";
 
 // components
 import LoadingElement from "@/components/LoadingElement";
@@ -11,10 +12,15 @@ import TeamHero from "@/components/Team/TeamHero";
 import Team from "@/components/Team/Team";
 
 export default function TeamPage() {
+  const { isOpen } = useNav();
   return (
     <>
       <title>The Team</title>
-      <main className="w-screen h-auto flex flex-col items-center justify-center mt-[291px] pt-8">
+      <main
+        className={`w-screen h-auto flex flex-col items-center justify-center mt-[291px] pt-8 transition-opacity ease-in-out duration-700 ${
+          isOpen ? "opacity-0" : "opacity-100"
+        }`}
+      >
         {/* hero / header */}
         <LoadingElement delay={0}>
           <div className="relative z-10 w-screen flex flex-col items-center justify-center">
