@@ -56,6 +56,76 @@
         }
     },
     {
+        "name": "Nivy Kani",
+        "role": "Software Developer at Google",
+        "type": "speaker",
+        "pronouns": "she/her",
+        "image": "/images/speakers/nivy.png",
+        "description": "Nivy graduated from the University of Toronto in 2022, studying Computer Science and Business Management. She currently works as a software developer at Google, with an interest in Cloud technologies. In her free time, she uses her leadership experience to help non-profits use technology to operate better. She also loves running and learning languages!",
+        "social": {
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/in/nivykani",
+            "github": "",
+            "website": ""
+        }
+    },
+    {
+        "name": "Rue Sriharsha",
+        "role": "Trustworthy AI Consultant at Deloitte",
+        "type": "speaker",
+        "pronouns": "she/her",
+        "image": "/images/speakers/rue.png",
+        "description": "Rue is on a mission to build products that improve life convenience. She is an AI/ML Consultant in Deloitte's Trustworthy AI practice. \n She graduated from the University of Toronto with a major in Computational Cognitive Science and triple minors in Computer Science, Statistics and Business. Rue has previously interned at Microsoft, Amazon and 3 Canadian startups. She is also an avid hackathon attendee with over 30+ successful projects and 5 wins under her belt.",
+        "social": {
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/in/ruesriharsha",
+            "github": "",
+            "website": ""
+        }
+    }, 
+    {
+        "name": "Shan Wu",
+        "role": "Entrepreneur, Founder, and CEO",
+        "type": "speaker",
+        "pronouns": "he/him",
+        "image": "/images/speakers/shan.png",
+        "description": "Shan is a human. And here’s a bunch of work things he did: RBC Tech & Ops intern. Bain consultant. Early team at 2 YC startups. And now Cofounder of a VC backed no name startup. He had mentors that changed his life when he was a student, and is excited to share whatever he can with everyone he meets at CUSEC.",
+        "social": {
+            "twitter": "",
+            "linkedin": "LinkedIn.com/in/wushawn",
+            "github": "",
+            "website": ""
+        }
+    },
+    {
+        "name": "Matthew Macrae-Bovell",
+        "role": "Software Developer II at Jobber, Computer Science at Carleton University",
+        "type": "speaker",
+        "pronouns": "he/him",
+        "image": "/images/speakers/matthew.png",
+        "description": "Carleton University computer science student and previous President of the Carleton Computer Science Society. \n Software Developer with 5+ years of experience across freelance, internships, and more. \n Interned with various startups as well as The Bank of Canada, Kinaxis, and RBC, followed by a two-year tenure at Shopify. \n Currently working as a Software Developer II at Jobber (a SAAS for service providers).",
+        "social": {
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/in/matthewmacraebovell/",
+            "github": "https://github.com/MathyouMB",
+            "website": "https://matthewmacraebovell.com/"
+        }
+    },   
+    {
+        "name": "Bilal Ahktar",
+        "role": "Software Engineer at Cockroach Labs, Alumni UWaterloo Software Engineering",
+        "type": "speaker",
+        "pronouns": "he/him",
+        "image": "/images/speakers/bilal.png",
+        "description": "Bilal is a Software Engineer at Cockroach Labs. He works on CockroachDB’s log-structured merge-tree (LSM) based storage engine, and in the process he has built a deep appreciation for reliable, highly-performant code. He has experience dealing with things that can go wrong in large, production distributed systems, and he is eager to share this experience at CUSEC. An alumni of UWaterloo’s Software Engineering program, he's dodged his fair share of geese on campus and now the only honks he gets are from his oncall pager app. Outside of work, Bilal is an avid skier, long-distance runner and an advocate for housing affordability in Toronto.",
+        "social": {
+            "twitter": "",
+            "linkedin": "http://linkedin.com/in/bilalakhtar0/",
+            "github": "http://github.com/itsbilal/",
+            "website": "itsbilal.com"
+        }
+    },   
+    {
         "name": "Gaia Noseworthy",
         "role": "M. Applied Mathematics at the University of Waterloo",
         "type": "speaker",
@@ -66,6 +136,34 @@
             "twitter": "https://x.com/gaianoseworthy",
             "linkedin": "https://www.linkedin.com/in/gaianoseworthy/",
             "github": "https://github.com/gaianoseworthy",
+            "website": ""
+        }
+    },
+    {
+        "name": "Tony Xu",
+        "role": "MSc Electrical and COEN at McGill, SE from WesternU, Business from Ivey Business School",
+        "type": "speaker",
+        "pronouns": "he/him",
+        "image": "/images/speakers/tony.png",
+        "description": "Tony is a MSc electrical and compute engineering student at McGill researching GenAI. He holds a dual degree in software engineering from Western University and business from Ivey Business School. He is researching copyright-free diffusion models. His previous research was in plaque segmentation from ultrasound, optimal needle placement in brachytherapy, driver drowsiness detection, and tornado segmentation from satellite. He is working on a microbiome startup on a mission to take the guesswork out of skincare and provide a better alternative to antibiotics. His industry experience includes AI engineering, asset management, and software engineering.",
+        "social": {
+            "twitter": "",
+            "linkedin": "",
+            "github": "",
+            "website": ""
+        }
+    },
+    {
+        "name": "Florent Giraud",
+        "role": "Senior Software Engineer at BusBud",
+        "type": "speaker",
+        "pronouns": "he/him",
+        "image": "/images/speakers/florent.png",
+        "description": "I am a Senior Software Developer with a passion for building scalable and innovative front-end solutions. I am graduate of 42 School in France, I’ve cultivated a hands-on approach to tackling complex challenges and driving impactful results. My career has spanned roles such as Front-End Lead and Software Architect, where I implemented infrastructure-as-code solutions, established modern development practices, and guided cross-functional teams through complex transitions. I thrive on collaboration, mentoring, and fostering a culture of continuous learning. Whether it’s facilitating 'Lunch and Learn' sessions, crafting roadmaps that align technical vision with business goals, or driving innovation. Beyond work, I enjoy exploring emerging technologies, sharing knowledge through workshops, and solving challenges that push the boundaries of what’s possible in software development.",
+        "social": {
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/in/fgiraud42/?locale=en_US",
+            "github": "https://github.com/flozero",
             "website": ""
         }
     },
@@ -97,34 +195,7 @@
             "website": ""
         }
     },
-    {
-        "name": "Matthew Macrae-Bovell",
-        "role": "Software Developer II at Jobber, Computer Science at Carleton University",
-        "type": "speaker",
-        "pronouns": "he/him",
-        "image": "/images/speakers/matthew.png",
-        "description": "Carleton University computer science student and previous President of the Carleton Computer Science Society. \n Software Developer with 5+ years of experience across freelance, internships, and more. \n Interned with various startups as well as The Bank of Canada, Kinaxis, and RBC, followed by a two-year tenure at Shopify. \n Currently working as a Software Developer II at Jobber (a SAAS for service providers).",
-        "social": {
-            "twitter": "",
-            "linkedin": "https://www.linkedin.com/in/matthewmacraebovell/",
-            "github": "https://github.com/MathyouMB",
-            "website": "https://matthewmacraebovell.com/"
-        }
-    },
-    {
-        "name": "Rue Sriharsha",
-        "role": "Trustworthy AI Consultant at Deloitte",
-        "type": "speaker",
-        "pronouns": "she/her",
-        "image": "/images/speakers/rue.png",
-        "description": "Rue is on a mission to build products that improve life convenience. She is an AI/ML Consultant in Deloitte's Trustworthy AI practice. \n She graduated from the University of Toronto with a major in Computational Cognitive Science and triple minors in Computer Science, Statistics and Business. Rue has previously interned at Microsoft, Amazon and 3 Canadian startups. She is also an avid hackathon attendee with over 30+ successful projects and 5 wins under her belt.",
-        "social": {
-            "twitter": "",
-            "linkedin": "https://www.linkedin.com/in/ruesriharsha",
-            "github": "",
-            "website": ""
-        }
-    },    
+    
     {
         "name": "Maya Lehki",
         "role": "Computer Science and Business at Western University and Ivey School of Business",
