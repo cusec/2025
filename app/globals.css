@@ -12,20 +12,18 @@
     #6c6bd1 128.35%
   );
 
+  --gradient-color2: linear-gradient(-162deg, #b8eef4 0%, #c8c3ff 100%);
+
   --purple: #6c6bd1;
   --light-purple: #c8c3ff;
-  --light-purple-1: rgba(200, 195, 255, .5); /* team card bg color */
+  --light-purple-1: rgba(200, 195, 255, 0.5); /* team card bg color */
   --dark-blue: #494882;
   --shadow-purple: #7074a4;
-  --dark-blue-shadow: rgba(73, 72,130,0.4); /* should replace navbar colour */
+  --dark-blue-shadow: rgba(73, 72, 130, 0.4); /* should replace navbar colour */
 
   --button-gradient-color: linear-gradient(270deg, #b8eef4 0%, #c8c3ff 100%);
 
-  --gradient-purple-blue: linear-gradient(
-    -162deg,
-    #c8c3ff 41%,
-    #b8eef4 71%;
-  );
+  --gradient-purple-blue: linear-gradient(-162deg, #c8c3ff 41%, #b8eef4 71%;);
 }
 
 * {
@@ -36,6 +34,12 @@
 .mainGradientBackground {
   z-index: 0;
   background: var(--gradient-color);
+  mix-blend-mode: normal;
+}
+
+.mainGradientBackground2 {
+  z-index: 0;
+  background: var(--gradient-color2);
   mix-blend-mode: normal;
 }
 

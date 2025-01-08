@@ -40,7 +40,9 @@ export default function EventDetails() {
       </div>
 
       {/* TICKETS button */}
-      <motion.div className="relative mb-[5px]"> {/* Reduced the margin-bottom */}
+      <motion.div className="relative mb-[5px]">
+        {" "}
+        {/* Reduced the margin-bottom */}
         <motion.a
           className="w-[315px] md:w-[450px] h-[55px] md:h-[62px] textFont text-xl buttonGradient flex justify-center items-center rounded-xl z-10 disabled:opacity-75"
           whileHover={{ backgroundColor: "#5250d4", scale: 1.05 }}
@@ -58,11 +60,12 @@ export default function EventDetails() {
       </motion.div>
 
       {/* email buttons */}
-      <div className="flex flex-col justify-center items-center gap-2 mt-2"> {/* Reduced the top margin */}
+      <div className="flex flex-col justify-center items-center gap-2 mt-2">
+        {" "}
+        {/* Reduced the top margin */}
         <EmailLink href="mailto:sponsor@cusec.net" text="BECOME A SPONSOR" />
         <EmailLink href="mailto:talks@cusec.net" text="BECOME A SPEAKER" />
       </div>
-
     </div>
   );
 }
