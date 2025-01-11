@@ -295,7 +295,7 @@ const teamMembers: TeamMember[] = [
     university: "Carleton University",
     program: "Computer Science",
     year: "3rd year",
-    image: "/images/team/dan.jpg",
+    image: "/images/team/dan-fixed.jpg",
     university_image: "/images/school/carletonu.png",
     pronouns: "",
     roles: ["Head Delegate"],
