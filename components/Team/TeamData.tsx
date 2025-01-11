@@ -288,6 +288,25 @@ const teamMembers: TeamMember[] = [
     website: "https://carsonsgit.github.io/",
     email: "carsonspriggs8@gmail.com",
   },
+  {
+    fname: "Daniel",
+    lname: "Arulpragasam",
+    nickname: "Dan",
+    university: "Carleton University",
+    program: "Computer Science",
+    year: "3rd year",
+    image: "/images/team/dan.jpg",
+    university_image: "/images/school/carletonu.png",
+    pronouns: "",
+    roles: ["Head Delegate"],
+    sub_role: "",
+    linkedin: "https://www.linkedin.com/in/daniel-arulpragasam",
+    instagram:
+      "https://www.instagram.com/daniel.04112?igsh=MXY0ejUzY3QwczlhdA==",
+    github: "",
+    website: "",
+    email: "",
+  },
 ];
 
 export default teamMembers;
