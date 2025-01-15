@@ -346,7 +346,7 @@ const teamMembers: TeamMember[] = [
   {
     fname: "Pooja",
     lname: "Patel",
-    nickname: "she/her",
+    nickname: "",
     university: "University of Regina",
     program: "Honours BSc Computer Science",
     year: "4th year",
