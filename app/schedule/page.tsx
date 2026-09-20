@@ -12,7 +12,6 @@ import LoadingElement from "@/components/LoadingElement";
 export default function schedule() {
   return (
     <>
-      <title>Schedule</title>
       <LoadingElement delay={0}>
         <main className="flex flex-col overflow-x-hidden min-h-screen justify-center">
           <div className="h-auto flex items-center justify-center mt-[191px] mb-[65px]">

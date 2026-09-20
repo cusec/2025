@@ -16,7 +16,6 @@ export default function SpeakersPage() {
 
   return (
     <>
-      <title>Speakers</title>
       <LoadingElement delay={0}>
         <main
           className={`flex flex-col overflow-x-hidden mainBackgroundGradient justify-center -mb-20 transition-opacity ease-in-out duration-700 ${

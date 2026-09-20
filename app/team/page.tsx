@@ -15,7 +15,6 @@ export default function TeamPage() {
   const { isOpen } = useNav();
   return (
     <>
-      <title>The Team</title>
       <main
         className={`w-screen h-auto flex flex-col items-center justify-center mt-[291px] pt-8 transition-opacity ease-in-out duration-700 ${
           isOpen ? "opacity-0" : "opacity-100"

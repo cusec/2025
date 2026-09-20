@@ -23,6 +23,9 @@ export default function Footer() {
 
       {/* Center Section: Navigation Links - Absolutely centered only on desktop */}
       <div className="flex justify-center space-x-4 font-bold w-full md:absolute md:inset-x-0 md:flex md:justify-center">
+        <a href="https://2027.cusec.net" className="textFont hover:underline mx-4">
+          CUSEC 2027
+        </a>
         <Link href="/code-of-conduct" className="textFont hover:underline mx-4">
           Code of Conduct
         </Link>

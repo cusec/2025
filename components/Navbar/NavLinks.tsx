@@ -69,6 +69,13 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
         >
           FAQ
         </Link>
+        <a
+          href="https://2027.cusec.net"
+          className="text-lg RobotoText font-semibold text-white"
+          onClick={toggleOpen}
+        >
+          CUSEC 2027
+        </a>
       </motion.div>
 
       {/* desktop nav */}
@@ -117,6 +124,12 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
         >
           FAQ
         </Link>
+        <a
+          href="https://2027.cusec.net"
+          className="text-lg RobotoText font-semibold text-white"
+        >
+          CUSEC 2027
+        </a>
       </motion.div>
     </>
   );
