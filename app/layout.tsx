@@ -26,6 +26,21 @@ export const metadata: Metadata = {
     siteName: "CUSEC 2025",
     type: "website",
     locale: "en_CA",
+    images: [
+      {
+        url: "/images/cusec2025.png",
+        width: 1903,
+        height: 987,
+        alt: "CUSEC 2025",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CUSEC 2025 - Canadian University Software Engineering Conference",
+    description:
+      "CUSEC 2025 took place January 9-11, 2025. The next edition is CUSEC 2027.",
+    images: ["/images/cusec2025.png"],
   },
   robots: {
     index: true,
