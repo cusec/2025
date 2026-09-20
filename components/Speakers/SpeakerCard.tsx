@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Link from "next/link";
+import { speakerSlug } from "@/lib/speakers";
 import iconConfigs from "./IconConfigs";
 import Speaker from "./Speaker";
 
@@ -9,11 +11,16 @@ const SpeakerCard = ({ speaker }: { speaker: Speaker }) => {
     <div className="mb-8 bg-white rounded-lg shadow-md p-12 relative">
       <img
         src={speaker.image}
-        alt={speaker.name}
+        alt={`${speaker.name}, speaker at CUSEC 2025`}
         className="w-full h-48 object-contain rounded-lg mb-4"
       />
       <div className="text-center">
-        <h2 className="text-3xl font-bold mb-1 RobotoText">{speaker.name}</h2>
+        <Link
+          href={`/speakers/${speakerSlug(speaker.name)}`}
+          className="hover:underline"
+        >
+          <h2 className="text-3xl font-bold mb-1 RobotoText">{speaker.name}</h2>
+        </Link>
         <p className="text-sm text-gray-600 RobotoText">{speaker.pronouns}</p>
         <p className="text-lg mb-2 RobotoText">{speaker.role}</p>
         <div className="flex flex-wrap gap-2 justify-center RobotoText mb-4">

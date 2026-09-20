@@ -28,7 +28,7 @@ const Sponsors = () => {
                 >
                   <Image
                     src={sponsor.image}
-                    alt={`Gold Sponsor ${index + 1}`}
+                    alt={`${sponsor.name} logo`}
                     width={585}
                     height={455}
                     className="object-contain"
@@ -54,7 +54,7 @@ const Sponsors = () => {
               >
                 <Image
                   src={sponsor.image}
-                  alt={`Silver Sponsor ${index + 1}`}
+                  alt={`${sponsor.name} logo`}
                   width={390}
                   height={275}
                   className="object-contain"
@@ -79,7 +79,7 @@ const Sponsors = () => {
               >
                 <Image
                   src={sponsor.image}
-                  alt={`Bronze Sponsor ${index + 1}`}
+                  alt={`${sponsor.name} logo`}
                   width={260}
                   height={145}
                   className="object-contain"
@@ -107,7 +107,7 @@ const Sponsors = () => {
               >
                 <Image
                   src={sponsor.image}
-                  alt={`Collaborator ${index + 1}`}
+                  alt={`${sponsor.name} logo`}
                   width={260}
                   height={145}
                   className="object-contain"
@@ -135,7 +135,7 @@ const Sponsors = () => {
               >
                 <Image
                   src={sponsor.image}
-                  alt={`In-Kind Sponsor ${index + 1}`}
+                  alt={`${sponsor.name} logo`}
                   width={125}
                   height={125}
                   className="object-contain"

@@ -72,7 +72,7 @@ const TicketType: React.FC<TicketTypeProps> = ({
             <Image
               className="w-[21px] h-[21px] max-w-[21px] max-h-[21px]"
               src="/images/sparkles.svg"
-              alt="sparkles"
+              alt=""
               width={1080}
               height={1080}
             ></Image>

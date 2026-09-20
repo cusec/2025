@@ -38,14 +38,14 @@ const TicketPerk: React.FC<TicketPerkProps> = ({ text }) => {
             <Image
                 className={`w-[14px] h-[14px] max-w-[14px] max-h-[14px] ${!isStd ? "hidden" : "" }`}
                 src="/images/checkmarkIconBlue.svg"
-                alt="sparkles"
+                alt=""
                 width={1080}
                 height={1080}
             ></Image>
             <Image
                 className={`w-[14px] h-[14px] max-w-[14px] max-h-[14px]`}
                 src="/images/checkmarkIconGradient.svg"
-                alt="sparkles"
+                alt=""
                 width={1080}
                 height={1080}
             ></Image>

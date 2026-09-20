@@ -69,54 +69,67 @@ const NavLinks = ({ isOpen, setIsOpen }: NavLinksProps) => {
         >
           FAQ
         </Link>
+        <a
+          href="https://2027.cusec.net"
+          className="text-lg RobotoText font-semibold text-white"
+          onClick={toggleOpen}
+        >
+          CUSEC 2027
+        </a>
       </motion.div>
 
       {/* desktop nav */}
       <motion.div
-        className={`hidden md:flex bg-gray-600/[.40] md:bg-transparent md:flex-row md:justify-center md:items-center gap-5 lg:gap-12 w-screen md:h-14 md:right-6 mt-[191px] md:m-0 pt-10 pl-8 md:p-0 z-50`}
+        className={`hidden md:flex bg-gray-600/[.40] md:bg-transparent md:flex-row md:justify-center md:items-center gap-3 lg:gap-8 xl:gap-12 w-screen md:h-14 md:right-6 mt-[191px] md:m-0 pt-10 pl-8 md:p-0 z-50`}
       >
         <Link
           href={"/#tickets"}
-          className="text-lg RobotoText font-semibold text-white"
+          className="text-sm lg:text-lg RobotoText font-semibold text-white whitespace-nowrap"
         >
           ATTEND THE CONFERENCE
         </Link>
         <Link
           href={"/schedule"}
-          className="text-lg RobotoText font-semibold text-white"
+          className="text-sm lg:text-lg RobotoText font-semibold text-white whitespace-nowrap"
         >
           SCHEDULE
         </Link>
         <Link
           href={"/#sponsors"}
-          className="text-lg RobotoText font-semibold text-white"
+          className="text-sm lg:text-lg RobotoText font-semibold text-white whitespace-nowrap"
         >
           SPONSORS
         </Link>
         <Link
           href={"/speakers"}
-          className="text-lg RobotoText font-semibold text-white"
+          className="text-sm lg:text-lg RobotoText font-semibold text-white whitespace-nowrap"
         >
           SPEAKERS
         </Link>
         <Link
           href={"/team"}
-          className="text-lg RobotoText font-semibold text-white"
+          className="text-sm lg:text-lg RobotoText font-semibold text-white whitespace-nowrap"
         >
           THE TEAM
         </Link>
         <Link
           href={"/#about"}
-          className="text-lg RobotoText font-semibold text-white"
+          className="text-sm lg:text-lg RobotoText font-semibold text-white whitespace-nowrap"
         >
           ABOUT
         </Link>
         <Link
           href={"/#faq"}
-          className="text-lg RobotoText font-semibold text-white"
+          className="text-sm lg:text-lg RobotoText font-semibold text-white whitespace-nowrap"
         >
           FAQ
         </Link>
+        <a
+          href="https://2027.cusec.net"
+          className="text-sm lg:text-lg RobotoText font-semibold text-white whitespace-nowrap"
+        >
+          CUSEC 2027
+        </a>
       </motion.div>
     </>
   );

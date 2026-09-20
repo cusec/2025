@@ -29,7 +29,6 @@ export default function Home() {
 
   return (
     <>
-      <title>CUSEC 2025</title>
       <main className="flex flex-col overflow-x-hidden">
         {showSplash ? (
           <Splashpage onComplete={() => setShowSplash(false)} />

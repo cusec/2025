@@ -12,7 +12,6 @@ import LoadingElement from "@/components/LoadingElement";
 export default function codeOfConduct() {
   return (
     <>
-      <title>Code of Conduct</title>
       <LoadingElement delay={0}>
         <main className="mainGradientBackground flex flex-col overflow-x-hidden">
           <div className="h-auto flex items-center justify-center mt-[191px] mb-[65px]">

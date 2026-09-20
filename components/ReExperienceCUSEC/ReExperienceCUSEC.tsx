@@ -26,7 +26,7 @@ export default function ReExperienceCUSEC() {
           <div className="col-span-full">
             <Image
               src="/images/2024/maincrop.JPG"
-              alt="CUSEC group photo"
+              alt="CUSEC 2024 attendees and organizers group photo"
               width={800}
               height={400}
               className="object-cover"
@@ -37,42 +37,42 @@ export default function ReExperienceCUSEC() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             <Image
               src="/images/2024/devsden.JPG"
-              alt="Gallery photo 1"
+              alt="CUSEC 2024 conference photo 1"
               width={400}
               height={400}
               className="object-cover w-full h-auto"
             />
             <Image
               src="/images/2024/kareokewide.JPG"
-              alt="Gallery photo 2"
+              alt="CUSEC 2024 conference photo 2"
               width={400}
               height={400}
               className="object-cover w-full h-auto"
             />
             <Image
               src="/images/2024/rbcsponsorbooth.JPG"
-              alt="Gallery photo 3"
+              alt="CUSEC 2024 conference photo 3"
               width={400}
               height={400}
               className="object-cover w-full h-auto"
             />
             <Image
               src="/images/2024/ucalgary.JPG"
-              alt="Gallery photo 4"
+              alt="CUSEC 2024 conference photo 4"
               width={400}
               height={400}
               className="object-cover w-full h-auto"
             />
             <Image
               src="/images/2024/team.JPG"
-              alt="Gallery photo 5"
+              alt="CUSEC 2024 conference photo 5"
               width={400}
               height={400}
               className="object-cover w-full h-auto"
             />
             <Image
               src="/images/2024/hype.JPG"
-              alt="Gallery photo 6"
+              alt="CUSEC 2024 conference photo 6"
               width={400}
               height={400}
               className="object-cover w-full h-auto"

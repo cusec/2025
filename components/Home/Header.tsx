@@ -14,7 +14,7 @@ export default function Header() {
               <Image
                 className="w-[75px] h-[75px] max-w-[250px] max-h-[250px]"
                 src="/images/logo-main.svg"
-                alt="2025 logo main"
+                alt="CUSEC 2025 logo"
                 width={1080}
                 height={1080}
                 priority
