@@ -9,7 +9,7 @@ export default function Star() {
       <Image
         className="w-[27px] h-[27px]"
         src="/images/star.svg"
-        alt="star <3"
+        alt=""
         width={1080}
         height={1080}
       ></Image>

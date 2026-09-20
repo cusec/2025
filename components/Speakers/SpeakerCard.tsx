@@ -9,7 +9,7 @@ const SpeakerCard = ({ speaker }: { speaker: Speaker }) => {
     <div className="mb-8 bg-white rounded-lg shadow-md p-12 relative">
       <img
         src={speaker.image}
-        alt={speaker.name}
+        alt={`${speaker.name}, speaker at CUSEC 2025`}
         className="w-full h-48 object-contain rounded-lg mb-4"
       />
       <div className="text-center">

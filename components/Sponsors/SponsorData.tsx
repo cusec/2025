@@ -11,32 +11,32 @@ type SponsorData = {
 const sponsors: SponsorData = {
   gold: [
     {
-      image: "/images/sponsors/rbc.png",
+      name: "RBC", image: "/images/sponsors/rbc.png",
       link: "https://www.rbc.com/about-rbc.html",
     },
   ],
   silver: [
     {
-      image: "/images/sponsors/Compulsion_Games.png",
+      name: "Compulsion Games", image: "/images/sponsors/Compulsion_Games.png",
       link: "https://compulsiongames.com/",
     },
-    { image: "/images/sponsors/fellow.webp", link: "https://fellow.app/" },
+    { name: "Fellow", image: "/images/sponsors/fellow.webp", link: "https://fellow.app/" },
   ],
   bronze: [
-    { image: "/images/sponsors/ciena.png", link: "https://www.ciena.com" },
-    { image: "/images/sponsors/cse.svg", link: "https://www.cse-cst.gc.ca/" },
-    { image: "/images/sponsors/gadget.svg", link: "https://www.gadget.dev/" },
+    { name: "Ciena", image: "/images/sponsors/ciena.png", link: "https://www.ciena.com" },
+    { name: "Communications Security Establishment Canada", image: "/images/sponsors/cse.svg", link: "https://www.cse-cst.gc.ca/" },
+    { name: "Gadget", image: "/images/sponsors/gadget.svg", link: "https://www.gadget.dev/" },
   ],
   collaborators: [
-    { image: "/images/sponsors/tailed.png", link: "https://www.tailed.ca" },
+    { name: "Tailed", image: "/images/sponsors/tailed.png", link: "https://www.tailed.ca" },
   ],
   inkind: [
     {
-      image: "/images/sponsors/wolfram.png",
+      name: "Wolfram", image: "/images/sponsors/wolfram.png",
       link: "https://www.wolframalpha.com/",
     },
     {
-      image: "/images/sponsors/stickerbeaver.png",
+      name: "Sticker Beaver", image: "/images/sponsors/stickerbeaver.png",
       link: "https://www.stickerbeaver.com",
     },
   ],

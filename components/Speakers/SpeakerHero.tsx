@@ -24,7 +24,7 @@ const SpeakerHero = () => {
             <div className="aspect-w-1 aspect-h-1">
               <img
                 src="/images/speakers/carousel/carousel1.webp"
-                alt="Speaker 1"
+                alt="A speaker on stage at CUSEC 2025"
                 className="object-cover rounded-lg w-full h-full"
                 loading="lazy"
               />
@@ -32,7 +32,7 @@ const SpeakerHero = () => {
             <div className="aspect-w-1 aspect-h-1">
               <img
                 src="/images/speakers/carousel/carousel2.jpg"
-                alt="Speaker 2"
+                alt="A speaker on stage at CUSEC 2025"
                 className="object-cover rounded-lg w-full h-full"
                 loading="lazy"
               />
@@ -40,7 +40,7 @@ const SpeakerHero = () => {
             <div className="aspect-w-1 aspect-h-1">
               <img
                 src="/images/speakers/carousel/carousel7.jpg"
-                alt="Speaker 3"
+                alt="A speaker on stage at CUSEC 2025"
                 className="object-cover rounded-lg w-full h-full"
                 loading="lazy"
               />
@@ -48,7 +48,7 @@ const SpeakerHero = () => {
             <div className="aspect-w-1 aspect-h-1">
               <img
                 src="/images/speakers/carousel/carousel4.jpeg"
-                alt="Speaker 4"
+                alt="A speaker on stage at CUSEC 2025"
                 className="object-cover rounded-lg w-full h-full"
                 loading="lazy"
               />
@@ -56,7 +56,7 @@ const SpeakerHero = () => {
             <div className="aspect-w-1 aspect-h-1">
               <img
                 src="/images/speakers/carousel/carousel5.jpg"
-                alt="Speaker 5"
+                alt="A speaker on stage at CUSEC 2025"
                 className="object-cover rounded-lg w-full h-full"
                 loading="lazy"
               />
@@ -64,7 +64,7 @@ const SpeakerHero = () => {
             <div className="aspect-w-1 aspect-h-1">
               <img
                 src="/images/speakers/carousel/carousel6.jpg"
-                alt="Speaker 6"
+                alt="A speaker on stage at CUSEC 2025"
                 className="object-cover rounded-lg w-full h-full"
                 loading="lazy"
               />

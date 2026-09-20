@@ -7,7 +7,7 @@ const KeynoteSpeakerCard = ({ speaker }: { speaker: Speaker }) => {
       <div className="mb-8 flex flex-col bg-white rounded-lg shadow-md p-12 md:flex-row">
         <img
         src={speaker.image}
-        alt={speaker.name}
+        alt={`${speaker.name}, keynote speaker at CUSEC 2025`}
         className="w-full h-72 object-contain rounded-lg mb-4 md:w-72 md:mb-0"
         />
         <div className="ml-4">

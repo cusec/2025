@@ -75,7 +75,7 @@ export default function TeamCard({
             isHovered ? "" : "border-white border-opacity-90"
           }`}
           src={image}
-          alt={fname + " " + lname}
+          alt={`${fname} ${lname}, CUSEC 2025 organizing team`}
           width={200}
           height={200}
           quality={100}
@@ -85,7 +85,7 @@ export default function TeamCard({
           <Image
             className="w-[45px] h-[45px]"
             src={university_image}
-            alt={university}
+            alt={`${university} logo`}
             quality={100}
             layout="fill"
             objectFit="cover"

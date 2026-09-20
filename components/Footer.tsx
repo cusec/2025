@@ -16,7 +16,7 @@ export default function Footer() {
             <Image
               className="w-[42px] h-[42px] max-w-[250px] max-h-[250px]"
               src="/images/logo-main.svg"
-              alt="2025 logo main"
+              alt="CUSEC 2025 logo"
               width={1080}
               height={1080}
               priority
