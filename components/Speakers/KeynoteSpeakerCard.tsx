@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from 'next/link';
+import { speakerSlug } from '@/lib/speakers';
 import iconConfigs from './IconConfigs';
 import Speaker from './Speaker';
 
@@ -11,7 +13,14 @@ const KeynoteSpeakerCard = ({ speaker }: { speaker: Speaker }) => {
         className="w-full h-72 object-contain rounded-lg mb-4 md:w-72 md:mb-0"
         />
         <div className="ml-4">
-          <h2 className="text-3xl font-bold mb-1 RobotoText">{speaker.name}</h2>
+          <Link
+            href={`/speakers/${speakerSlug(speaker.name)}`}
+            className="hover:underline"
+          >
+            <h2 className="text-3xl font-bold mb-1 RobotoText">
+              {speaker.name}
+            </h2>
+          </Link>
           <p className="text-sm text-gray-600 RobotoText">{speaker.pronouns}</p>
           <p className="text-lg mb-2 RobotoText">{speaker.role}</p>
           <div className="flex flex-wrap gap-2 RobotoText">
