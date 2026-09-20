@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "./",
   },
+  verification: {
+    google: "rr8EHeTgYYXM7QyXAgy2-R715ahKGs6lkLyR9vsKHMY",
+  },
   openGraph: {
     title: "CUSEC 2025 - Canadian University Software Engineering Conference",
     description:
